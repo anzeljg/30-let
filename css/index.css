@@ -1,0 +1,177 @@
+/* Show it is fixed to the top */
+/*
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+*/
+
+/* The sidebar menu */
+.navbar {
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 4.5rem; /* Set the width of the navbar */
+  min-width: 4.5rem;
+  max-width: 4.5rem;
+  padding: 0.5rem;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  align-items: flex-end; /* ??? */
+}
+
+.hidden {
+  display:none !important;
+  visibility:hidden !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10000;
+}
+
+#navbar-cheeseburger {
+  padding: 0.3rem;
+  line-height: 1.55;
+}
+
+#navbarToggleMenu {
+  position: absolute;
+  width: 25vw;
+  height: 100vh;
+  line-height: 1,5;
+  background-color: #343a40; /* Same as .bg-dark background color! */
+  z-index: 10000;
+}
+
+.menu { padding: 1rem }
+
+.row-1  { height: 8.33333vh }
+.row-2  { height: 16.66667vh }
+.row-3  { height: 25vh }
+.row-4  { height: 33.33333vh }
+.row-5  { height: 41.66667vh }
+.row-6  { height: 50vh }
+.row-7  { height: 58.33333vh }
+.row-8  { height: 66.66667vh }
+.row-9  { height: 75vh }
+.row-10 { height: 83.33333vh }
+.row-11 { height: 91.66667vh }
+.row-12 { height: 100vh }
+
+.bl { border-left: 1px solid rgba(255,255,255,.1) }
+.br { border-right: 1px solid rgba(255,255,255,.1) }
+.bt { border-top: 1px solid rgba(255,255,255,.1) }
+.bb { border-bottom: 1px solid rgba(255,255,255,.1) }
+
+/* The navigation menu links */
+/*
+.sidenav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+*/
+
+/* When you mouse over the navigation links, change their color */
+/*
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+*/
+
+/* Style page content */
+body {
+  margin-left: 4.5rem; /* Same as the width of the navbar */
+  width: 100vw;
+}
+
+/* Remove/hide scrollbars while scrolling still works */
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/*
+main {
+  padding: 0.5rem 1rem;
+  height: 100%;
+  background-color: beige;
+}
+*/
+
+.main-content {
+  height: 100vh; /* vh = viewport height */
+  display: flex;
+  flex-direction: row;
+  /*border:1px solid blue;*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.main-content::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.content-box {
+  padding: 0.5rem;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Same as .content-box except z-index and background-color */
+.content-top {
+  padding: 0.5rem;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  z-index:100;
+}
+
+.diagonal-first,
+.diagonal-last {
+  padding: 0;
+  height: 100vh;
+  width: 10vw;
+  z-index:100;
+}
+
+img.first,
+img.last {
+  height: 100vh;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 420vw; /* number of pages multiplied with 100vw */
+  /* Set the fixed height of the footer here */
+  /*height: 20%;
+  line-height: 20%; /* Vertically center the text there */
+  background-color: yellow;
+}
+
+.container {
+  padding: 1rem 0rem;
+  margin: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+*/
+
+
