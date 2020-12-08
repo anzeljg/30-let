@@ -35,11 +35,12 @@ body {
 }
 
 #navbarToggleMenu {
-  position: absolute;
+  position: fixed;
   width: 25vw;
   height: 100vh;
   line-height: 1,5;
-  background-color: #343a40; /* Same as .bg-dark background color! */
+  /*background-color: #343a40; /* Same as .bg-dark background color! */
+  background-color: #f8f9fa; /* Same as .bg-light background color! */
   z-index: 10000;
 }
 
@@ -58,10 +59,29 @@ body {
 .row-11 { height: 91.66667vh }
 .row-12 { height: 100vh }
 
+/* Light border
 .bl { border-left: 1px solid rgba(255,255,255,.1) }
 .br { border-right: 1px solid rgba(255,255,255,.1) }
 .bt { border-top: 1px solid rgba(255,255,255,.1) }
 .bb { border-bottom: 1px solid rgba(255,255,255,.1) }
+*/
+.bl { border-left: 1px solid rgba(0,0,0,.1) }
+.br { border-right: 1px solid rgba(0,0,0,.1) }
+.bt { border-top: 1px solid rgba(0,0,0,.1) }
+.bb { border-bottom: 1px solid rgba(0,0,0,.1) }
+
+.float-right { float: right }
+.float-left  { float: left  }
+
+.pl { padding-left: 1rem }
+.pr { padding-right: 1rem }
+.pt { padding-top: 1rem }
+.pb { padding-bottom: 1rem }
+
+.ml { margin-left: 1rem }
+.mr { margin-right: 1rem }
+.mt { margin-top: 1rem }
+.mb { margin-bottom: 1rem }
 
 /* The navigation menu links */
 /*
@@ -116,13 +136,150 @@ main {
     display: none;  /* Safari and Chrome */
 }
 
-.content-box {
+.heading-box {
   padding: 0.5rem;
   flex-shrink: 0;
   flex-grow: 1;
   /*border: 1px solid red;*/
   height: 100vh;
+  width: 80vw;
+  z-index: 100;
+  color: white;
+  background-color: #393939;
+}
+
+.heading-box h1 {
+  font-size: 3rem;
+  /*border:1px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+  height: 11rem;
+  display: block;
+  width: 50%;
+}
+
+.heading-box span.first-letter {
+  font-size: 9rem;
+  display: block;
+  float: left;
+  /*border: 1px solid red;*/
+}
+
+.section-title  {
+  padding: 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
   width: 100vw;
+  z-index:100;
+  /*background-color: #c0c0c0;*/
+}
+
+.section-title h1 {
+  font-size: 3rem;
+  color: black;
+  /*border:1px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+  height: 11rem;
+  display: block;
+  width: 50%;
+}
+
+.transparent {
+  padding-left: 1rem;
+  background: rgba(255,255,255,0.6);
+}
+
+#section1,
+#section2 {
+  width: 70vw; /* override section-box width! */
+  background: url('../img/section1.jpg') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#section1:before {
+  content: '';
+  background: url('../img/diagonala3_L.svg') no-repeat top left; /*url of image*/
+  height: 100vh; /*height of image*/
+  width: 10vw;  /*width of image*/
+  top: 0;
+  position: absolute;
+}
+
+#section2:before {
+  content: '';
+  background: url('../img/diagonala4_L.svg') no-repeat top left; /*url of image*/
+  height: 100vh; /*height of image*/
+  width: 10vw;  /*width of image*/
+  top: 0;
+  position: absolute;
+}
+
+#section1:after,
+#section2:after {
+  content: '';
+  background: url('../img/diagonala2_D.svg') no-repeat top right; /*url of image*/
+  height: 100vh; /*height of image*/
+  width: 10vw;  /*width of image*/
+  margin-left: 60vw;
+  top: 0;
+  position: absolute;
+}
+
+.section-box {
+  padding: 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
+  width: 70vw;
+  z-index:100;
+  color: white;
+  background-color: #206CFF;
+}
+
+.content-more-box {
+  padding: 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
+  width: 70vw;
+  z-index:100;
+  color: white;
+  background-color: #636363;
+}
+
+.content-box {
+  padding: 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  /*border: 1px solid red;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.section-box,
+.content-box {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+#content1:before {
+  content: '';
+  background: url('../img/diagonala2_L.svg') no-repeat top left; /*url of image*/
+  height: 100vh; /*height of image*/
+  width: 10vw;  /*width of image*/
+  top: 0;
+  position: absolute;
+  z-index: 100;
 }
 
 /* Same as .content-box except z-index and background-color */
@@ -137,24 +294,27 @@ main {
   z-index:100;
 }
 
-.diagonal-first,
+/*.diagonal-first,
 .diagonal-last {
   padding: 0;
   height: 100vh;
   width: 10vw;
   z-index:100;
 }
+*/
 
+/*
 img.first,
 img.last {
   height: 100vh;
 }
-
+*/
 
 .footer {
-  position: absolute;
+  position: fixed;
+  left: 4.5rem;
   bottom: 0;
-  width: 420vw; /* number of pages multiplied with 100vw */
+  width: 100vw; /* number of pages multiplied with 100vw */
   /* Set the fixed height of the footer here */
   /*height: 20%;
   line-height: 20%; /* Vertically center the text there */
