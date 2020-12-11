@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/rubik-regular-webfont.woff2') format('woff2'),
+         url('../font/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/rubik-bold-webfont.woff2') format('woff2'),
+         url('../font/rubik-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik Black';
+    src: url('../font/rubik-black-webfont.woff2') format('woff2'),
+         url('../font/rubik-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'Courier';
+    src: url('../font/courier-bold-webfont.woff2') format('woff2'),
+         url('../font/courier-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+*/
+
+
+body {
+	/*margin-left: 4.5rem; /* Same as the width of the navbar */
+	width: 100vw;
+	/* Remove/hide scrollbars while scrolling still works */
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none;    /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/* Light borders */
+.bl { border-left: 1px solid rgba(255,255,255,.1) }
+.br { border-right: 1px solid rgba(255,255,255,.1) }
+.bt { border-top: 1px solid rgba(255,255,255,.1) }
+.bb { border-bottom: 1px solid rgba(255,255,255,.1) }
+
+.h20 { height: 20vh }
+.h40 { height: 40vh }
+.h60 { height: 60vh }
+.h80 { height: 80vh }
+.h100 { height: 100vh }

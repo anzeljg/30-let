@@ -1,0 +1,130 @@
+/* The sidebar menu */
+.navbar {
+	height: 100vh; /* Full-height: remove this if you want "auto" height */
+	width: 4.5rem; /* Set the width of the navbar */
+	min-width: 4.5rem;
+	max-width: 4.5rem;
+	padding: 0.5rem;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	background-color: #393939;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.navbar-brand {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	z-index: 10000;
+}
+
+.navbar-title {
+	position: absolute;
+	bottom: 4rem;
+	left: 4rem;
+	width: 50vh;
+	height: 3.5rem;
+	font-family: 'Rubik';
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 3.5rem;
+	transform: rotate(-90deg);
+	transform-origin: bottom left;
+	color: #858585;
+	z-index: 10000;
+}
+
+.navbar-toggler {
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0.5rem;
+	z-index: 10000;
+}
+
+#navbar-cheeseburger {
+	padding: 0.3rem;
+	line-height: 1.55;
+}
+
+#navbarToggleMenu {
+	position: fixed;
+	width: 20vw;
+	height: 100vh;
+	line-height: 1.5;
+	left: 4.5rem;
+	top: 0;
+	background-color: #393939;
+	z-index: 10000;
+}
+
+.menu {
+	padding: 0.5rem;
+	color: #858585;
+}
+
+.menu.active {
+	color: #FFFFFF;
+	background-color: #636363;
+}
+
+.menu.active .menu-number {
+	color: #48AC33;
+}
+
+.menu:hover {
+	background-color: #636363;
+	cursor: pointer;
+}
+
+.menu:hover .menu-number {
+	color: #48AC33;
+}
+
+.menu:hover .menu-title {
+	color: #FFFFFF;
+}
+
+.menu-number {
+	float: left;
+	width: 4.5rem;
+	padding-right: 0.5rem;
+	height: 100%;
+	font-family: 'Rubik Black';
+	font-weight: bold;
+	font-size: 5rem;
+	text-align: right;
+}
+
+.menu-title {
+	float: left;
+	width: 14vw;
+	margin-top: 2rem;
+	text-align: left;
+	font-family: 'Rubik';
+	font-weight: bold;
+	font-size: 1.8rem;
+	line-height: 1.7rem;
+}
+
+.menu-items {
+	float: left;
+	width: 14vw;
+	margin-top: 1rem;
+	text-align: left;
+	font-family: 'Rubik';
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.menu-items a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu-items a:hover {
+	color: #48AC33;
+}
