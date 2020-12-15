@@ -154,11 +154,221 @@
 
 .content-box {
 	padding: 0;
+	/* padding-top in padding-bottom je treba prestaviti v media queries */
+	padding-top: 20vh;
+	padding-bottom: 20vh;
 	flex-shrink: 0;
 	flex-grow: 1;
-	/*border: 1px solid red;*/
+	height: 100vh;
+	z-index: 1;
+}
+
+/* Same as content-box without top and bottom padding */
+.content-page {
+	padding: 0;
+	flex-shrink: 0;
+	flex-grow: 1;
+	height: 100vh;
+	z-index: 1;
+}
+
+.content-cell {
+	display: table-cell;
+	float: left;
+}
+
+.side-note {
+	position: absolute;
+	color: #393939;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding-left: 0.75rem;
+	border-left: 3px solid #48AC33;
+}
+
+.bottom-note {
+	position: absolute;
+	color: #393939;
+	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 1rem;
+	padding-top: 0.75rem;
+}
+
+.gray-note {
+	position: absolute;
+	padding: 1.5rem 2.5rem 1.5rem 3.5rem;
+	/*bottom: 20vh; => class .b20! */
+	color: #FFFFFF;
+	background: url('../img/icon_zapri.svg') no-repeat bottom left;
+	background-color: #393939;
+	font-family: 'Courier', monotype;
+	font-weight: bold;
+	font-size: 0.85rem;
+	line-height: 1rem;	
+}
+
+.blue-note {
+	position: absolute;
+	padding: 1.5rem 2.5rem 1.5rem 3.5rem;
+	bottom: 20vh;
+	color: #FFFFFF;
+	background: url('../img/icon_zapri.svg') no-repeat top left;
+	background-color: #0C55A3;
+	font-family: 'Courier', monotype;
+	font-weight: bold;
+	font-size: 1.3rem;
+	line-height: 1.5rem;	
+}
+
+
+/*
+ *  More/advanced container box
+ */
+
+.more-box {
+	padding: 0;
+	flex-shrink: 0;
+	flex-grow: 1;
 	height: 100vh;
 	width: 100vw;
-	z-index: 1;
+	color: #FFFFFF;
+	background-color: #48AC33;
+}
+
+.more-left-diagonal {
+	position: absolute;
+	height: 100vh;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+.more-left-diagonal:before {
+	content: '';
+	background: url('../img/diagonala_zacetna_zelena.svg') no-repeat top right;
+	/*background-size: contain;*/
+	resize: both;
+	position: absolute;
+	height: 100vh;
+	width: 10vw;
+	top: 0;
+	left: -10vw;
+	z-index: 100;
+}
+
+.more-right-diagonal {
+	position: absolute;
+	height: 100vh;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+.more-right-diagonal:after {
+	content: '';
+	background: url('../img/diagonala_zakljucna_zelena.svg') no-repeat top left;
+	/*background-size: contain;*/
+	position: absolute;
+	height: 100vh;
+	width: 10vw;
+	top: 0;
+	left: 100vw;  /* width of more-box class */
+	z-index: 100;
+}
+
+.more-title {
+	vertical-align: middle;
+	display: inline-block;
+	text-align: right;
+	font-family: 'Rubik Black', sans-serif;
+	font-weight: normal;
+	font-size: 3rem;
+	line-height: 3rem;
+	padding-right: 1rem;
+	margin-right: 2rem;
+	margin-top: 40vh;
+	border-right: 4px solid #0C55A3;
+}
+
+.more-side-note {
+	position: absolute;
+	color: #FFFFFF;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-left: 1rem;
+	padding-left: 0.75rem;
+	border-left: 3px solid #0C55A3;
+}
+
+.more-full-note {
+	/*vertical-align: middle;*/
+	color: #FFFFFF;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: 1rem;
+	padding-left: 0.75rem;
+	padding-right: 1rem;
+	padding-top: 30vh;
+	height: 90vh;
+	border-left: 3px solid #0C55A3;
+}
+
+.img-vertical-scroll {
+	overflow-y: scroll;
+	height: 100vh;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none;    /* Firefox */
+}
+.img-vertical-scroll::-webkit-scrollbar { 
+	display: none;  /* Safari and Chrome */
+}
+
+/*
+ *  Full screen image container box
+ */
+
+.image-box {
+	padding: 0;
+	flex-shrink: 0;
+	flex-grow: 1;
+	height: 100vh;
+	width: 60vw;
+	color: #FFFFFF;
+	background-color: #48AC33;
+}
+
+.image-left-diagonal {
+	position: absolute;
+	height: 100vh;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+
+.image-left-diagonal:before {
+	content: '';
+	background: url('../img/diagonala_zacetna_F0EFD4') no-repeat top right;
+	/*background-size: contain;*/
+	resize: both;
+	position: absolute;
+	height: 100vh;
+	width: 10vw;
+	top: 0;
+	left: -10vw;
+	z-index: 100;
 }
 
