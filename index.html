@@ -20,21 +20,105 @@
 
 <body>
 
-<div id="container">
-    <div id="logo">
-	    <center><img src="img/logo_velik.svg" height="50%"></center>
-	</div>
+<!-- Modal -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="close-icon">
+		  <span data-dismiss="modal" aria-label="Zapri">
+            <img src="img/icon_zapri_siva.svg">
+          </span>
+		</div>
+        <div class="flex-row">
+		  <div class="flex-column" style="width:45%;margin-bottom:2rem">
+			<img src="img/logo_MK_arhivSL.png" class="flex-item">
+			<img src="img/logo_ZRSS.png" class="flex-item">
+			<img src="img/logo_PVZ.png" class="flex-item">
+		  </div>
+		  <div class="flex-item green-line" style="width:55%;padding:0 2vw">
+		    <p>
+			  <b>Partnerji</b><br />
+			  Arhiv Republike Slovenije, direktor dr. Bojan Cvelfar<br />
+			  Zavod Republike Slovenije za šolstvo, direktor dr. Vinko Logaj<br />
+			  Park vojaške zgodovine Pivka, direktor mag. Janko Boštjančič
+			</p>
+			<p>
+			  <b>Avtorji</b><br />
+			  mag. Alenka Starman Alič, Arhiv Republike Slovenije<br />
+			  Ana Čič, Park vojaške zgodovine<br />
+			  mag. Janko Boštjančič, Park vojaške zgodovine<br />
+			  dr. Vilma Brodnik, Zavod Republike Slovenije za šolstvo
+			</p>
+			<p>
+			  <b>Strokovni sodelavci projekta</b><br />
+			  dr. Bojan Cvelfar, Arhiv Republike Slovenije<br />
+			  dr. Andrej Brodnik, Fakulteta za matematiko, naravoslovje in informacijske tehnologije, Univerza na Primorskem<br />
+			  Gregor Anželj, Gimnazija Bežigrad
+			</p>
+			<p>
+			  <b>Videoprodukcija</b><br />
+			  Koprodukcija: RTV Slovenija<br />
+			  Izvedbena produkcija: Studio Virc d.o.o.
+			</p>
+			<p>
+			  <b>Oblikovanje</b><br />
+			  Matic Leban
+			</p>
+		  </div>
+		</div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div id="banner" onclick="location.href='index1.html'">
-	<img src="img/naprej.svg" id="start" class="float-right">
-	OGLED<br />RAZSTAVE
+<!-- Page Content -->
+<div class="flex-column h100">
+	<div class="flex-row h80">
+		<div class="flex-item w50">
+			<img src="img/logo_velik.svg" class="float-right">
+		</div>
+		<div class="flex-item w50">
+			<p class="w25">
+			Z namenom obeleževanja 30. obletnice samostojnosti Republike Slovenije, so se tri institucije - Arhiv Republike Slovenije, Park vojaške zgodovine in Zavod Republike Slovenije za šolstvo povezale in  pripravile skupen pedagoško zgodovinski projekt, prvenstveno namenjen šolarjem in dijakom. V sklopu projekta, poimenovanega »Zbrali smo pogum«, so bili pripravljeni spletna razstava o dogajanju v času osamosvajanja Slovenije in vojne, ki je sledila; trije krajši izobraževalni filmi z enako tematiko in pripadajoče e-učno gradivo. Rdeča nit celotnega projekta je pogum, ki smo ga pokazali v času osamosvajanja in dokazali v času zmagovite vojne. Naj bo spomin na te dogodke večen.</p>
+			<p>
+				<a href="#" data-toggle="modal" data-target="#about">O projektu ></a>
+			</p>
+			</div>
+		</div>
+	</div>
+	<div class="banner flex-row h20">
+		<div class="button active flex-item w33" id="plebiscit">
+			PLEBISCIT&nbsp;<img src="img/naprej_24.svg">
+		</div>
+		<div class="button disabled flex-item w33" id="samostojnost">
+			SAMOSTOJNOST&nbsp;<img src="img/naprej_24_disabled.svg">
+		</div>
+		<div class="button disabled flex-item w33" id="vojna">
+			VOJNA&nbsp;<img src="img/naprej_24_disabled.svg">
+		</div>
+	</div>
 </div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="js/vendor/jquery-slim.min.js"></script>
 <script src="js/vendor/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script>
+	$('#plebiscit').click(function(event){
+		window.location.href = 'plebiscit.html';
+	});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66REXS9BK3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-66REXS9BK3');
+</script>
 
 </body>
 </html>

@@ -32,46 +32,50 @@
 
 
 body {
-	/*margin-left: 4.5rem; /* Same as the width of the navbar */
 	width: 100vw;
 	background-color: #F0EFD4;
 	/* Remove/hide scrollbars while scrolling still works */
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
-	scrollbar-width: none;    /* Firefox */
+	scrollbar-width: none;    /* Firefox, except on Windows */
+	/* For Firefox on Windows see:
+	https://stackoverflow.com/questions/56875867/only-hide-scrollbar-not-disable-scrollbar-on-firefox-windows
+	*/
 }
 body::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
-/* Light borders */
-.bl { border-left: 1px solid rgba(255,255,255,.1) }
-.br { border-right: 1px solid rgba(255,255,255,.1) }
-.bt { border-top: 1px solid rgba(255,255,255,.1) }
-.bb { border-bottom: 1px solid rgba(255,255,255,.1) }
-
-/* Padding left after intro-box */
-.pl7 { padding-left: 7.5vw }
-.p2 { padding: 2px }
-
-/* Margin top and bottom */
-.mt7 { margin-top: 7.5vh }
-.mt20 { margin-top: 20vh }
-.mb20 { margin-bottom: 20vh }
-/*.ml1 { margin-left: 1rem }*/
-.ml2 { margin-left: 2rem }
-
-/* Bottom */
-.b20 { bottom: 20vh }
 
 /* Absolute and relative position */
 .abs { position: absolute }
 .rel { position: relative }
 
-/* Float left and right */
-/*
-.fl { float: left }
-.fr { float: right }
-*/
+
+/* Width */
+.w10 { width: 10vw }
+.w15 { width: 15vw }
+.w20 { width: 20vw }
+.w25 { width: 25vw }
+.w30 { width: 30vw }
+.w33 { width: 33vw }
+.w35 { width: 35vw }
+.w40 { width: 40vw }
+.w45 { width: 45vw }
+.w50 { width: 50vw }
+.w55 { width: 55vw }
+.w60 { width: 60vw }
+.w65 { width: 65vw }
+.w67 { width: 67vw }
+.w70 { width: 70vw }
+.w75 { width: 75vw }
+.w80 { width: 80vw }
+.w85 { width: 85vw }
+.w90 { width: 90vw }
+.w95 { width: 95vw }
+.w100 { width: 100vw }
+.w130 { width: 130vw }
+.w215 { width: 215vw }
+
 
 /* Height */
 .h10 { height: 10vh }
@@ -85,20 +89,132 @@ body::-webkit-scrollbar {
 .h90 { height: 90vh }
 .h100 { height: 100vh }
 
-/* Width */
-.w10 { width: 10vw }
-.w13 { width: 13vw }
-.w20 { width: 20vw }
-.w25 { width: 25vw }
-.w30 { width: 30vw }
-.w33 { width: 33vw }
-.w35 { width: 35vw }
-.w40 { width: 40vw }
-.w50 { width: 50vw }
-.w60 { width: 60vw }
-.w67 { width: 67vw }
-.w70 { width: 70vw }
-.w75 { width: 75vw }
-.w80 { width: 80vw }
-.w90 { width: 90vw }
-.w100 { width: 100vw }
+
+/* CRT aspect ratio dependant on viewport height */
+.crt {
+	height: 50vh;
+	width: 66.66667vh;
+}
+
+/* Nested flex containers */
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.flex-row-centered {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flex-column,
+.news-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.flex-column-reverse,
+.news-column-reverse {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+
+.img-vertical-scroll {
+	overflow-y: auto;
+	height: 100vh;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none;    /* Firefox */
+}
+.img-vertical-scroll::-webkit-scrollbar { 
+	display: none;  /* Safari and Chrome */
+}
+
+.flex-column-space {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: stretch;
+	justify-content: flex-start;
+}
+
+.flex-gallery-centered {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: stretch;
+	justify-content: center;
+}
+
+.flex-zigzag {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+
+/* Margins used in flex positioning */
+.m1 { margin: 1vw }
+.ml1 { margin-left: 1vw }
+.mr1 { margin-right: 1vw }
+.ml2 { margin-left: 2vw }
+.ml4 { margin-left: 4vw }
+.mr4 { margin-right: 4vw }
+.mt-auto { margin-top: auto }
+.ml-auto { margin-left: auto }
+.mr-auto { margin-right: auto }
+.mb-auto { margin-bottom: auto }
+
+
+/* Paddings used in flex positioning */
+.p2 { padding: 2px }
+
+
+/*
+ *  Bootstrap 4 media queries
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+	.content-box-inner {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	.content-box-inner {
+		margin-top: 20vh;
+		margin-bottom: 20vh;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	.content-box-inner {
+		margin-top: 20vh;
+		margin-bottom: 20vh;
+	}
+
+}
+

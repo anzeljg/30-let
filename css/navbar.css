@@ -26,11 +26,11 @@
 	bottom: 4rem;
 	left: 4rem;
 	width: 50vh;
-	height: 3.5rem;
+	height: 8vh;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 1.8rem;
-	line-height: 3.5rem;
+	font-size: 3.6vh;
+	line-height: 8vh;
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
 	color: #858585;
@@ -51,7 +51,7 @@
 
 #navbarToggleMenu {
 	position: fixed;
-	width: 20vw;
+	width: 25vw;
 	height: 100vh;
 	line-height: 1.5;
 	left: 4.5rem;
@@ -94,30 +94,30 @@
 	height: 100%;
 	font-family: 'Rubik Black';
 	font-weight: bold;
-	font-size: 5rem;
+	font-size: 10vh;
 	text-align: right;
 }
 
 .menu-title {
 	float: left;
 	width: 14vw;
-	margin-top: 2rem;
+	margin-top: 4vh;
 	text-align: left;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 1.8rem;
-	line-height: 1.7rem;
+	font-size: 3.6vh; /*1.8rem*/
+	line-height: 3.4vh;
 }
 
 .menu-items {
 	float: left;
 	width: 14vw;
-	margin-top: 1rem;
+	margin-top: 2vh;
 	text-align: left;
 	font-family: 'Rubik';
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 2rem;
+	font-size: 2vh;
+	line-height: 4vh;
 }
 
 .menu-items a {
@@ -128,3 +128,13 @@
 .menu-items a:hover {
 	color: #48AC33;
 }
+
+/* Navbar light borders */
+.bl { border-left: 1px solid rgba(255,255,255,.1) }
+.br { border-right: 1px solid rgba(255,255,255,.1) }
+.bt { border-top: 1px solid rgba(255,255,255,.1) }
+.bb { border-bottom: 1px solid rgba(255,255,255,.1) }
+
+/* Navbar menu item heights */
+.nh20 { height: 20vh }
+.nh60 { height: 60vh }

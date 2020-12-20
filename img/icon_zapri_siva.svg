@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_zapri_o_projektu</title>
+    <g id="PODOBA-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LANDING-stran-FINAL1-.1_o_projektu" transform="translate(-962.000000, -60.000000)">
+            <g id="icon_zapri_siva" transform="translate(962.000000, 60.000000)">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <g id="Group-20" transform="translate(1, 1)" stroke="#636363" stroke-linecap="square">
+                    <line x1="0.5" y1="0.5" x2="20.5" y2="21.5" id="Line-3"></line>
+                    <line x1="21" y1="1" x2="0" y2="21" id="Line-3"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

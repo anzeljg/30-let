@@ -14,25 +14,131 @@
     font-style: normal;
 }
 
-#container {
-	width: 100vw;
-	height: 80vh;
-	display: flex;
-	align-items: center;
+
+body {
+	font-family: 'Rubik', sans-serif;
 }
 
-#logo {
-	margin: auto;
+body#plebiscit {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/plebiscit_video_bg.jpg');
+}
+
+a {
+	color: #0C55A3;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-item {
+	flex-grow: 1;
+	padding: 2vw;
+}
+
+.green-line {
+	font-size: 0.75rem;
+	border-left: 2px solid #48AC33;
+}
+
+.close-icon {
+	text-align: right;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+/* Width & height */
+.w25 { width: 25vw }
+.w33 { width: 33.33333vw }
+.w50 { width: 50vw }
+.h20 { height: 20vh }
+.h80 { height: 80vh }
+
+.banner {
+	color: #FFFFFF;
+	background-color: #393939;
+	border-left: 1px solid #979797;
+	border-right: 1px solid #979797;
+	font-family: 'Rubik';
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.button {
+	height: 100%;
+	padding: 7.5vh 5vh;
+	border-left: 1px solid #979797;
+	border-right: 1px solid #979797;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.active {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.disabled {
+	color: #858585;
+}
+
+.button#plebiscit {
+	background-image: url('../img/plebiscit_button_bg.jpg');
+}
+
+.button-on {
+	color: #FFFFFF;
+	background-color: #636363;
+}
+
+.button-off {
+	color: #858585;
+	background-color: #393939;
+}
+.button-off:hover {
+	color: #48AC33;
+	background-color: #636363;
+}
+
+/* Remove focus around Bootstrap buttons on click */
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.video {
 	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/znak_outline_cel.svg');
+	background-repeat: no-repeat;
+	background-position: -5vw 10vh;
+	background-size: 80vh;
 }
 
 #banner {
+	position: absolute;
 	bottom: 0;
 	height: 20vh;
 	width: 100vw;
 	padding: 1.5rem;
 	color: #FFFFFF;
 	background-color: #393939;
+	border-top: 1px solid #979797;
 	font-family: 'Rubik';
 	font-weight: bold;
 	font-size: 3rem;
@@ -45,3 +151,14 @@
 	height: 6rem;
 	padding-left: 3rem;
 }
+
+#notice {
+	padding: 1.5rem;
+	color: #FFFFFF;
+	background-color: #393939;
+	font-family: 'Rubik';
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
