@@ -70,6 +70,7 @@
 	font-weight: bold;
 	font-size: 6vh;
 	line-height: 6vh;
+	cursor: pointer;
 }
 
 #start {
@@ -95,28 +96,36 @@
 	background-size: cover;
 }
 
-.cover-box#section1 {
-	background-image: url('../media1/section1.jpg');
+.cover-box#part11 {
+	background-image: url('../media1/cover11.jpg');
 }
 
-.cover-box#section2 {
-	background-image: url('../media1/section2.jpg');
+.cover-box#part12 {
+	background-image: url('../media1/cover12.jpg');
 }
 
-.cover-box#section3 {
-	background-image: url('../media1/section3.jpg');
+.cover-box#part13 {
+	background-image: url('../media1/cover13.jpg');
 }
 
-.cover-box#section4 {
-	background-image: url('../media1/section4.jpg');
+.cover-box#part14 {
+	background-image: url('../media1/cover14.jpg');
 }
 
-.cover-box#section5 {
-	background-image: url('../media1/section5.jpg');
+.cover-box#part15 {
+	background-image: url('../media1/cover15.jpg');
 }
 
-.cover-box#section6 {
-	background-image: url('../media1/section6.jpg');
+.cover-box#part16 {
+	background-image: url('../media1/cover16.jpg');
+}
+
+.cover-box#part21 {
+	background-image: url('../media2/cover21.jpg');
+}
+
+.cover-box#part31 {
+	background-image: url('../media3/cover31.jpg');
 }
 
 .cover-box-title {
@@ -177,6 +186,19 @@
 	font-weight: normal;
 	font-size: 1rem;
 	line-height: 1.5rem;
+}
+
+.blue-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	flex-grow: 0;
+	height: 100vh;
+	color: #FFFFFF;
+	background-color: #0C55A3;
+	background-size: auto 100vh;
+	z-index: 10;
 }
 
 
@@ -260,18 +282,6 @@
 .zigzag-offset-top {
 	margin-top: 4vh;
 }
-
-/*.gallery-2rows-zig img {
-	height: 90%;
-	width: auto;
-	margin-bottom: 10%;
-}
-
-.gallery-2rows-zag img {
-	height: 90%;
-	width: auto;
-	margin-top: 10%;
-}*/
 
 
 /*
@@ -365,8 +375,12 @@
 	background-size: cover;
 }
 
-.image-box#glasovanje {
+.image-box#glasovanje1 {
 	background-image: url('../media1/glasovanje.jpg');
+}
+
+.image-box#glasovanje2 {
+	background-image: url('../media2/glasovanje.jpg');
 }
 
 
@@ -619,6 +633,16 @@ img#us:hover {
 	color: #FFFFFF;
 	padding: 2rem;
 	background-color: #636363;
+	font-family: 'Courier', monotype;
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 1rem;	
+}
+
+.white-note {
+	color: #393939;
+	padding: 2rem;
+	background-color: #FFFFFF;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
 	font-size: 1rem;
