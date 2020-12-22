@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
 
 
 /* Width */
+.w5 { width: 5vw }
 .w10 { width: 10vw }
 .w15 { width: 15vw }
 .w20 { width: 20vw }
@@ -182,7 +183,9 @@ body::-webkit-scrollbar {
 
 /* Paddings used in flex positioning */
 .p2 { padding: 2px }
-
+.pl2 { padding-left: 2vw }
+.pr2 { padding-right: 2vw }
+.p2a { padding: 2vw }
 
 /*
  *  Bootstrap 4 media queries

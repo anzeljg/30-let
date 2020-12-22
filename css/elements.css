@@ -546,6 +546,22 @@ img#us:hover {
 	padding-top: 0.75rem;
 }
 
+.full-note {
+	color: #393939;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: 1rem;
+	padding-left: 0.75rem;
+	padding-right: 1rem;
+	padding-top: 30vh;
+	height: 90vh;
+	border-left: 3px solid #48AC33;
+}
+
 .gray-note {
 	padding: 1.5rem 2.5rem 1.5rem 3.5rem;
 	color: #FFFFFF;
@@ -661,4 +677,24 @@ img#us:hover {
 	margin-top: 20vh;
 }
 
+.white-box-bg {
+	background-image: url('../img/ozadje_beloprozorno.svg');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: auto 100vh;
+}
+
+.white-box {
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #393939;
+	background-color: #FFFFFF;
+	padding: 1rem;
+	padding-right: 1.2rem;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	z-index: 20;
+}
 

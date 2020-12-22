@@ -3,8 +3,8 @@
     <title>poglavje2</title>
     <g id="PODOBA-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="poglavje2">
-            <rect id="Rectangle" fill="#0C55A3" x="0" y="0" width="840" height="840"></rect>
-            <polygon id="Rectangle" fill="#48AC33" points="0 181 540 181 540 659 0 659"></polygon>
+            <rect id="Rectangle" fill="none" x="0" y="0" width="840" height="840"></rect>
+            <polygon id="Rectangle" fill="#FFFFFF" points="0 181 540 181 540 659 0 659"></polygon>
         </g>
     </g>
 </svg>
