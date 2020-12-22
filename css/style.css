@@ -46,6 +46,12 @@ body::-webkit-scrollbar {
 }
 
 
+/* Force Slick Carousel to be full height */
+.slick-slider, .slick-list, .slick-track {
+	height: 100vh !important;
+}
+
+
 /* Absolute and relative position */
 .abs { position: absolute }
 .rel { position: relative }
@@ -75,7 +81,7 @@ body::-webkit-scrollbar {
 .w95 { width: 95vw }
 .w100 { width: 100vw }
 .w130 { width: 130vw }
-.w215 { width: 215vw }
+.w250 { width: 250vw }
 
 
 /* Height */

@@ -14,6 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Slick Carousel CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+
     <!-- Custom styles for this site -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
@@ -357,18 +361,6 @@
 		  </div>
 		</div>
 
-		<div class="content-box w35">
-		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video3/Slavnostna_seja.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
-		      Odlomek iz slavnostne seje vseh zborov Skupščine RS.
-		    </div>
-		  </div>
-		</div>
-
 		<div class="content-box w45">
 		  <div class="content-box-inner h60 flex-column">
 		    <video class="crt mb-auto" controls>
@@ -519,7 +511,7 @@
 			    Brskalnik ne podpira oznake video.
 		      </video>
 		      <div class="more-bottom-note w35 mt-auto">
-		      Glasovanje na Ustavnem sodišču Jugoslavije.
+		        Odlomek iz slavnostne seje vseh zborov Skupščine RS.
 		      </div>
 		    </div>
 		  </div>
@@ -539,9 +531,14 @@
     </div>
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/vendor/jquery-slim.min.js"></script>
-<script src="js/vendor/popper.min.js"></script>
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Slick Carousel JavaScript -->
+<script src="js/slick.min.js"></script>
+
+<!-- Custom JavaScript for this site -->
 <script>
 $(function() {
 	  
@@ -557,6 +554,24 @@ $(function() {
 			$('#navbarToggleMenu').addClass('hidden');		  
 		});
 	  
+    /*
+	 *  Scroll newspaper articles up in carousel
+	 */
+	$('.news_down').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
+	});
+
 });
 </script>
 

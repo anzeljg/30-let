@@ -14,6 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Slick Carousel CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+
     <!-- Custom styles for this site -->
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/elements.css" rel="stylesheet">
@@ -206,7 +210,7 @@
 		  <div class="green-first-diagonal"></div>
 		</div>
 
-		<div class="more-box w215">
+		<div class="more-box w250">
 		  <div class="flex-column" style="width:23vw">
 			<div class="more-title float-right">
 			ZA VEDO<br />ŽELJNEJŠE
@@ -239,7 +243,7 @@
 			    Brskalnik ne podpira oznake video.
 		      </video>
 		      <div class="more-bottom-note w35 mt-auto">
-		      Glasovanje na Ustavnem sodišču Jugoslavije.
+		        Glasovanje na Ustavnem sodišču Jugoslavije.
 		      </div>
 		    </div>
 		  </div>
@@ -257,13 +261,22 @@
 		  </div>
 		  <div class="flex-column w20">
 			<div class="more-full-note">
-			Plebiscit pred Ustavnim sodiščem v Beogradu:
-			<ul>
-			  <li>Pobuda za začetek postopka za oceno ustavnosti zakona o plebiscitu o samostojnosti in neodvisnosti Republike Slovenije,</li>
-			  <li>Odločba o oceni ustavnosti 4. in 10. člena Zakona o plebiscitu o samostojnosti in neodvisnosti Republike Slovenije,</li>
-			  <li>Sporočilo za javnost o stališčih Predsedstva SFRJ o slovenskem plebiscitu.</li>
-			</ul>
+			Plebiscit pred Ustavnim sodiščem v Beogradu:<br />
+			&mdash; Pobuda za začetek postopka za oceno ustavnosti zakona o plebiscitu o samostojnosti in neodvisnosti Republike Slovenije,<br />
+			&mdash; Odločba o oceni ustavnosti 4. in 10. člena Zakona o plebiscitu o samostojnosti in neodvisnosti Republike Slovenije,<br />
+			&mdash; Sporočilo za javnost o stališčih Predsedstva SFRJ o slovenskem plebiscitu.
 			</div>
+		  </div>
+		  <div class="content-box w35">
+		    <div class="content-box-inner h60 flex-column">
+		      <video class="crt mb-auto" controls>
+			    <source src="video1/Plebiscit_na_zatozni_klopi.mp4" type="video/mp4">
+			    Brskalnik ne podpira oznake video.
+		      </video>
+		      <div class="more-bottom-note w35 mt-auto">
+		        Plebiscit na zatožni klopi v Beogradu.
+		      </div>
+		    </div>
 		  </div>
 	      <div class="flex-column img-vertical-scroll w20">
 			<img src="media1/more1/osamosvajanje01.jpg" width="100%" class="p2">
@@ -348,7 +361,7 @@
 			</div>
 		  </div>
 	      <div class="flex-row" id="news11">
-		    <div class="news-column <!--news_down--> img-vertical-scroll w25">
+		    <div class="news-column news_down img-vertical-scroll w25">
 			  <img src="media1/news1/01.jpg" class="p2">
 			  <img src="media1/news1/02.jpg" class="p2">
 			  <img src="media1/news1/03.jpg" class="p2">
@@ -358,7 +371,7 @@
 			  <img src="media1/news1/07.jpg" class="p2">
 			  <img src="media1/news1/08.jpg" class="p2">
 		    </div>
-		    <div class="news-column <!--news-column-reverse news_up--> img-vertical-scroll w25">
+		    <div class="news-column news_down <!--news-column-reverse news_up--> img-vertical-scroll w25">
 			  <img src="media1/news1/09.jpg" class="p2">
 			  <img src="media1/news1/10.jpg" class="p2">
 			  <img src="media1/news1/11.jpg" class="p2">
@@ -1081,9 +1094,14 @@
 //-->
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/vendor/jquery-slim.min.js"></script>
-<script src="js/vendor/popper.min.js"></script>
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<!-- Slick Carousel JavaScript -->
+<script src="js/slick.min.js"></script>
+
+<!-- Custom JavaScript for this site -->
 <script>
 $(function() {
 
@@ -1103,35 +1121,22 @@ $(function() {
 		});
 
     /*
-	 *  Move (animate) newspaper articels up or down
+	 *  Scroll newspaper articles up in carousel
 	 */
-/*
-	function animate_news_down() {
-		$('.news_down').children(':first').clone().appendTo('.news_down');
-		$('.news_down').children(':first').css({
-			'-webkit-transition': 'all 0.7s ease-out',
-			'-moz-transition': 'all 0.7s ease-out',
-			'-ms-transition': 'all 0.7s ease-out',
-			'-o-transition': 'all 0.7s ease-out',
-			'transition': 'all 0.7s ease-out'
-		});
-		setTimeout(function(){$('.news_down').children(':first').remove()}, 1000);
-	}
-	window.setInterval(animate_news_down, 1500);
-
-	function animate_news_up() {
-		$('.news_up').children(':last').clone().prependTo('.news_up');
-		$('.news_up').children(':last').css({
-			'-webkit-transition': 'all 0.7s ease-out',
-			'-moz-transition': 'all 0.7s ease-out',
-			'-ms-transition': 'all 0.7s ease-out',
-			'-o-transition': 'all 0.7s ease-out',
-			'transition': 'all 0.7s ease-out'
-		});
-		setTimeout(function(){$('.news_up').children(':last').remove()}, 1000);
-	}
-	window.setInterval(animate_news_up, 1500);
-*/
+	$('.news_down').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
+	});
 
 	/*
 	 *  Change map based on document that was hovered
