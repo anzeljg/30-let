@@ -46,6 +46,46 @@ body::-webkit-scrollbar {
 }
 
 
+footer {
+	position: fixed;
+	left: 0;
+	top: 80vh;
+	width: 100vw;
+	height: 20vh;
+	color: #FFFFFF;
+	background-color: #393939;
+	font-size: 0.875rem;
+	margin-left: 4.5rem; /* Width of the navbar */
+	z-index: 2;
+}
+
+.footer-item {
+	height: 20vh;
+	/* width = 133.3% of height */
+	padding: 3vh 1vh 3vh 3vh;
+}
+
+.footer-item-label {
+	height: 20vh;
+	width: 9vh;
+	padding: 3vh 0;
+}
+
+
+/* CRT aspect ratio dependant on viewport height */
+.crt {
+	height: 50vh;
+	/* width = 133.3% of height */
+	width: 66.66667vh;
+}
+
+.crt-sm {
+	height: 14vh;
+	/* width = 133.3% of height */
+	width: 18.66667vh;
+}
+
+
 /* Force Slick Carousel to be full height */
 .slick-slider, .slick-list, .slick-track {
 	height: 100vh !important;
@@ -97,11 +137,30 @@ body::-webkit-scrollbar {
 .h100 { height: 100vh }
 
 
-/* CRT aspect ratio dependant on viewport height */
-.crt {
-	height: 50vh;
-	width: 66.66667vh;
-}
+/* Margins used in flex positioning */
+.m1 { margin: 1vw }
+.ml1 { margin-left: 1vw }
+.mr1 { margin-right: 1vw }
+.ml2 { margin-left: 2vw }
+.mb4 { margin-bottom: 4vh }
+.ml4 { margin-left: 4vw }
+.mr4 { margin-right: 4vw }
+.mt-auto { margin-top: auto }
+.ml-auto { margin-left: auto }
+.mr-auto { margin-right: auto }
+.mb-auto { margin-bottom: auto }
+
+
+/* Paddings used in flex positioning */
+.p2 { padding: 2px }
+.pl2 { padding-left: 2vw }
+.pr2 { padding-right: 2vw }
+.p2a { padding: 2vw }
+
+
+/* z-index for divs that should be over footer */
+.z10 { z-index: 10 }
+
 
 /* Nested flex containers */
 .flex-row {
@@ -173,25 +232,6 @@ body::-webkit-scrollbar {
 	align-content: flex-start;
 }
 
-
-/* Margins used in flex positioning */
-.m1 { margin: 1vw }
-.ml1 { margin-left: 1vw }
-.mr1 { margin-right: 1vw }
-.ml2 { margin-left: 2vw }
-.ml4 { margin-left: 4vw }
-.mr4 { margin-right: 4vw }
-.mt-auto { margin-top: auto }
-.ml-auto { margin-left: auto }
-.mr-auto { margin-right: auto }
-.mb-auto { margin-bottom: auto }
-
-
-/* Paddings used in flex positioning */
-.p2 { padding: 2px }
-.pl2 { padding-left: 2vw }
-.pr2 { padding-right: 2vw }
-.p2a { padding: 2vw }
 
 /*
  *  Bootstrap 4 media queries

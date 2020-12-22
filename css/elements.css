@@ -96,26 +96,42 @@
 	background-size: cover;
 }
 
+.cover-img {
+	left: 0;
+	top: 0;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index:5;
+}
+
+.cover-img#part11,
 .cover-box#part11 {
 	background-image: url('../media1/cover11.jpg');
 }
 
+.cover-img#part12,
 .cover-box#part12 {
 	background-image: url('../media1/cover12.jpg');
 }
 
+.cover-img#part13,
 .cover-box#part13 {
 	background-image: url('../media1/cover13.jpg');
 }
 
+.cover-img#part14,
 .cover-box#part14 {
 	background-image: url('../media1/cover14.jpg');
 }
 
+.cover-img#part15,
 .cover-box#part15 {
 	background-image: url('../media1/cover15.jpg');
 }
 
+.cover-img#part16,
 .cover-box#part16 {
 	background-image: url('../media1/cover16.jpg');
 }
@@ -130,17 +146,17 @@
 
 .cover-box-title {
 	position: absolute;
-	width: 50%;
+	width: 60%;
 	height: 30vh;
 	margin-top: 35vh;
-	margin-left: 25%;
+	margin-left: 40%;
 	padding: 3vh 4vw;
 	color: #393939;
 	font-family: 'Rubik';
 	font-weight: bold;
 	font-size: 8vh;
 	line-height: 7.6vh;
-	z-index: 1;
+	z-index: 10;
 	background-color: rgba(255,255,255,.7);
 }
 
@@ -508,7 +524,7 @@ img#us:hover {
 	margin-left: auto;
 	height: 100vh;
 	width: 7.5vmax;
-	z-index: 10;
+	z-index: -10; /* Less than -1 which is for sticky footer */
 }
 
 .beige-last-diagonal {
@@ -517,7 +533,7 @@ img#us:hover {
 	margin-right: auto;
 	height: 100vh;
 	width: 7.5vmax;
-	z-index: 10;
+	z-index: -10; /* Less than -1 which is for sticky footer */
 }
 
 
@@ -695,6 +711,6 @@ img#us:hover {
 	font-weight: normal;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	z-index: 20;
+	z-index: 10;
 }
 

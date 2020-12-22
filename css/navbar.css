@@ -18,7 +18,7 @@
 	position: absolute;
 	top: 0.5rem;
 	left: 0.5rem;
-	z-index: 10000;
+	z-index: 100;
 }
 
 .navbar-title {
@@ -34,14 +34,14 @@
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
 	color: #858585;
-	z-index: 10000;
+	z-index: 100;
 }
 
 .navbar-toggler {
 	position: absolute;
 	bottom: 0.5rem;
 	left: 0.5rem;
-	z-index: 10000;
+	z-index: 100;
 }
 
 #navbar-cheeseburger {
@@ -57,7 +57,7 @@
 	left: 4.5rem;
 	top: 0;
 	background-color: #393939;
-	z-index: 10000;
+	z-index: 100;
 }
 
 .menu {
