@@ -1,6 +1,9 @@
 .main-content {
 	height: 100vh; /* vh = viewport height */
+	min-height: 0;
+	max-height: 100vh;
 	display: flex;
+	flex: 1 1 auto;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: center;
@@ -178,7 +181,7 @@
 	flex-grow: 0;
 	height: 100vh;
 	color: #FFFFFF;
-	background: #0C55A3 url('../img/ozadje_modrozeleno.svg') no-repeat center left;
+	background: #0C55A3 url('../img/ozadje_modrozeleno2.svg') no-repeat center left;
 	background-size: auto 100vh;
 	z-index: 10;
 }
@@ -200,8 +203,10 @@
 	padding-right: 1.2rem;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 }
 
 .blue-box {
@@ -238,29 +243,54 @@
 	color: #393939;
 }
 
-.gallery-2rows-doc {
+.gallery-2rows-1doc {
 	height: 40vh;
 	/* width = 70.7% of height */
 	width: 28.28vh;
 }
 
-.gallery-3rows-doc {
+.gallery-2rows-2doc {
+	height: 40vh;
+	/* width = 70.7% of height × 2 */
+	width: 56.56vh;
+}
+
+.gallery-3rows-1doc {
 	height: 26.66666vh;
 	/* width = 70.7% of height */
 	width: 18.85333vh;
 }
 
-.gallery-4rows-doc {
-	height: 20vh;
-	/* width = 70.7% of height */
-	width: 14.145vh;
+.gallery-3rows-2doc {
+	height: 26.66666vh;
+	/* width = 70.7% of height × 2 */
+	width: 37.70666vh;
 }
 
-.gallery-2rows-doc img,
-.gallery-3rows-doc img,
-.gallery-4rows-doc img {
+.gallery-4rows-1doc {
+	height: 20vh;
+	/* width = 70.7% of height */
+	width: 14.14vh;
+}
+
+.gallery-4rows-2doc {
+	height: 20vh;
+	/* width = 70.7% of height */
+	width: 28.28vh;
+}
+
+.gallery-2rows-1doc img,
+.gallery-3rows-1doc img,
+.gallery-4rows-1doc img {
 	height: 100%;
 	width: 100%;
+}
+
+.gallery-2rows-2doc img,
+.gallery-3rows-2doc img,
+.gallery-4rows-2doc img {
+	height: 100%;
+	width: 50%;
 }
 
 .gallery-2rows-img {
@@ -371,7 +401,7 @@
 	width: auto;
 	height: 100%;
 	min-height: 100%;
-	max-height: 100%;
+	max-height: 100%;*/
 }
 
 /*
@@ -441,7 +471,7 @@ img#us:hover {
 	background: url('../img/diagonala_zacetna_393939.svg') no-repeat center right;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -450,7 +480,7 @@ img#us:hover {
 	background: url('../img/diagonala_zakljucna_393939.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -460,7 +490,7 @@ img#us:hover {
 	background-size: auto 100vh;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -469,7 +499,7 @@ img#us:hover {
 	background: url('../img/diagonala_zacetna_modra.svg') no-repeat center right;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -478,7 +508,7 @@ img#us:hover {
 	background: url('../img/diagonala_zakljucna_modra.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -487,7 +517,7 @@ img#us:hover {
 	background: url('../img/diagonala_zacetna_zelena.svg') no-repeat center right;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -496,7 +526,7 @@ img#us:hover {
 	background: url('../img/diagonala_zakljucna_zelena.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -505,7 +535,7 @@ img#us:hover {
 	background: url('../img/diagonala_zacetna_636363.svg') no-repeat center right;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -514,7 +544,7 @@ img#us:hover {
 	background: url('../img/diagonala_zakljucna_636363.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: 10;
 }
 
@@ -523,7 +553,7 @@ img#us:hover {
 	background: url('../img/diagonala_zacetna_F0EFD4.svg') no-repeat center right;
 	margin-left: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: -10; /* Less than -1 which is for sticky footer */
 }
 
@@ -532,7 +562,7 @@ img#us:hover {
 	background: url('../img/diagonala_zakljucna_F0EFD4.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
-	width: 7.5vmax;
+	width: 10vw;
 	z-index: -10; /* Less than -1 which is for sticky footer */
 }
 
@@ -545,8 +575,10 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
 	border-left: 3px solid #48AC33;
 }
@@ -556,8 +588,10 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-top: 1rem;
 	padding-top: 0.75rem;
 }
@@ -566,14 +600,16 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 	margin-left: 1rem;
 	padding-left: 0.75rem;
 	padding-right: 1rem;
-	padding-top: 30vh;
+	padding-top: 20vh;
 	height: 90vh;
 	border-left: 3px solid #48AC33;
 }
@@ -585,8 +621,11 @@ img#us:hover {
 	background-color: #393939;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 0.85rem;
-	line-height: 1rem;	
+	font-size: 1.7vh;
+	line-height: 2vh;
+	/*font-size: 0.85rem;
+	line-height: 1rem;*/
+	z-index: 20;
 }
 
 .blue-note {
@@ -597,8 +636,11 @@ img#us:hover {
 	background-color: #0C55A3;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1.3rem;
-	line-height: 1.5rem;	
+	font-size: 2.6vh;
+	line-height: 3vh;
+	/*font-size: 1.3rem;
+	line-height: 1.5rem;*/
+	z-index: 20;
 }
 
 .more-side-note {
@@ -606,8 +648,10 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-left: 1rem;
 	padding-left: 0.75rem;
 	border-left: 3px solid #0C55A3;
@@ -618,8 +662,10 @@ img#us:hover {
 	background: url('../img/rob_moder_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-top: 1rem;
 	padding-top: 0.75rem;
 }
@@ -628,14 +674,16 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 	margin-left: 1rem;
 	padding-left: 0.75rem;
 	padding-right: 1rem;
-	padding-top: 30vh;
+	padding-top: 20vh;
 	height: 90vh;
 	border-left: 3px solid #0C55A3;
 }
@@ -644,8 +692,10 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
 	border-left: 3px solid #48AC33;
 }
@@ -655,8 +705,10 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
 	margin-top: 1rem;
 	padding-top: 0.75rem;
 }
@@ -667,17 +719,8 @@ img#us:hover {
 	background-color: #636363;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1rem;
-	line-height: 1rem;	
-}
-
-.white-note {
-	color: #393939;
-	padding: 2rem;
-	background-color: #FFFFFF;
-	font-family: 'Courier', monotype;
-	font-weight: bold;
-	font-size: 1rem;
+	font-size: 2vh;
+	/*font-size: 1rem;*/
 	line-height: 1rem;	
 }
 
@@ -688,8 +731,10 @@ img#us:hover {
 	background-color: #F0EFD4;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1.3rem;
-	line-height: 1.5rem;
+	font-size: 2.6vh;
+	line-height: 3vh;
+	/*font-size: 1.3rem;
+	line-height: 1.5rem;*/
 	margin-top: 20vh;
 }
 
@@ -709,8 +754,10 @@ img#us:hover {
 	padding-right: 1.2rem;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 1rem;
-	line-height: 1.5rem;
-	z-index: 10;
+	font-size: 2vh;
+	line-height: 3vh;
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
+	z-index: 20;
 }
 

@@ -31,8 +31,19 @@
 }
 
 
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
 body {
 	width: 100vw;
+	height: 100vh;
+	min-height: 0;
+	max-height: 100vh;
 	background-color: #F0EFD4;
 	/* Remove/hide scrollbars while scrolling still works */
 	-ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -45,13 +56,18 @@ body::-webkit-scrollbar {
     display: none;  /* Safari and Chrome */
 }
 
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
 
 footer {
 	position: fixed;
 	left: 0;
 	top: 80vh;
-	width: 100vw;
 	height: 20vh;
+	width: 100vw;
 	color: #FFFFFF;
 	background-color: #393939;
 	font-size: 0.875rem;
@@ -98,6 +114,7 @@ footer {
 
 
 /* Width */
+.wd { width: 11vw } /* for diagonals */
 .w5 { width: 5vw }
 .w10 { width: 10vw }
 .w15 { width: 15vw }
@@ -120,7 +137,10 @@ footer {
 .w90 { width: 90vw }
 .w95 { width: 95vw }
 .w100 { width: 100vw }
+.w105 { width: 105vw }
+.w110 { width: 110vw }
 .w130 { width: 130vw }
+.w150 { width: 150vw }
 .w250 { width: 250vw }
 
 
@@ -128,6 +148,7 @@ footer {
 .h10 { height: 10vh }
 .h20 { height: 20vh }
 .h30 { height: 30vh }
+.h35 { height: 35vh }
 .h40 { height: 40vh }
 .h50 { height: 50vh }
 .h60 { height: 60vh }
@@ -142,6 +163,7 @@ footer {
 .ml1 { margin-left: 1vw }
 .mr1 { margin-right: 1vw }
 .ml2 { margin-left: 2vw }
+.mb2 { margin-bottom: 2vh }
 .mb4 { margin-bottom: 4vh }
 .ml4 { margin-left: 4vw }
 .mr4 { margin-right: 4vw }
@@ -160,6 +182,7 @@ footer {
 
 /* z-index for divs that should be over footer */
 .z10 { z-index: 10 }
+.z20 { z-index: 20 }
 
 
 /* Nested flex containers */
