@@ -111,40 +111,40 @@
 
 .cover-img#part11,
 .cover-box#part11 {
-	background-image: url('../media1/cover11.jpg');
+	background-image: url('../media/11/cover11.jpg');
 }
 
 .cover-img#part12,
 .cover-box#part12 {
-	background-image: url('../media1/cover12.jpg');
+	background-image: url('../media/11/cover12.jpg');
 }
 
 .cover-img#part13,
 .cover-box#part13 {
-	background-image: url('../media1/cover13.jpg');
+	background-image: url('../media/11/cover13.jpg');
 }
 
 .cover-img#part14,
 .cover-box#part14 {
-	background-image: url('../media1/cover14.jpg');
+	background-image: url('../media/11/cover14.jpg');
 }
 
 .cover-img#part15,
 .cover-box#part15 {
-	background-image: url('../media1/cover15.jpg');
+	background-image: url('../media/11/cover15.jpg');
 }
 
 .cover-img#part16,
 .cover-box#part16 {
-	background-image: url('../media1/cover16.jpg');
+	background-image: url('../media/11/cover16.jpg');
 }
 
 .cover-box#part21 {
-	background-image: url('../media2/cover21.jpg');
+	background-image: url('../media/12/cover21.jpg');
 }
 
 .cover-box#part31 {
-	background-image: url('../media3/cover31.jpg');
+	background-image: url('../media/13/cover31.jpg');
 }
 
 .cover-box-title {
@@ -422,7 +422,7 @@
 }
 
 .image-box#glasovanje1 {
-	background-image: url('../media1/glasovanje.jpg');
+	background-image: url('../media/11/glasovanje.jpg');
 }
 
 .image-box#glasovanje2 {
