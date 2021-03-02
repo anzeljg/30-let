@@ -16,6 +16,24 @@
 }
 
 
+#content-loading {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 1000;
+	color: #FFFFFF;
+	background-color: #393939;
+}
+
+#loading-box {
+	width: 40vh;
+	height: 40vh;
+	margin-top: 30vh;
+	text-align: center;
+	border: auto;
+	background-color: #393939;
+}
+
 /*
  *  Heading container box
  */
@@ -27,6 +45,7 @@
 	flex-shrink: 0;
 	flex-grow: 0;
 	height: 100vh;
+	width: 130vh;
 	color: #FFFFFF;
 	background-color: #393939;
 	z-index: 10;
@@ -39,10 +58,12 @@
 	background-size: 80vh;
 }
 
-.heading-number {
+.heading-number1,
+.heading-number2,
+.heading-number3 {
 	margin-top: auto;
 	margin-bottom: auto;
-	padding-left: 20vmin;
+	padding-left: 18vh;
 	padding-bottom: 2vh;
 	font-family: 'Rubik Black', sans-serif;
 	font-weight: bold;
@@ -53,8 +74,8 @@
 .heading-title {
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-left: 10vmin;
-	margin-right: 5vmin;
+	margin-left: 12vh;
+	margin-right: 2vh;
 	padding-bottom: 2vh;
 	text-align: left;
 	font-family: 'Rubik', sans-serif;
@@ -77,8 +98,8 @@
 }
 
 #start {
-	height: 6rem;
-	padding-left: 3rem;
+	height: 12vh;
+	padding-left: 6vh;
 }
 
 
@@ -93,6 +114,7 @@
 	flex-shrink: 0;
 	flex-grow: 0;
 	height: 100vh;
+	width: 130vh;
 	color: #393939;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -103,6 +125,7 @@
 	left: 0;
 	top: 0;
 	height: 100vh;
+	width: 130vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -149,18 +172,25 @@
 
 .cover-box-title {
 	position: absolute;
-	width: 60%;
+	display: table; /* For vertically centering the text */
+	width: 80vh;
 	height: 30vh;
 	margin-top: 35vh;
-	margin-left: 40%;
+	margin-left: 50vh;
 	padding: 3vh 4vw;
-	color: #393939;
+	color: #000000;
 	font-family: 'Rubik';
 	font-weight: bold;
 	font-size: 8vh;
 	line-height: 7.6vh;
 	z-index: 10;
 	background-color: rgba(255,255,255,.7);
+}
+
+.cover-box-title .frame {
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 0.5vh;
 }
 
 .cover-box-title .green {
@@ -189,7 +219,7 @@
 .intro-title {
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 1rem;
+	padding: 2rem;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
 	font-size: 3.5vh;
@@ -199,8 +229,8 @@
 .intro-content {
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 1rem;
-	padding-right: 1.2rem;
+	padding: 2rem;
+	padding-right: 2.8rem;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
 	font-size: 2vh;
@@ -218,10 +248,8 @@
 	height: 100vh;
 	color: #FFFFFF;
 	background-color: #0C55A3;
-	background-size: auto 100vh;
 	z-index: 10;
 }
-
 
 /*
  *  Content container box
@@ -401,7 +429,7 @@
 	width: auto;
 	height: 100%;
 	min-height: 100%;
-	max-height: 100%;*/
+	max-height: 100%;
 }
 
 /*
@@ -426,7 +454,7 @@
 }
 
 .image-box#glasovanje2 {
-	background-image: url('../media2/glasovanje.jpg');
+	background-image: url('../media/12/glasovanje.jpg');
 }
 
 
@@ -554,7 +582,7 @@ img#us:hover {
 	margin-left: auto;
 	height: 100vh;
 	width: 10vw;
-	z-index: -10; /* Less than -1 which is for sticky footer */
+	z-index: 10;
 }
 
 .beige-last-diagonal {
@@ -563,7 +591,7 @@ img#us:hover {
 	margin-right: auto;
 	height: 100vh;
 	width: 10vw;
-	z-index: -10; /* Less than -1 which is for sticky footer */
+	z-index: 10;
 }
 
 
@@ -597,6 +625,7 @@ img#us:hover {
 }
 
 .full-note {
+	display: table;
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
@@ -612,6 +641,11 @@ img#us:hover {
 	padding-top: 20vh;
 	height: 90vh;
 	border-left: 3px solid #48AC33;
+}
+
+.full-note .frame {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .gray-note {
@@ -671,6 +705,7 @@ img#us:hover {
 }
 
 .more-full-note {
+	display: table;
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
@@ -683,9 +718,14 @@ img#us:hover {
 	margin-left: 1rem;
 	padding-left: 0.75rem;
 	padding-right: 1rem;
-	padding-top: 20vh;
+	/*padding-top: 20vh;*/
 	height: 90vh;
 	border-left: 3px solid #0C55A3;
+}
+
+.more-full-note .frame {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .news-note {
@@ -750,8 +790,8 @@ img#us:hover {
 	margin-bottom: auto;
 	color: #393939;
 	background-color: #FFFFFF;
-	padding: 1rem;
-	padding-right: 1.2rem;
+	padding: 2rem;
+	/*padding-right: 2.8rem;*/
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
 	font-size: 2vh;

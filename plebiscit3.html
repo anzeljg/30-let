@@ -18,6 +18,11 @@
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
 
+	<!-- FancyBox 3 CSS -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- FancyBox 3 customizations -->
+    <link href="css/fancybox.css" rel="stylesheet">
+
     <!-- Custom styles for this site -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
@@ -28,14 +33,26 @@
 <body>
 
     <nav class="br navbar navbar-dark fixed-top">
-      <a class="navbar-brand" href="#"><img src="img/logo_menu.svg"></a>
-	  <div class="navbar-title">PO PLEBISCITU</div>
+      <a class="navbar-brand" href="index.html">
+	    <img id="logo" src="img/logo_menu.svg">
+		<div class="navbar-back">
+			<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g id="nazaj" transform="translate(-19, -103)" stroke="#393939" stroke-width="6">
+						<polyline id="nazaj" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+					</g>
+				</g>
+			</svg>
+		</div>
+	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
+	    <div class="navbar-title">PO PLEBISCITU</div>
         <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
         <span id="navbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
       </button>
     </nav>
 
+    <!-- Navbar menu -->
     <div id="navbarToggleMenu" class="br text-light hidden">
 		<div class="menu nh20" onclick="location.href='plebiscit1.html'">
 		  <div class="menu-number">1</div>
@@ -58,53 +75,90 @@
 		</div>
     </div>
 
+	<!-- Previous and next buttons -->
+	<div class="nav-prev-btn" id="navPrevBtn">
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="nazaj_24" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
+					<polyline id="nazaj_24" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+				</g>
+			</g>
+		</svg>
+	</div>
+	<div class="nav-next-btn" id="navNextBtn">
+		<center>
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="naprej_24" transform="translate(-204, -729)" stroke="#858585" stroke-width="6">
+					<polyline id="naprej_24" points="207 732 219 744 207 756"></polyline>
+				</g>
+			</g>
+		</svg>
+		</center>
+	</div>
 
+
+	<!-- Loading box -->
+    <div id="content-loading">
+	  <center>
+	    <div id="loading-box">
+	      <img src="img/nalaganje_opt.gif">
+	      <br />Nalaganje v teku ...
+	    </div>
+	  </center>
+	</div>
+
+	<!-- Main page content -->
     <div class="main-content">
 
-		<div class="heading-box heading-bg w80">
-		  <div class="heading-number">3</div>
+		<div class="heading-box heading-bg">
+		  <div class="heading-number3">3</div>
 		  <div class="heading-title">PO<br />PLEBISCITU</div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 1
-		//---------------------------------------------->
-		<div class="cover-box w70 rel" id="part31"><!-- MUST use "rel" -->
+		//----------------------------->
+		<div class="cover-box rel pointer" id="part31"><!-- MUST use "rel" -->
 		  <div class="heading-last-diagonal wd"></div>
 		  <div class="cover-box-title">
-			SLAVILI SMO<br /><span class="green">ZGODOVINSKI<br />USPEH</span>
+			<div class="frame">
+			  SLAVILI SMO<br /><span class="green">ZGODOVINSKI<br />USPEH</span>
+			</div>
 		  </div>
 		  <div class="intro-first-diagonal wd"></div>
 		</div>
 
-		<div class="intro-box w70" style="margin-left:-1px">
+		<div class="intro-box" style="width:85vh;margin-left:-1px">
 		  <div class="h20 flex-row">
-		    <div class="intro-title w50">Z razglasitvijo uradnih rezultatov smo slavili zgodovinski uspeh vsega slovenskega naroda</div>
+		    <div class="intro-title">Z razglasitvijo uradnih rezultatov smo slavili zgodovinski uspeh vsega slovenskega naroda</div>
 		  </div>
-		  <div class="h60 flex-row" style="margin-top:1.55vh;height:56.9vh;">
+		  <div class="h60 flex-row">
 		    <div class="intro-content">
 		    Plebiscitni dan je minil v znamenju slavja, še posebej po 19.00 uri, ko so se zaprla volišča. Po vsej Sloveniji je prevladovalo evforično vzdušje. 26. decembra je bil v Skupščini RS rezultat plebiscita slovesno razglašen. Rezultat je bil prepričljiv, saj je na plebiscitno vprašanje z DA odgovorilo kar 88,5 % vseh volivcev. Čestitke za sprejem tako pomembne odločitve so prihajale z vsega sveta. Po slavju je bila potrebna analiza trenutnega stanja, večina ljudi pa se je zavedala, da jih pred izpolnitvijo plebiscitnega cilja čakajo zahtevne naloge. Gospodarsko razpadanje zvezne države je narekovalo čim prejšnjo zaščito gospodarstva in usposobitev lastnega gospodarskega reda. Na osnovi plebiscitne odločitve je Republika Slovenija skoraj natanko 6 mesecev kasneje razglasila svojo neodvisnost. 
 			</div>
-		    <img src="thumb/13/docs1/odlocitev.jpg" style="height:56.9vh" class="float-right">
 		  </div>
 		</div>
 
 		<div class="content-box">
 		  <div class="blue-last-diagonal wd"></div>
+		  <div class="content-box-inner ml4">
+		    <img src="thumb/13/docs1/odlocitev.jpg" class="h60">
+		  </div>
 		</div>
 
-		<div class="content-box ml4">
-		  <div class="h80 mb-auto">
-		    <img src="thumb/13/docs1/uradno1.jpg" class="h80">
+		<div class="content-box ml8 mr8 pointer" id="docs1_porocilo">
+		  <div class="h86 mb-auto">
+		    <img src="thumb/13/docs1/uradno1.jpg" class="h86">
 		  </div>
-		  <div class="h80 mb-auto ml2">
-		    <img src="thumb/13/docs1/uradno2.jpg" class="h80">
+		  <div class="h86 mb-auto ml2">
+		    <img src="thumb/13/docs1/uradno2.jpg" class="h86">
 		  </div>
-		  <div class="content-box-inner h60 flex-column-space">
-		    <div class="side-note ml2 w20">
+		  <div class="content-box-inner flex-column-space ml1rem">
+		    <div class="side-note w40">
 		    Poročilo Republiške volilne komisije o izidu glasovanja na plebiscitu dne 23. 12. 1990.
 		    </div>
-		    <div class="blue-note w40" style="margin-left:-2vw">
+		    <div class="blue-note w80 mb4" style="margin-left:-3.5rem">
 		    - na vprašanje »Ali naj Republika Slovenija postane samostojna in neodvisna država« je z DA odgovorilo 1.289.369 volilcev (88,5%).<br />
 			- na vprašanje »Ali naj Republika Slovenija postane samostojna in neodvisna država« je z NE odgovorilo 57.800 volilcev (4,0%).<br />
 			- ker iz oddane glasovnice ni bilo moč ugotoviti volje volilcev, je bilo neveljavnih 12.412 glasovnic (0,9%)
@@ -113,34 +167,38 @@
 		</div>
 
 		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20 ml4">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="docs1_obcine">
 			<img src="thumb/13/docs1/obcine1.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/obcine2.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/obcine3.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/obcine4.jpg" width="100%" class="p2">
 		  </div>
-	      <div class="flex-column w20">
-		    <div class="full-note w15 mt-auto mb-auto">
+	      <div class="flex-column w30">
+		    <div class="full-note">
+			  <div class="frame">
 			  Udeležba in rezultati glasovanja po občinah.
+			  </div>
 			</div>
 		  </div>
 		</div>
 
-		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20 ml4">
+		<div class="content-box ml4 mr8">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="docs1_aktivnosti">
 			<img src="thumb/13/docs1/aktivnosti1.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/aktivnosti2.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/aktivnosti3.jpg" width="100%" class="p2">
 		  </div>
-	      <div class="flex-column w20">
-		    <div class="full-note w15 mt-auto mb-auto">
+	      <div class="flex-column w30">
+		    <div class="full-note">
+			  <div class="frame">
 		      Program aktivnosti za izvedbo plebiscitnih ciljev.
+			  </div>
 			</div>
 		  </div>
 		</div>
 
 		<div class="content-box">
-		  <div class="content-box-inner gallery-2rows-zigzag h60 w55 flex-zigzag">
+		  <div class="content-box-inner gallery-2rows-zigzag h80 flex-zigzag pointer" style="width:100vh" id="docs1_cestitke">
 			<div class="gallery-zigzag-item">
 			  <img src="thumb/13/cestitke/18.jpg" class="p2">
 			</div>
@@ -172,35 +230,39 @@
 			  <img src="thumb/13/cestitke/12.jpg" class="p2">
 			</div>
 		  </div>
-	      <div class="flex-column w15">
-		    <div class="content-box-inner h60 flex-column">
-			  <div class="side-note w15">
+	      <div class="flex-column w40 ml1rem">
+		    <div class="content-box-inner flex-column">
+			  <div class="side-note w25 mb-auto">
 			  Čestitke ob plebiscitu.
 			  </div>
 			</div>
 		  </div>
 		</div>
 
-		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20">
+		<div class="content-box mr4">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="docs1_zahvala">
 			<img src="thumb/13/docs1/zahvala1.jpg" width="100%" class="p2">
 			<img src="thumb/13/docs1/zahvala2.jpg" width="100%" class="p2">
 		  </div>
-	      <div class="flex-column w20">
-		    <div class="full-note w15 mt-auto mb-auto">
+	      <div class="flex-column w30">
+		    <div class="full-note">
+			  <div class="frame">
 			  Zahvala za sodelovanje pri podpisni akciji ob slovenskem plebiscitu.
+			  </div>
 			</div>
 		  </div>
-		  <div class="blue-first-diagonal wd"></div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 2
-		//---------------------------------------------->
-		<div class="blue-box w20" id="part32" style="margin-left:-1px">
-		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Multimedijsko gradivo
+		//----------------------------->
+		<div class="content-box">
+		  <div class="blue-first-diagonal wd"></div>
+		</div>
+		<div class="blue-box w40" id="part32" style="margin-left:-1px">
+		  <div class="flex-column">
+		    <div class="intro-title">
+			  Multimedijsko gradivo
 			</div>
 		  </div>
 		</div>
@@ -208,13 +270,10 @@
 		  <div class="blue-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box w40 ml4">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/13/Neuradni_izidi.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_izidi">
+		    <div class="bottom-note w60">
 		      Neuradni izidi Republiške volilne komisije dne 24. 12. 1990.
 		    </div>
 		  </div>
@@ -223,15 +282,14 @@
 		<div class="content-box">
 		  <div class="gray-first-diagonal wd"></div>
 		</div>
-
 		<div class="news-box" style="margin-left:-1px">
-		  <div class="flex-column w25">
+		  <div class="flex-column">
 			<div class="news-title float-right">
 			ODMEVI V<br />ČASOPISJU
 			</div>
 		  </div>
-	      <div class="flex-row" id="news32">
-		    <div class="news-column news_down img-vertical-scroll w25">
+	      <div class="flex-row ml8 mr8" id="news32">
+		    <div class="news-column news_up img-vertical-scroll w40 pointer" id="news32_1">
 			  <img src="thumb/13/news2/01.jpg" class="p2">
 			  <img src="thumb/13/news2/02.jpg" class="p2">
 			  <img src="thumb/13/news2/03.jpg" class="p2">
@@ -243,18 +301,14 @@
 		    </div>
 		  </div>
 		</div>
-
 		<div class="content-box">
 		  <div class="gray-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box w40 ml4">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/13/Vecerno_slavje.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_slavje">
+		    <div class="bottom-note w60">
 		      Večerno slavje na ulicah.
 		    </div>
 		  </div>
@@ -262,9 +316,9 @@
 
 		<div class="content-box">
 		  <div class="h80">
-		    <img src="thumb/13/photo2/1/11-6.jpg" class="h80 p2">
+		    <img src="thumb/13/photo2/1/11-6.jpg" class="h80 p2 pointer photo2_1">
 		  </div>
-		  <div class="gallery-3rows h80 flex-gallery" style="width:83vw">
+		  <div class="gallery-3rows h80 flex-gallery pointer photo2_1" style="width:160vh">
 			<div class="gallery-3rows-img">
 			  <img src="thumb/13/photo2/1/11-19.jpg" class="p2">
 			</div>
@@ -307,13 +361,10 @@
 		  </div>
 		</div>
 
-		<div class="content-box w40 ml4">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/13/Slavje_2.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_navdusenje">
+		    <div class="bottom-note w60">
 		      Navdušenje množic na ljubljanskih ulicah.
 		    </div>
 		  </div>
@@ -321,9 +372,9 @@
 
 		<div class="content-box">
 		  <div class="h80">
-		    <img src="thumb/13/photo2/2/TS231290_18.jpg" class="h80 p2">
+		    <img src="thumb/13/photo2/2/TS231290_18.jpg" class="h80 p2 pointer photo2_2">
 		  </div>
-		  <div class="gallery-3rows h80 flex-gallery" style="width:80vw">
+		  <div class="gallery-3rows h80 flex-gallery pointer photo2_2" style="width:150vh">
 			<div class="gallery-3rows-img">
 			  <img src="thumb/13/photo2/2/TS231290_20.jpg" class="p2">
 			</div>
@@ -363,32 +414,30 @@
 		  </div>
 		</div>
 
-		<div class="content-box w40 ml4">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/13/Bozicna_poslanica.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_poslanica">
+		    <div class="bottom-note w60">
 		      Božična poslanica Dedka Mraza na temo plebiscita.
 		    </div>
 		  </div>
 		</div>
 
+		<!------------------------------
+		//  PART 3
+		//----------------------------->
+
 		<div class="content-box">
 		  <div class="blue-first-diagonal wd"></div>
 		</div>
-		<!-----------------------------------------------
-		//  PART 3
-		//---------------------------------------------->
-		<div class="blue-box white-box-bg w30" id="part33" style="margin-left:-1px">
+		<div class="blue-box white-box-bg w60" style="margin-left:-1px">
 		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Numizmatika
+		    <div class="intro-title">
+		    Numizmatika
 			</div>
 		  </div>
 		  <div class="h60 flex-row">
-		    <div class="intro-content" style="width:28vw;color:#393939">
+		    <div class="intro-content" style="color:#393939">
 		    Jubilejni, spominski ali kar zbirateljski kovanci so izdelani iz kvalitetnejših kovin, lahko tudi iz zlata in srebra, na katerih so z zahtevnejšo tehnologijo kovanja predstavljeni motivi, ki so vezani največ na tri politične, zgodovinske, znanstvene, kulturne, športne, humanitarne in druge pomembne dogodke, ki so splošnega pomena za Republiko Slovenijo ali pa imajo širši mednarodni pomen. Zaradi kakovostnejšega materiala, zahtevnejšega kovanja in majhnih naklad so ti kovanci v prodaji običajno dražji od njihove nominalne vrednosti in v Sloveniji z njimi lahko celo plačujemo, medtem ko imajo v ostalih državah le numizmatično vrednost. Sočasno so lahko izdani tudi spominski tečajni kovanci, ki pa zaradi običajne naklade obdržijo nominalno vrednost.
 			</div>
 		  </div>
@@ -396,7 +445,7 @@
 
 		<div class="news-box">
 		  <div class="blue-last-diagonal wd"></div>
-		  <div class="gallery-2rows h80 w45 flex-gallery-centered">
+		  <div class="gallery-2rows h80 w80 flex-gallery-centered ml4 mr4">
 			<div class="gallery-2rows-img">
 			  <img src="thumb/13/denar/6740av.jpg" class="p2">
 			</div>
@@ -410,121 +459,118 @@
 			  <img src="thumb/13/denar/6741rv.jpg" class="p2">
 			</div>
 		  </div>
-		  <div class="content-box-inner h60 ml2 flex-column">
-		    <div class="flex-row h50">
+		  <div class="content-box-inner h60 flex-column ml8" style="margin-right:20vh">
+		    <div class="flex-row h50 pointer" id="denar_zakon">
 			  <img src="thumb/13/denar/zakon1.jpg" class="h50">
 			  <img src="thumb/13/denar/zakon2.jpg" class="h50 ml2">
 			</div>
-		    <div class="news-bottom-note w35 mt-auto">
+		    <div class="news-bottom-note w60">
 		      Zakon o izdaji priložnostnih kovancev ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije.
 		    </div>
 		  </div>
-          <div class="w5"></div>
 		</div>
 
-		<div class="content-box">
+		<div class="content-box w60">
 		  <div class="h60 flex-row mb-auto mt-auto">
-		    <div class="white-box h60 w40 z20" style="margin-left:-2.5vw">
-		    Prvi priložnostni kovanci, z nominalno vrednostjo 500 tolarjev, so bili izdani ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije. Oblikovalec je bil Miljenko Licul s sodelavcem Zvonetom Kosoveljem.<br />
-			Ob 5. obletnici osamosvojitve so bili izdani zlatniki in  srebrniki z nominalno vrednostjo 500 tolarjev ter tečajni kovanci po 5 tolarjev. Avtorja likovne podobe zlatnika in tečajnega kovanca sta Gorazd in Matjaž Učakar, srebrnika pa Tomaž Pilih. Ob 10. obletnici Republike Slovenije in tolarja Republika Slovenija izdala priložnostne kovance. Zlatnike z nominalno vrednostjo 20.000 tolarjev, srebrnike z nominalno vrednostjo 2.000 tolarjev ter tečajni kovanec z nominalno vrednostjo 100 tolarjev, izdelan je iz zlitine 75 % bakra in 25 % niklja. Motiv na kovancih so domislili: Matevž Čelik, Domen Fras in Vasja Semolič.
+		    <div class="white-box z20" style="margin-left:-2rem">
+		    Prvi priložnostni kovanci, z nominalno vrednostjo 500 tolarjev, so bili izdani ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije. Oblikovalec je bil Miljenko Licul s sodelavcem Zvonetom Kosoveljem. Ob 5. obletnici osamosvojitve so bili izdani zlatniki in  srebrniki z nominalno vrednostjo 500 tolarjev ter tečajni kovanci po 5 tolarjev. Avtorja likovne podobe zlatnika in tečajnega kovanca sta Gorazd in Matjaž Učakar, srebrnika pa Tomaž Pilih. Ob 10. obletnici Republike Slovenije in tolarja Republika Slovenija izdala priložnostne kovance. Zlatnike z nominalno vrednostjo 20.000 tolarjev, srebrnike z nominalno vrednostjo 2.000 tolarjev ter tečajni kovanec z nominalno vrednostjo 100 tolarjev, izdelan je iz zlitine 75 % bakra in 25 % niklja. Motiv na kovancih so domislili: Matevž Čelik, Domen Fras in Vasja Semolič.
 			</div>
 		  </div>		
 		</div>
 
-		<div class="news-box">
-		  <div class="gallery-3rows h80 w55 flex-gallery-centered">
+		<div class="news-box" style="margin-left:-2rem">
+		  <div class="gallery-3rows h86 flex-gallery-centered ml8 mr8 pointer" style="width:120vh" id="denar_bankovci">
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/62639av.jpg" class="p2a">
+			  <img src="thumb/13/denar/62639av.jpg" class="pa2">
 			</div>
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/62639rv.jpg" class="p2a">
+			  <img src="thumb/13/denar/62639rv.jpg" class="pa2">
 			</div>
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/9967av.jpg" class="p2a">
+			  <img src="thumb/13/denar/9967av.jpg" class="pa2">
 			</div>
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/9967rv.jpg" class="p2a">
+			  <img src="thumb/13/denar/9967rv.jpg" class="pa2">
 			</div>
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/9975av.jpg" class="p2a">
+			  <img src="thumb/13/denar/9975av.jpg" class="pa2">
 			</div>
 			<div class="gallery-3rows-img">
-			  <img src="thumb/13/denar/9975rv.jpg" class="p2a">
+			  <img src="thumb/13/denar/9975rv.jpg" class="pa2">
 			</div>
 		  </div>
 		</div>
 
 		<div class="content-box">
 		  <div class="h60 flex-row mb-auto mt-auto">
-		    <div class="white-box flex-zigzag h60 w80" style="margin-left:-2.5vw">
-			  <div class="w35" style="margin-right:2.5vw">V zadnjih letih obstoja je Socialistična federativna republika Jugoslavija izvedla še monetarno reformo, s katero so bili v začetku leta 1990 uvedeni t. i. konvertibilni dinarji, ki so nastali z denominacijo starih dinarjev tako, da so jim odrezali štiri ničle.</div>
-			  <div class="w35" style="margin-right:2.5vw">Plebiscitarni predlog je bil, da postane Slovenija samostojna v šestih mesecih po referendumu. Še pred referendumom, že 12. oktobra 1990, je tedanji Republiški sekretariat za finance, ki je zastopal slovensko vlado, podpisal pogodbo, s katero se je pričel celoten postopek tiskanja slovenskega denarja – vrednostnih bonov; od oblikovanja (Lotka Marvin in Cvetka Kozomara) pa do samega tiska. V začetku decembra 1990 so bili natisnjeni prvi boni, na katerih še ni bilo datuma izdaje, ker ni bilo mogoče predvideti, če bo med osamosvajanjem prišlo do pomanjkanja gotovine v obtoku in kdaj bodo uporabljeni kot nadomestni oziroma začasni denar. Zato se je osemmestna številčna oznaka bankovcev vedno začenjala s številkama 9 in 0, kar je označevalo letnico izdaje, torej so bili boni izdani v letu 1990.</div>
-			  <div class="w35" style="margin-right:2.5vw">26. junija 1991 je nova država razglasila svojo samostojnost, vendar je morala pod pritiskom Evropske unije (7. julija) podpisati Brionsko deklaracijo, s katero je bil razglašen trimesečni moratorij na izvajanje osamosvojitvenih dejanj, in Slovenci smo še naprej lahko uporabljali jugoslovansko valuto. Po izteku moratorija je Banka Slovenije 8. oktobra 1991 izdala in izročila v obtok vrednostne bone za 1, 2, 5, 10, 50, 100, 200, 500 in 1.000 tolarjev kot začasni denar, 27. maja 1992 pa je izročila v obtok še vrednostni bon za 5.000 tolarjev in Slovenija je s tem dejanjem uvedla lasten denar. V obtok je prišel prvi slovenski denar v samostojni slovenski državi, slovenski tolar, ki pa so ga sprva nadomeščali vrednostni boni kot edino zakonito plačilno sredstvo v Sloveniji. Vrednostni boni so zamenljivi v Banki Slovenije brez časovne omejitve.</div>
+		    <div class="white-box flex-zigzag h60" style="margin-left:-2rem; width:135vh">
+			  <div class="w60" style="margin-right:2rem">V zadnjih letih obstoja je Socialistična federativna republika Jugoslavija izvedla še monetarno reformo, s katero so bili v začetku leta 1990 uvedeni t. i. konvertibilni dinarji, ki so nastali z denominacijo starih dinarjev tako, da so jim odrezali štiri ničle.</div>
+			  <div class="w60" style="margin-right:2rem">Plebiscitarni predlog je bil, da postane Slovenija samostojna v šestih mesecih po referendumu. Še pred referendumom, že 12. oktobra 1990, je tedanji Republiški sekretariat za finance, ki je zastopal slovensko vlado, podpisal pogodbo, s katero se je pričel celoten postopek tiskanja slovenskega denarja – vrednostnih bonov; od oblikovanja (Lotka Marvin in Cvetka Kozomara) pa do samega tiska. V začetku decembra 1990 so bili natisnjeni prvi boni, na katerih še ni bilo datuma izdaje, ker ni bilo mogoče predvideti, če bo med osamosvajanjem prišlo do pomanjkanja gotovine v obtoku in kdaj bodo uporabljeni kot nadomestni oziroma začasni denar. Zato se je osemmestna številčna oznaka bankovcev vedno začenjala s številkama 9 in 0, kar je označevalo letnico izdaje, torej so bili boni izdani v letu 1990.</div>
+			  <div class="w60" style="margin-right:2rem">26. junija 1991 je nova država razglasila svojo samostojnost, vendar je morala pod pritiskom Evropske unije (7. julija) podpisati Brionsko deklaracijo, s katero je bil razglašen trimesečni moratorij na izvajanje osamosvojitvenih dejanj, in Slovenci smo še naprej lahko uporabljali jugoslovansko valuto. Po izteku moratorija je Banka Slovenije 8. oktobra 1991 izdala in izročila v obtok vrednostne bone za 1, 2, 5, 10, 50, 100, 200, 500 in 1.000 tolarjev kot začasni denar, 27. maja 1992 pa je izročila v obtok še vrednostni bon za 5.000 tolarjev in Slovenija je s tem dejanjem uvedla lasten denar. V obtok je prišel prvi slovenski denar v samostojni slovenski državi, slovenski tolar, ki pa so ga sprva nadomeščali vrednostni boni kot edino zakonito plačilno sredstvo v Sloveniji. Vrednostni boni so zamenljivi v Banki Slovenije brez časovne omejitve.</div>
 			</div>
 		  </div>		
 		</div>
 
-		<div class="news-box">
-		  <div class="h60 mb-auto mt-auto ml4 mr4">
-		    <img src="thumb/13/denar/9581av.jpg" class="h60 p2a">
+		<div class="news-box" style="margin-left:-2rem">
+		  <div class="h60 mb-auto mt-auto" style="margin:0 18vh">
+		    <img src="thumb/13/denar/9581av.jpg" class="h60 pa2">
 		  </div>
 		</div>
 
 		<div class="content-box">
-		  <div class="h60 flex-row mb-auto mt-auto mr4">
-		    <div class="white-box flex-zigzag h60 w75" style="margin-left:-2.5vw">
-			  <div class="w35" style="margin-right:2.5vw">Vzporedno z rojstvom tolarja je tekel tudi projekt Lipa, ki je kot neuradno plačilno sredstvo predstavil denarno enoto, imenovano lipa. Že leta 1989 jo je zasnoval dr. Bogdan Oblak – Hamurabi. Osnovana je bila na zlati podlagi in izdajatelj je s svojim premoženjem in zlatom tudi jamčil za izplačila. V času visoke inflacije v Jugoslaviji je bila to valuta brez inflacije, saj ji je bila za osnovo, »denarni standard« – košarica drobno prodajnih artiklov. Menjalno razmerje leta 1990 je bilo npr. 1 lipa za 49,02 dinarja. Uradne ustanove tega projekta niso priznavale in so se od njega distancirale, a je bil dovolj domoljubno naravnan, da se je v nekaterih krogih lipa prijela kot plačilno sredstvo. Ker pa Republika Slovenija tega projekta ni odkupila, pod pogoji, ki jih je postavljal izdajatelj, je ta počasi zamrl.</div>
-			  <div class="w35" style="margin-right:2.5vw">Do natisa in v obtok so prišli le bankovci za eno lipo z upodobitvijo slovenskih atributov: Prešerna, cvetoče lipove vejice, knežjega kamna in Plečnikove vizije slovenskega parlamenta. Skovani po eno lipo so bili zlatniki in srebrniki ter še manjši kovanci iz raznih kovin in zlitin. Modele za kovanje je izdelal oblikovalec Stane Dremelj.</div>
+		  <div class="h60 flex-row mb-auto mt-auto mr8">
+		    <div class="white-box flex-zigzag h60" style="margin-left:-2rem; width:90vh">
+			  <div class="w80" style="margin-right:2rem">Vzporedno z rojstvom tolarja je tekel tudi projekt Lipa, ki je kot neuradno plačilno sredstvo predstavil denarno enoto, imenovano lipa. Že leta 1989 jo je zasnoval dr. Bogdan Oblak – Hamurabi. Osnovana je bila na zlati podlagi in izdajatelj je s svojim premoženjem in zlatom tudi jamčil za izplačila. V času visoke inflacije v Jugoslaviji je bila to valuta brez inflacije, saj ji je bila za osnovo, »denarni standard« – košarica drobno prodajnih artiklov. Menjalno razmerje leta 1990 je bilo npr. 1 lipa za 49,02 dinarja. Uradne ustanove tega projekta niso priznavale in so se od njega distancirale, a je bil dovolj domoljubno naravnan, da se je v nekaterih krogih lipa prijela kot plačilno sredstvo. Ker pa Republika Slovenija tega projekta ni odkupila, pod pogoji, ki jih je postavljal izdajatelj, je ta počasi zamrl.</div>
+			  <div class="w80" style="margin-right:2rem">Do natisa in v obtok so prišli le bankovci za eno lipo z upodobitvijo slovenskih atributov: Prešerna, cvetoče lipove vejice, knežjega kamna in Plečnikove vizije slovenskega parlamenta. Skovani po eno lipo so bili zlatniki in srebrniki ter še manjši kovanci iz raznih kovin in zlitin. Modele za kovanje je izdelal oblikovalec Stane Dremelj.</div>
 			</div>
 		  </div>		
 		  <div class="green-first-diagonal wd"></div>
 		</div>
 
 		<div class="more-box" style="margin-left:-1px">
-		  <div class="flex-column w25">
+		  <div class="flex-column">
 			<div class="more-title float-right">
 			ZA VEDO<br />ŽELJNEJŠE
 			</div>
 		  </div>
-	      <div class="flex-column">
+	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/13/more4/2-86.jpg" class="h60">
+			  <img src="thumb/13/more4/_2-86.jpg" class="h60 pointer" id="more4_seja">
 			</div>
 		  </div>
-	      <div class="flex-column w20">
+	      <div class="flex-column w40">
 			<div class="more-full-note">
-			Fotografije slavnostne seje vseh zborov Skupščine Republike Slovenije z dne 26. 12. 1990
+			  <div class="frame">
+			  Fotografije slavnostne seje vseh zborov Skupščine Republike Slovenije z dne 26. 12. 1990.
+			  </div>
 			</div>
 		  </div>
-	      <div class="flex-column w20">
+	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/13/more4/ocena1.jpg" class="h60">
+			  <img src="thumb/13/more4/ocena1.jpg" class="h60 pointer" id="more4_ocena">
 			</div>
 		  </div>
-	      <div class="flex-column w20 ml4">
-		    <div class="content-box-inner h60 flex-column">
-			  <div class="more-side-note w15 mt-auto mb-auto">
+	      <div class="flex-column w40">
+		    <div class="content-box-inner flex-column">
+			  <div class="more-side-note w25 mb-auto">
 			  Ocena razmer po plebiscitu in program aktivnosti za izvedbo plebiscitnih nalog.
 			  </div>
 			</div>
 		  </div>
-		  <div class="content-box w40">
+		  <div class="content-box mr8">
 		    <div class="content-box-inner h60 flex-column">
-		      <video class="crt mb-auto" controls>
-			    <source src="video/13/Slavnostna_seja.mp4" type="video/mp4">
-			    Brskalnik ne podpira oznake video.
-		      </video>
-		      <div class="more-bottom-note w35 mt-auto">
+			  <img src="img/video_ozadje.svg" class="crt pointer" id="video_seja">
+		      <div class="more-bottom-note w60">
 		        Odlomek iz slavnostne seje vseh zborov Skupščine RS.
 		      </div>
 		    </div>
 		  </div>
 		</div>
 
-		<div class="heading-box w70">
+		<div class="heading-box">
 		  <div class="green-last-diagonal wd"></div>
 		  <div class="heading-next flex-row float-right">
-			<div class="w30">
+			<div class="w50">
 			  PRIHODNJA<br />RAZSTAVA<br />
 			  <!--<button class="btn btn-success">SPOMNI ME</button>-->
 			  bo maja 2021 ...
@@ -535,17 +581,33 @@
     </div>
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/jquery-slim.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Slick Carousel JavaScript -->
 <script src="js/slick.min.js"></script>
 
+<!-- FancyBox 3 JavaScript -->
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/fancybox-13-parts.js"></script>
+<script src="js/fancybox-13-video.js"></script>
+
 <!-- Custom JavaScript for this site -->
 <script>
+/*
+ *  Hide loading box when page load complete
+ */
+window.onload = function(){
+	document.getElementById('content-loading').style.visibility = 'hidden';
+};
+
+
 $(function() {
 	  
+	/*
+	 *  Toggle side menu on/off
+	 */
 	$('#navbarToggleMenu')
 		.on('shown.bs.collapse', function() {
 			$('#navbar-hamburger').addClass('hidden');
@@ -558,10 +620,29 @@ $(function() {
 			$('#navbarToggleMenu').addClass('hidden');		  
 		});
 	  
+	/*
+	 *  Previous and next buttons
+	 */
+	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
+	$('#navNextBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() + vw
+		}, "slow");
+	});
+
+	$('#navPrevBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() - vw
+		}, "slow");
+	});
+
     /*
 	 *  Scroll newspaper articles up in carousel
 	 */
-	$('.news_down').slick({
+	$('.news_up').slick({
 		vertical: true,
 		verticalSwiping: true,
 		slidesToScroll: -1,

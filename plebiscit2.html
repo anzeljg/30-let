@@ -18,6 +18,11 @@
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
 
+	<!-- FancyBox 3 CSS -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- FancyBox 3 customizations -->
+    <link href="css/fancybox.css" rel="stylesheet">
+
     <!-- Custom styles for this site -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
@@ -28,14 +33,26 @@
 <body>
 
     <nav class="br navbar navbar-dark fixed-top">
-      <a class="navbar-brand" href="#"><img src="img/logo_menu.svg"></a>
-	  <div class="navbar-title">DAN PLEBISCITA</div>
+      <a class="navbar-brand" href="index.html">
+	    <img id="logo" src="img/logo_menu.svg">
+		<div class="navbar-back">
+			<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g id="nazaj" transform="translate(-19, -103)" stroke="#393939" stroke-width="6">
+						<polyline id="nazaj" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+					</g>
+				</g>
+			</svg>
+		</div>
+	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
+	    <div class="navbar-title">DAN PLEBISCITA</div>
         <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
         <span id="navbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
       </button>
     </nav>
 
+    <!-- Navbar menu -->
     <div id="navbarToggleMenu" class="br text-light hidden">
 		<div class="menu nh20" onclick="location.href='plebiscit1.html'">
 		  <div class="menu-number">1</div>
@@ -60,49 +77,84 @@
 		</div>
     </div>
 
+	<!-- Previous and next buttons -->
+	<div class="nav-prev-btn" id="navPrevBtn">
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="nazaj_24" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
+					<polyline id="nazaj_24" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+				</g>
+			</g>
+		</svg>
+	</div>
+	<div class="nav-next-btn" id="navNextBtn">
+		<center>
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="naprej_24" transform="translate(-204, -729)" stroke="#858585" stroke-width="6">
+					<polyline id="naprej_24" points="207 732 219 744 207 756"></polyline>
+				</g>
+			</g>
+		</svg>
+		</center>
+	</div>
 
+
+	<!-- Loading box -->
+    <div id="content-loading">
+	  <center>
+	    <div id="loading-box">
+	      <img src="img/nalaganje_opt.gif">
+	      <br />Nalaganje v teku ...
+	    </div>
+	  </center>
+	</div>
+
+	<!-- Main page content -->
     <div class="main-content">
 
-		<div class="heading-box heading-bg w80">
-		  <div class="heading-number">2</div>
+		<div class="heading-box heading-bg">
+		  <div class="heading-number2">2</div>
 		  <div class="heading-title">DAN<br />PLEBISCITA</div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 1
-		//---------------------------------------------->
-		<div class="cover-box w70 rel" id="part21"><!-- MUST use "rel" -->
+		//----------------------------->
+		<div class="cover-box rel pointer" id="part21"><!-- MUST use "rel" -->
 		  <div class="heading-last-diagonal wd"></div>
 		  <div class="cover-box-title">
-			<span class="green">ODŠLI<br />SMO</span> NA<br />VOLIŠČA
+			<div class="frame">
+			  <span class="green">ODŠLI<br />SMO</span> NA<br />VOLIŠČA
+			</div>
 		  </div>
 		  <div class="intro-first-diagonal wd"></div>
 		</div>
 
-		<div class="intro-box w70" style="margin-left:-1px">
+		<div class="intro-box w80" style="margin-left:-1px">
 		  <div class="h20 flex-row">
-		    <div class="intro-title w45">Izvedba plebiscita</div>
+		    <div class="intro-title">Izvedba plebiscita</div>
 		  </div>
-		  <div class="h60 flex-row" style="margin-top:1.55vh;height:56.9vh;">
+		  <div class="h60 flex-row">
 		    <div class="intro-content">
 		    Nedelja, 23. december, zgodovinski in usodni dan za samostojno Slovenijo in njeno neodvisnost na političnem, gospodarskem in kulturnem področju. O tem so odločali vsi državljani Jugoslavije, ki so dopolnili 18 let, s poslovno sposobnostjo in stalnim prebivališčem v Sloveniji. Plebiscita se je lahko udeležilo 1.457.020 volivcev. Glasovalnih mest je bilo 4143, v 62 občinah po vsej Sloveniji, od tega 102 po bolnišnicah, domovih, zdraviliščih in priporih. Volišča so bila uradno odprta od 7.00 do 19.00 ure. Neuradni izidi so bili znani ob 24.00 uri.
 			</div>
-		    <img src="thumb/12/docs2/imenik.jpg" style="height:56.9vh" class="float-right">
 		  </div>
 		</div>
+
 		<div class="content-box">
 		  <div class="blue-last-diagonal wd"></div>
-		</div>
-
-		<div class="content-box ml4">
-		  <div class="content-box-inner h60 w25 flex-column-space">
-			<div class="side-note w20 mb-auto">
+		  <div class="content-box-inner">
+		    <img src="thumb/12/docs2/imenik.jpg" class="h60 pointer" id="docs2_imenik">
+		  </div>
+		  <div class="content-box-inner flex-column-space ml1rem">
+			<div class="side-note w40 mb-auto">
 			Prva stran volilnega imenika za volišči št. 41 in 42 občine Ajdovščina.
 			</div>
-			<div class="mt-auto">
+			<div class="mt-auto ml4">
 		      <div class="flex-column">
-				<img src="thumb/12/docs1/potrdilo.jpg" width="90%" class="mb2">
-			    <div class="bottom-note w25 mt-auto">
+				<img src="thumb/12/docs1/potrdilo.jpg" class="h40 pointer" id="docs1_potrdilo">
+			    <div class="bottom-note w60 mb-auto">
 				  Potrdilo občinske volilne komisije o prisotnosti predstavnika politične organizacije na volišču.
 			    </div>
 			  </div>
@@ -110,69 +162,68 @@
 		  </div>
 		</div>
 
-		<div class="content-box">
-		  <div class="h80 mb-auto">
-		    <img src="thumb/12/docs1/izjava_o_neudelezbi.jpg" class="h80">
+		<div class="content-box ml4">
+		  <div class="h86 mb-auto">
+		    <img src="thumb/12/docs1/izjava_o_neudelezbi.jpg" class="h86 pointer" id="docs1_izjava">
 		  </div>
 		</div>
-
-		<div class="content-box w40 ml2 flex-column">
+		<div class="content-box-inner flex-column-space ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note w20 mt-auto mb-auto">
+		    <div class="side-note w40 mt-auto mb-auto">
 		      Izjava Republiške volilne komisije o neudeležbi na plebiscitu.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row">
 		    <div class="flex-column">
-			  <img src="thumb/12/docs1/kuverta.jpg" class="h50">
-			  <div class="bottom-note w30 mt-auto">
+			  <img src="thumb/12/docs1/kuverta.jpg" class="h40">
+			  <div class="bottom-note w60 mb-auto">
 				Kuverta Republiške volilne komisije za dokumente povezave s plebiscitom.
 			  </div>
 			</div>
 		  </div>
 		</div>
 
-		<div class="content-box">
-		  <div class="h80 mb-auto">
-		    <img src="thumb/12/docs1/izid_glasovanja.jpg" class="h80">
+		<div class="content-box ml8">
+		  <div class="h86 mb-auto">
+		    <img src="thumb/12/docs1/izid_glasovanja.jpg" class="h86 pointer" id="docs1_izid">
 		  </div>
 		</div>
-		<div class="content-box ml2 w25 flex-column">
+		<div class="content-box flex-column ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note w20 mt-auto mb-auto">
+		    <div class="side-note w40 mt-auto mb-auto">
 		      Obrazec Republiške volilne komisije za ugotavljanje izida glasovanja.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row"></div>
 		</div>
 
-		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20">
+		<div class="content-box ml4">
+	      <div class="flex-column img-vertical-scroll w25 h86 pointer" id="docs1_zapisnik">
 			<img src="thumb/12/docs1/zapisnik1.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs1/zapisnik2.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs1/zapisnik3.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs1/zapisnik4.jpg" width="100%" class="p2">
 		  </div>
 		</div>
-		<div class="content-box ml2 w20 flex-column">
+		<div class="content-box flex-column ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note w20 mt-auto mb-auto">
+		    <div class="side-note w40 mt-auto mb-auto">
 		      Obrazec Republiške volilne komisije za zapisnik o delu volilnega odbora.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row"></div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 2
-		//---------------------------------------------->
+		//----------------------------->
 		<div class="content-box">
 		  <div class="blue-first-diagonal wd"></div>
 		</div>
-		<div class="blue-box w20" id="part22" style="margin-left:-1px">
-		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Delo volilnega odbora
+		<div class="blue-box w40" id="part22" style="margin-left:-1px">
+		  <div class="flex-column">
+		    <div class="intro-title">
+			  Delo volilnega odbora
 			</div>
 		  </div>
 		</div>
@@ -180,25 +231,25 @@
 		  <div class="blue-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20">
+		<div class="content-box ml4">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="docs2_oprema">
 			<img src="thumb/12/docs2/oprema1.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs2/oprema2.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs2/oprema3.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs2/oprema4.jpg" width="100%" class="p2">
 		  </div>
 		</div>
-		<div class="content-box ml2 w20 flex-column">
+		<div class="content-box flex-column ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note w20 mt-auto mb-auto">
+		    <div class="side-note w25 mt-auto mb-auto">
 		      Določitev enotnih standardov za opremo volišč.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row"></div>
 		</div>
 
-		<div class="content-box">
-	      <div class="flex-column img-vertical-scroll w20">
+		<div class="content-box ml4">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="docs2_naloge">
 			<img src="thumb/12/docs2/naloge1.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs2/naloge2.jpg" width="100%" class="p2">
 			<img src="thumb/12/docs2/naloge3.jpg" width="100%" class="p2">
@@ -209,62 +260,59 @@
 			<img src="thumb/12/docs2/naloge8.jpg" width="100%" class="p2">
 		  </div>
 		</div>
-		<div class="content-box ml2 w20 flex-column">
+		<div class="content-box flex-column ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note mt-auto mb-auto" style="width:19vw">
+		    <div class="side-note w40 mt-auto mb-auto">
 		      Navodilo Republiške volilne komisije za delo volilnega odbora pri izvedbi plebiscita 23. decembra 1990.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row"></div>
 		</div>
 
-		<div class="content-box ml2 w25 flex-column">
+		<div class="content-box flex-column ml8">
 		  <div class="h20"></div>
 		  <div class="h60 flex-row">
 		    <div class="flex-column">
-			  <img src="thumb/12/docs2/delegacije.jpg" class="h50">
-			  <div class="bottom-note w20 mt-auto">
+			  <img src="thumb/12/docs2/delegacije.jpg" class="h50 pointer" id="docs2_delegacije">
+			  <div class="bottom-note w40 mt-auto">
 				Seznam tujih delegacij v Sloveniji ob plebiscitu 23. decembra 1990.
 			  </div>
 			</div>
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Uvodnik_TV_dnevnika.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_uvodnik">
+		    <div class="bottom-note w60">
 		      Uvodnik TV Dnevnika 1 na dan slovenskega plebiscita.
 		    </div>
 		  </div>
 		</div>
 
-		<div class="content-box w35">
-		  <div class="h80 mb-auto">
-		    <img src="thumb/12/docs1/glasovnica.jpg" class="h80">
+		<div class="content-box mr8">
+		  <div class="h86 mb-auto">
+		    <img src="thumb/12/docs1/glasovnica.jpg" class="h86 pointer" id="docs1_glasovnica">
 		  </div>
 		</div>
 
-		<div class="image-box w70" id="glasovanje2">
+		<div class="image-box" id="glasovanje2">
 		  <div class="beige-last-diagonal wd"></div>
-		    <div class="content-box-inner w70 h70 flex-column">
-			  <div class="w20 mt-auto">
-			  Glasovanje volilnega upravičenca na plebiscitu dne 23. 12. 1990.
-			  </div>
+		  <div class="content-box-inner w100 h70 flex-column">
+			<div class="w40 mt-auto">
+			Glasovanje volilnega upravičenca na plebiscitu dne 23. 12. 1990.
 			</div>
+		  </div>
 		  <div class="blue-first-diagonal wd"></div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 3
-		//---------------------------------------------->
-		<div class="blue-box w20" id="part23" style="margin-left:-1px">
-		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Neveljavne glasovnice
+		//----------------------------->
+		<div class="blue-box w40" id="part23" style="margin-left:-1px">
+		  <div class="flex-column">
+		    <div class="intro-title">
+			  Neveljavne glasovnice
 			</div>
 		  </div>
 		</div>
@@ -273,7 +321,7 @@
 		</div>
 
 		<div class="content-box">
-		  <div class="content-box-inner gallery-2rows-zigzag h60 flex-zigzag" style="width:56vw">
+		  <div class="content-box-inner gallery-2rows-zigzag h70 ml8 flex-zigzag pointer" style="width:100vh" id="docs3_neveljavne">
 			<div class="gallery-zigzag-item">
 			  <img src="thumb/12/docs3/neveljavna1.jpg" class="p2">
 			</div>
@@ -302,23 +350,25 @@
 			  <img src="thumb/12/docs3/neveljavna9.jpg" class="p2">
 			</div>
 		  </div>
-	      <div class="flex-column w15">
-		    <div class="content-box-inner h60 flex-column">
-			  <div class="side-note w15">
+	      <div class="flex-column w40">
+		    <div class="content-box-inner flex-column">
+			  <div class="side-note w25 mb-auto">
 			  Primeri glasovnic, za katere so volilni odbori ugotovili, da niso veljavne.
 			  </div>
 			</div>
 		  </div>
-		  <div class="blue-first-diagonal wd"></div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 4
-		//---------------------------------------------->
-		<div class="blue-box w20" id="part24" style="margin-left:-1px">
-		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Kuverte in poštni žigi
+		//----------------------------->
+		<div class="content-box">
+		  <div class="blue-first-diagonal wd"></div>
+		</div>
+		<div class="blue-box w40" id="part24" style="margin-left:-1px">
+		  <div class="flex-column">
+		    <div class="intro-title">
+			  Kuverte in poštni žigi
 			</div>
 		  </div>
 		</div>
@@ -326,25 +376,25 @@
 		  <div class="blue-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box">
-		  <div class="h80 mb-auto">
-		    <img src="thumb/12/docs4/kuverta1.jpg" class="h80">
+		<div class="content-box ml4">
+		  <div class="h86 mb-auto">
+		    <img src="thumb/12/docs4/kuverta1.jpg" class="h86 pointer" id="docs4_kuverta">
 		  </div>
 		</div>
-		<div class="content-box ml2 w25 flex-column">
+		<div class="content-box flex-column ml1rem">
 		  <div class="h20 flex-row">
-		    <div class="side-note w20 mt-auto mb-auto">
+		    <div class="side-note w40 mt-auto mb-auto">
 		      Priložnostne izdaje pisemskih ovojnic, dopisnic, razglednic in poštnih žigov ob samem plebiscitu ter ob 5., 10. in 20. obletnici plebiscita.
 		    </div>
 		  </div>
 		  <div class="h60 flex-row mt-auto mb-auto">
-		    <img src="thumb/12/docs4/postni_zig.jpg" width="50%" height="50%">
+		    <img src="thumb/12/docs4/postni_zig.jpg" style="width:30vh;height:30vh">
 		  </div>
 		</div>
 
 		<div class="content-box">
-		  <div class="gallery-2rows h80 w90 flex-gallery-centered">
-			<div class="w35" style="border:2px solid transparent">
+		  <div class="gallery-2rows h80 flex-gallery-centered pointer" style="width:170vh" id="docs4_kuverte">
+			<div class="w50" style="border:2px solid transparent">
 			  <div class="white-box" style="height:39.5vh">
 			  Priložnostne znamke na temo plebiscita ni bilo, saj je v času pred osamosvojitvijo Slovenije skrbelo za izdajo le-teh podjetje Jugomarka, ki je sodilo v sklop Skupnosti PTT podjetij Jugoslavije. Ob plebiscitu so bili v uporabi priložnostni žigi na glavnih slovenskih poštah. Z njihovo pomočjo so si filatelisti naredili različne priložnostne izdaje (ovitke, kartice itd.). Priložnostne žige so izdajali tudi ob 5., 10., in 20. obletnici plebiscita.
 			  </div>
@@ -362,16 +412,18 @@
 			  <img src="thumb/12/docs4/kuverta4.jpg" class="p2">
 			</div>
 		  </div>
-		  <div class="blue-first-diagonal wd"></div>
 		</div>
 
-		<!-----------------------------------------------
+		<!------------------------------
 		//  PART 5
-		//---------------------------------------------->
-		<div class="blue-box w20" id="part25" style="margin-left:-1px">
-		  <div class="h20 flex-row">
-		    <div class="intro-title w20">
-			Multimedijsko gradivo
+		//----------------------------->
+		<div class="content-box">
+		  <div class="blue-first-diagonal wd"></div>
+		</div>
+		<div class="blue-box w40" id="part25" style="margin-left:-1px">
+		  <div class="flex-column">
+		    <div class="intro-title">
+			  Multimedijsko gradivo
 			</div>
 		  </div>
 		</div>
@@ -379,13 +431,10 @@
 		  <div class="blue-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml4 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Volitve_na_domu.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_na_domu">
+		    <div class="bottom-note w60">
 		      Glasovanje na domu.
 		    </div>
 		  </div>
@@ -393,9 +442,9 @@
 
 		<div class="content-box">
 		  <div class="h80">
-		    <img src="thumb/12/photo5/1/d0001987.jpg" class="h80 p2">
+		    <img src="thumb/12/photo5/1/d0001987.jpg" class="h80 p2 pointer photo5_1">
 		  </div>
-		  <div class="gallery-3rows h80 flex-gallery" style="width:74vw">
+		  <div class="gallery-3rows h80 flex-gallery pointer photo5_1" style="width:165vh">
 			<div class="gallery-3rows-img">
 			  <img src="thumb/12/photo5/1/d0001988.jpg" class="p2">
 			</div>
@@ -426,25 +475,19 @@
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml4">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Volisce_Smarjeta_pri_Celju.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_smarjeta">
+		    <div class="bottom-note w60">
 		      Dogajanje pred voliščem v Šmarjeti pri Celju.
 		    </div>
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml8 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Volitve_porodnisnica.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_porodnisnica">
+		    <div class="bottom-note w60">
 		      Prispevek iz porodnišnice.
 		    </div>
 		  </div>
@@ -452,9 +495,9 @@
 
 		<div class="content-box">
 		  <div class="h80">
-		    <img src="thumb/12/photo5/2/F0020239.jpg" class="h80 p2">
+		    <img src="thumb/12/photo5/2/F0020239.jpg" class="h80 p2 pointer photo5_2">
 		  </div>
-		  <div class="gallery-3rows h80 flex-gallery" style="width:100vw">
+		  <div class="gallery-3rows h80 flex-gallery pointer photo5_2" style="width:180vh">
 			<div class="gallery-3rows-img">
 			  <img src="thumb/12/photo5/2/F0020237.jpg" class="p2">
 			</div>
@@ -494,32 +537,26 @@
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml4">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Starejsi_volijo.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_starejsi">
+		    <div class="bottom-note w60">
 		      Glasovanje starejših občanov.
 		    </div>
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml8 mr4">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Volisce_Bojanci.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_bojanci">
+		    <div class="bottom-note w60">
 		      Glasovanje v Bojancih.
 		    </div>
 		  </div>
 		</div>
 
 		<div class="content-box">
-		  <div class="gallery-2rows h80 flex-gallery-centered" style="width:140vw">
+		  <div class="gallery-2rows h80 flex-gallery-centered pointer photo5_3" style="width:265vh">
 			<div class="gallery-2rows-img">
 			  <img src="thumb/12/photo5/3/8-20.jpg" class="p2">
 			</div>
@@ -547,13 +584,10 @@
 		  </div>
 		</div>
 
-		<div class="content-box w40">
+		<div class="content-box ml4 mr8">
 		  <div class="content-box-inner h60 flex-column">
-		    <video class="crt mb-auto" controls>
-		      <source src="video/12/Politiki_volijo.mp4" type="video/mp4">
-			  Brskalnik ne podpira oznake video.
-		    </video>
-		    <div class="bottom-note w35 mt-auto">
+			<img src="img/video_ozadje.svg" class="crt pointer" id="video_politiki">
+		    <div class="bottom-note w60">
 		      Glasovanje političnih osebnosti.
 		    </div>
 		  </div>
@@ -563,25 +597,25 @@
 		  <div class="gray-first-diagonal wd"></div>
 		</div>
 		<div class="news-box" style="margin-left:-1px">
-		  <div class="flex-column w25">
+		  <div class="flex-column">
 			<div class="news-title float-right">
 			ODMEVI V<br />ČASOPISJU
 			</div>
 		  </div>
-	      <div class="flex-row" id="news26">
-		    <div class="news-column news_down img-vertical-scroll w25">
+	      <div class="flex-row ml8" id="news26">
+		    <div class="news-column news_up img-vertical-scroll w40 pointer" id="news26_1">
 			  <img src="thumb/12/news6/01.jpg" class="p2">
 			  <img src="thumb/12/news6/02.jpg" class="p2">
 			  <img src="thumb/12/news6/03.jpg" class="p2">
 			  <img src="thumb/12/news6/04.jpg" class="p2">
 		    </div>
-		    <div class="news-single w35">
-			  <img src="media/12/most/most01.jpg" class="p2">
+		    <div class="news-single" style="width:70vh">
+			  <img src="media/12/most/most01.jpg" style="width:68vh;height:100vh" class="p2 pointer" id="delo_most">
 			</div>
 		  </div>
-	      <div class="flex-column w20 ml4">
+	      <div class="flex-column w40">
 		    <div class="h60 flex-column">
-			  <div class="news-note w15 mt-auto mb-auto">
+			  <div class="news-note w25 mt-auto mb-auto">
 			  Posebna izdaja Dela, Most v slovensko samostojnost.
 			  </div>
 			</div>
@@ -590,47 +624,49 @@
 
 		<div class="content-box">
 		  <div class="gray-last-diagonal wd"></div>
-	      <div class="flex-column w30 ml4">
-			<div class="h80 mb-auto">
-			  <img src="thumb/12/karikatura_delo_3.jpg" class="h80">
+	      <div class="flex-column ml8 mr8">
+			<div class="h86 mb-auto">
+			  <img src="media/12/karikatura_delo_3.jpg" class="h86 pointer" id="delo_3">
 			</div>
 		  </div>
 		  <div class="green-first-diagonal wd"></div>
 		</div>
 
 		<div class="more-box" style="margin-left:-1px">
-		  <div class="flex-column w25">
+		  <div class="flex-column">
 			<div class="more-title float-right">
 			ZA VEDO<br />ŽELJNEJŠE
 			</div>
 		  </div>
-	      <div class="flex-column img-vertical-scroll w20">
+	      <div class="flex-column img-vertical-scroll w25 pointer" id="more7_program">
 			<img src="thumb/12/more7/program1.jpg" width="100%" class="p2">
 			<img src="thumb/12/more7/program2.jpg" width="100%" class="p2">
 		  </div>
-	      <div class="flex-column w20">
-		    <div class="more-full-note w15 mt-auto mb-auto">
+	      <div class="flex-column w40">
+		    <div class="more-full-note">
+			  <div class="frame">
 			  Program obiska tujih delegacij v Sloveniji ob plebiscitu, 22. in 23. decembra 1990, ki ga je pripravil Republiški sekretariat za mednarodno sodelovanje.
+			  </div>
 			</div>
 		  </div>
-	      <div class="flex-column w20">
+	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/12/more7/navodilo1.jpg" class="h60">
+			  <img src="thumb/12/more7/navodilo1.jpg" class="h60 pointer" id="more7_navodilo">
 			</div>
 		  </div>
-	      <div class="flex-column w20">
-		    <div class="content-box-inner h60 ml4 flex-column">
-			  <div class="more-side-note w15 mt-auto mb-auto">
+	      <div class="flex-column w40 mr4">
+		    <div class="content-box-inner flex-column">
+			  <div class="more-side-note w25 mb-auto">
 			  Predlog navodila št. 1 Republiške volilne komisije za izvedbo plebiscita o samostojnosti in neodvisnosti Republike Slovenije 23. decembra 1990.
 			  </div>
 			</div>
 		  </div>
 		</div>
 
-		<div class="heading-box w50">
+		<div class="heading-box">
 		  <div class="green-last-diagonal wd"></div>
 		  <div class="heading-next flex-row float-right" id="naprej">
-			<div class="w30">PO<br />PLEBISCITU</div>
+			<div class="w40">PO<br />PLEBISCITU</div>
 		    <img src="img/naprej.svg" id="start">
 		  </div>
 		</div>
@@ -638,17 +674,33 @@
     </div>
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/jquery-slim.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Slick Carousel JavaScript -->
 <script src="js/slick.min.js"></script>
 
+<!-- FancyBox 3 JavaScript -->
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/fancybox-12-parts.js"></script>
+<script src="js/fancybox-12-video.js"></script>
+
 <!-- Custom JavaScript for this site -->
 <script>
+/*
+ *  Hide loading box when page load complete
+ */
+window.onload = function(){
+	document.getElementById('content-loading').style.visibility = 'hidden';
+};
+
+
 $(function() {
 	  
+	/*
+	 *  Toggle side menu on/off
+	 */
 	$('#navbarToggleMenu')
 		.on('shown.bs.collapse', function() {
 			$('#navbar-hamburger').addClass('hidden');
@@ -661,10 +713,29 @@ $(function() {
 			$('#navbarToggleMenu').addClass('hidden');		  
 		});
 	  
+	/*
+	 *  Previous and next buttons
+	 */
+	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
+	$('#navNextBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() + vw
+		}, "slow");
+	});
+
+	$('#navPrevBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() - vw
+		}, "slow");
+	});
+
     /*
 	 *  Scroll newspaper articles up in carousel
 	 */
-	$('.news_down').slick({
+	$('.news_up').slick({
 		vertical: true,
 		verticalSwiping: true,
 		slidesToScroll: -1,

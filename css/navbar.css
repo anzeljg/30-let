@@ -21,16 +21,28 @@
 	z-index: 100;
 }
 
+.navbar-back {
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+#logo ~ .navbar-back svg #nazaj {
+	stroke: #858585;
+}
+#logo:hover ~ .navbar-back svg #nazaj {
+	stroke: #858585;
+}
+
 .navbar-title {
 	position: absolute;
-	bottom: 4rem;
+	bottom: 3.6rem;
 	left: 4rem;
-	width: 50vh;
-	height: 8vh;
+	width: 12rem;
+	height: 3.6rem;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 3.6vh;
-	line-height: 8vh;
+	font-size: 1.125rem; /* 18px */
+	line-height: 3.0rem;
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
 	color: #858585;
@@ -44,6 +56,11 @@
 	z-index: 100;
 }
 
+/* Override: force transparent border */
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,0);
+}
+
 #navbar-cheeseburger {
 	padding: 0.3rem;
 	line-height: 1.55;
@@ -51,7 +68,7 @@
 
 #navbarToggleMenu {
 	position: fixed;
-	width: 25vw;
+	width: 45vh;
 	height: 100vh;
 	line-height: 1.5;
 	left: 4.5rem;
@@ -89,8 +106,8 @@
 
 .menu-number {
 	float: left;
-	width: 4.5rem;
-	padding-right: 0.5rem;
+	width: 10vh;
+	padding-right: 1vh;
 	height: 100%;
 	font-family: 'Rubik Black';
 	font-weight: bold;
@@ -100,7 +117,7 @@
 
 .menu-title {
 	float: left;
-	width: 14vw;
+	width: 30vh;
 	margin-top: 4vh;
 	text-align: left;
 	font-family: 'Rubik';
@@ -111,7 +128,7 @@
 
 .menu-items {
 	float: left;
-	width: 14vw;
+	width: 30vh;
 	margin-top: 2vh;
 	text-align: left;
 	font-family: 'Rubik';
@@ -137,4 +154,38 @@
 
 /* Navbar menu item heights */
 .nh20 { height: 20vh }
+.nh40 { height: 40vh }
 .nh60 { height: 60vh }
+
+/* Previous and Next buttons */
+.nav-prev-btn,
+.nav-next-btn {
+  position: fixed;
+  top: 35vh;
+  height: 6.5vh;
+  width: 6vh;
+  color: #858585;
+  /* Semi-transparent #393939 background */
+  background-color: rgba(57, 57, 57, 0.8);
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 100;
+}
+.nav-prev-btn {
+  left: 4.5rem; /* The width of the navbar */
+}
+.nav-next-btn {
+  right: 0;
+}
+
+.nav-prev-btn:hover,
+.nav-next-btn:hover {
+  color: #FFFFFF;
+  background-color: #48AC33;
+}
+.nav-prev-btn:hover svg #nazaj_24 {
+	stroke: #FFFFFF;
+}
+.nav-next-btn:hover svg #naprej_24 {
+	stroke: #FFFFFF;
+}

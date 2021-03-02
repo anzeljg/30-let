@@ -1,0 +1,62 @@
+.fancybox-thumbs {
+	width: 120px;
+}
+.fancybox-show-thumbs .fancybox-inner {
+	right: 120px;
+}
+.fancybox-thumbs__list a {
+	width: 100px;
+	height: 140px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.fancybox-thumbs__list a:before {
+	border: 3px solid #48AC33;
+}
+.fancybox-show-thumbs .fancybox-inner,
+.fancybox-infobar {
+	font-family: sans-serif;
+}
+
+/* Customization for displaying photo galleries */
+.gallery .fancybox-thumbs {
+	width: 120px;
+}
+.gallery .fancybox-show-thumbs .fancybox-inner {
+	right: 120px;
+}
+.gallery .fancybox-thumbs__list a {
+	width: 100px;
+	height: 67px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.gallery .fancybox-thumbs__list a:before {
+	border: 3px solid #48AC33;
+}
+.gallery .fancybox-show-thumbs .fancybox-inner,
+.gallery .fancybox-infobar {
+	font-family: sans-serif;
+}
+
+
+/* Customization for displaying banknotes */
+.banknote .fancybox-thumbs {
+	width: 120px;
+}
+.banknote .fancybox-show-thumbs .fancybox-inner {
+	right: 120px;
+}
+.banknote .fancybox-thumbs__list a {
+	width: 100px;
+	height: 50px;
+	max-width: 100%;
+	max-height: 100%;
+}
+.banknote .fancybox-thumbs__list a:before {
+	border: 3px solid #48AC33;
+}
+.banknote .fancybox-show-thumbs .fancybox-inner,
+.banknote .fancybox-infobar {
+	font-family: sans-serif;
+}

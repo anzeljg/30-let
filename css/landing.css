@@ -74,13 +74,13 @@ a {
 	border-right: 1px solid #979797;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 1.5rem;
-	line-height: 1.5rem;
+	font-size: 3vh;
+	line-height: 3vh;
 }
 
 .button {
 	height: 100%;
-	padding: 7.5vh 5vh;
+	padding: 8.5vh 5vh;
 	border-left: 1px solid #979797;
 	border-right: 1px solid #979797;
 	background-repeat: no-repeat;
@@ -121,6 +121,12 @@ a {
   box-shadow: none;
 }
 
+/* Override rounded corners in modal windows */
+.modal-content {
+	border-radius: 0;
+}
+
+
 .video {
 	width: 100vw;
 	height: 100vh;
@@ -135,14 +141,14 @@ a {
 	bottom: 0;
 	height: 20vh;
 	width: 100vw;
-	padding: 1.5rem;
+	padding: 4vh 12vh;
 	color: #FFFFFF;
 	background-color: #393939;
 	border-top: 1px solid #979797;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 3rem;
-	line-height: 3rem;
+	font-size: 6vh;
+	line-height: 6vh;
 	text-align: right;
 	cursor: pointer;
 }

@@ -1,0 +1,14 @@
+/*
+ *  Hack to get a vertical Slick slider slides moving down instead of up.
+ *  The hack is to first rotate upside down the slider itself and then
+ *  rotate upside down each slide in the slider.
+ *
+ *  See: https://github.com/kenwheeler/slick/issues/3679
+ */
+.news_down .slick-list {
+	transform: rotate(180deg);
+}
+
+.news_down .slick-slide {
+	transform: rotate(180deg);
+}

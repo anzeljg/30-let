@@ -65,26 +65,37 @@ body::-webkit-scrollbar {
 footer {
 	position: fixed;
 	left: 0;
-	top: 80vh;
-	height: 20vh;
+	top: 86vh;    /* Približno 12/14 */
+	height: 14vh; /* Približno  2/14 */
 	width: 100vw;
 	color: #FFFFFF;
 	background-color: #393939;
-	font-size: 0.875rem;
+	font-size: 2vh; /* 0.875rem = 14px */
 	margin-left: 4.5rem; /* Width of the navbar */
 	z-index: 2;
 }
 
 .footer-item {
-	height: 20vh;
+	height: 14vh;
 	/* width = 133.3% of height */
-	padding: 3vh 1vh 3vh 3vh;
+	padding: 2vh 1vh 2vh 2vh;
 }
 
 .footer-item-label {
-	height: 20vh;
-	width: 9vh;
-	padding: 3vh 0;
+	height: 14vh;
+	width: 10vh;
+	padding: 2vh 0;
+}
+
+/* Override rounded corners in modal windows */
+.modal-content {
+	border-radius: 0;
+}
+
+
+/* Add pointer cursor to point to FancyBox galleries */
+.pointer {
+	cursor: pointer;
 }
 
 
@@ -96,9 +107,9 @@ footer {
 }
 
 .crt-sm {
-	height: 14vh;
+	height: 10vh;
 	/* width = 133.3% of height */
-	width: 18.66667vh;
+	width: 13.33333vh;
 }
 
 
@@ -114,7 +125,8 @@ footer {
 
 
 /* Width */
-.wd { width: 11vw } /* for diagonals */
+/*.wd { width: 11vw } /* for diagonals */
+/*
 .w5 { width: 5vw }
 .w10 { width: 10vw }
 .w15 { width: 15vw }
@@ -142,7 +154,18 @@ footer {
 .w130 { width: 130vw }
 .w150 { width: 150vw }
 .w250 { width: 250vw }
+*/
 
+/* Width which is height dependant */
+.wd { width: 25vmin } /* for diagonals */
+.w20 { width: 20vh }
+.w25 { width: 25vh }
+.w30 { width: 30vh }
+.w40 { width: 40vh }
+.w50 { width: 50vh }
+.w60 { width: 60vh }
+.w80 { width: 80vh }
+.w100 { width: 100vh }
 
 /* Height */
 .h10 { height: 10vh }
@@ -157,16 +180,24 @@ footer {
 .h90 { height: 90vh }
 .h100 { height: 100vh }
 
+.h86 { height: 86vh } /* 12/14 */
+.h14 { height: 14vh } /*  2/14 */
+
 
 /* Margins used in flex positioning */
-.m1 { margin: 1vw }
-.ml1 { margin-left: 1vw }
-.mr1 { margin-right: 1vw }
-.ml2 { margin-left: 2vw }
+/*.m1 { margin: 1vw }*/
+.ml1rem { margin-left: 1rem }
+.ma1rem { margin: 1rem }
+/*.ml1 { margin-left: 1vw }
+.mr1 { margin-right: 1vw }*/
+.ml2 { margin-left: 2vh }
+.mr2 { margin-right: 2vh }
 .mb2 { margin-bottom: 2vh }
 .mb4 { margin-bottom: 4vh }
-.ml4 { margin-left: 4vw }
-.mr4 { margin-right: 4vw }
+.ml4 { margin-left: 4vh }
+.mr4 { margin-right: 4vh }
+.ml8 { margin-left: 8vh }
+.mr8 { margin-right: 8vh }
 .mt-auto { margin-top: auto }
 .ml-auto { margin-left: auto }
 .mr-auto { margin-right: auto }
@@ -175,9 +206,9 @@ footer {
 
 /* Paddings used in flex positioning */
 .p2 { padding: 2px }
-.pl2 { padding-left: 2vw }
-.pr2 { padding-right: 2vw }
-.p2a { padding: 2vw }
+.pl2 { padding-left: 2vh }
+.pr2 { padding-right: 2vh }
+.pa2 { padding: 2vh }
 
 
 /* z-index for divs that should be over footer */
