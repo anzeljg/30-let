@@ -15,16 +15,26 @@
     display: none;  /* Safari and Chrome */
 }
 
-
+/*
+ *  Device orientation and Loading box
+ */
+#device-orientation,
 #content-loading {
 	height: 100vh;
 	width: 100vw;
 	position: fixed;
-	z-index: 1000;
 	color: #FFFFFF;
 	background-color: #393939;
 }
+#device-orientation {
+	display: none;
+	z-index: 9999;
+}
+#content-loading {
+	z-index: 1000;
+}
 
+#orientation-box,
 #loading-box {
 	width: 40vh;
 	height: 40vh;
@@ -32,6 +42,17 @@
 	text-align: center;
 	border: auto;
 	background-color: #393939;
+}
+
+@media only screen and (orientation:portrait){
+	#device-orientation {
+		display: block;
+	}
+}
+@media only screen and (orientation:landscape){
+	#device-orientation {
+		display: none;
+	}
 }
 
 /*
@@ -45,7 +66,7 @@
 	flex-shrink: 0;
 	flex-grow: 0;
 	height: 100vh;
-	width: 130vh;
+	width: 150vh;
 	color: #FFFFFF;
 	background-color: #393939;
 	z-index: 10;
@@ -54,7 +75,7 @@
 .heading-bg {
 	background-image: url('../img/znak_outline_cel.svg');
 	background-repeat: no-repeat;
-	background-position: -5vw 10vh;
+	background-position: -11vh 10vh;
 	background-size: 80vh;
 }
 
@@ -95,6 +116,10 @@
 	font-size: 6vh;
 	line-height: 6vh;
 	cursor: pointer;
+}
+
+.scroll-indicator {
+	margin: auto;
 }
 
 #start {

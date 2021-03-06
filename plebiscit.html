@@ -20,29 +20,42 @@
 
 <body id="plebiscit">
 
-<div class="video">
-  <div style="text-align:center;padding-top:7vh;">
-    <video id="video" width="854" height="480" controls>
-      <source src="https://video.arnes.si/portal/video/api/asset/eNYpgESWMmC8GRdmX3VjjJEq/play.mp4
-" type="video/mp4">
-      Brskalnik ne podpira oznake video.
-    </video>
-	<br />
-	<div class="btn-group btn-group-sm" role="group" aria-label="Ločljivost">
-      <button id="sd" type="button" class="btn button-on">SD</button>
-      <button id="hd" type="button" class="btn button-off">HD</button>
-    </div>
-  </div>
-</div>
+	<!-- Device orientation -->
+    <div id="device-orientation">
+	  <center>
+	    <div id="orientation-box">
+	      <p><img src="img/list_desno.svg" style="height:20vh"></p>
+	      <p>Ta stran se vidi najbolje, če
+		  <br />je naprava obrnjena vodoravno.</p>
+	    </div>
+	  </center>
+	</div>
 
-<div id="banner">
-	<img src="img/naprej.svg" id="start" class="float-right">
-	OGLED<br />RAZSTAVE
-</div>
+	<!-- Content -->
+	<div class="video">
+
+	  <div style="text-align:center;padding-top:7vh;">
+		<video class="intro-video" controls>
+		  <source src="https://video.arnes.si/portal/video/api/asset/eNYpgESWMmC8GRdmX3VjjJEq/play.mp4
+	" type="video/mp4">
+		  Brskalnik ne podpira oznake video.
+		</video>
+		<br />
+		<div class="btn-group btn-group-sm" role="group" aria-label="Ločljivost">
+		  <button id="sd" type="button" class="btn button-on">SD</button>
+		  <button id="hd" type="button" class="btn button-off">HD</button>
+		</div>
+	  </div>
+	</div>
+
+	<div id="banner">
+		<img src="img/naprej.svg" id="start" class="float-right">
+		OGLED<br />RAZSTAVE
+	</div>
 
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/jquery-slim.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 

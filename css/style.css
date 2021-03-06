@@ -124,38 +124,6 @@ footer {
 .rel { position: relative }
 
 
-/* Width */
-/*.wd { width: 11vw } /* for diagonals */
-/*
-.w5 { width: 5vw }
-.w10 { width: 10vw }
-.w15 { width: 15vw }
-.w20 { width: 20vw }
-.w25 { width: 25vw }
-.w30 { width: 30vw }
-.w33 { width: 33vw }
-.w35 { width: 35vw }
-.w40 { width: 40vw }
-.w45 { width: 45vw }
-.w50 { width: 50vw }
-.w55 { width: 55vw }
-.w60 { width: 60vw }
-.w65 { width: 65vw }
-.w67 { width: 67vw }
-.w70 { width: 70vw }
-.w75 { width: 75vw }
-.w80 { width: 80vw }
-.w85 { width: 85vw }
-.w90 { width: 90vw }
-.w95 { width: 95vw }
-.w100 { width: 100vw }
-.w105 { width: 105vw }
-.w110 { width: 110vw }
-.w130 { width: 130vw }
-.w150 { width: 150vw }
-.w250 { width: 250vw }
-*/
-
 /* Width which is height dependant */
 .wd { width: 25vmin } /* for diagonals */
 .w20 { width: 20vh }
@@ -185,11 +153,8 @@ footer {
 
 
 /* Margins used in flex positioning */
-/*.m1 { margin: 1vw }*/
 .ml1rem { margin-left: 1rem }
 .ma1rem { margin: 1rem }
-/*.ml1 { margin-left: 1vw }
-.mr1 { margin-right: 1vw }*/
 .ml2 { margin-left: 2vh }
 .mr2 { margin-right: 2vh }
 .mb2 { margin-bottom: 2vh }
@@ -295,10 +260,14 @@ footer {
 @media (min-width: 576px) {
 
 	.content-box-inner {
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
 	}
-	
+
+	.navbar-title {
+		display: none;
+	}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -309,6 +278,10 @@ footer {
 		margin-bottom: 20vh;
 	}
 
+	.navbar-title {
+		display: block;
+	}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -317,6 +290,10 @@ footer {
 	.content-box-inner {
 		margin-top: 20vh;
 		margin-bottom: 20vh;
+	}
+
+	.navbar-title {
+		display: block;
 	}
 
 }

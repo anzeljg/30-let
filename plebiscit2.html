@@ -36,12 +36,13 @@
       <a class="navbar-brand" href="index.html">
 	    <img id="logo" src="img/logo_menu.svg">
 		<div class="navbar-back">
-			<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-					<g id="nazaj" transform="translate(-19, -103)" stroke="#393939" stroke-width="6">
+			<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5)">
+					<g id="nazaj" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
 						<polyline id="nazaj" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
 					</g>
 				</g>
+				<rect y="1" x="0" height="28" width="3" stroke="none" stroke-width="1" fill=#858585 />
 			</svg>
 		</div>
 	  </a>
@@ -54,11 +55,15 @@
 
     <!-- Navbar menu -->
     <div id="navbarToggleMenu" class="br text-light hidden">
-		<div class="menu nh20" onclick="location.href='plebiscit1.html'">
+		<div class="menu nh15 bt bb" onclick="location.href='index.html'">
+		  <div class="menu-number">Z</div>
+		  <div class="menu-title">NA<br />ZAČETEK</div>
+		</div>
+		<div class="menu nh15" onclick="location.href='plebiscit1.html'">
 		  <div class="menu-number">1</div>
 		  <div class="menu-title">PRED<br />PLEBISCITOM</div>
 		</div>
-		<div class="menu active nh60 bt bb">
+		<div class="menu active nh55 bt bb">
 		  <div class="menu-number">2</div>
 		  <div class="menu-title">DAN<br />PLEBISCITA</div>
 		  <div class="menu-items">
@@ -71,7 +76,7 @@
 			&mdash; <a href="#part26">Za vedoželjnejše</a><br />
 		  </div>
 		</div>
-		<div class="menu nh20" onclick="location.href='plebiscit3.html'">
+		<div class="menu nh15" onclick="location.href='plebiscit3.html'">
 		  <div class="menu-number">3</div>
 		  <div class="menu-title">PO<br />PLEBISCITU</div>
 		</div>
@@ -100,6 +105,17 @@
 	</div>
 
 
+	<!-- Device orientation -->
+    <div id="device-orientation">
+	  <center>
+	    <div id="orientation-box">
+	      <p><img src="img/list_desno.svg" style="height:20vh"></p>
+	      <p>Ta stran se vidi najbolje, če
+		  <br />je naprava obrnjena vodoravno.</p>
+	    </div>
+	  </center>
+	</div>
+
 	<!-- Loading box -->
     <div id="content-loading">
 	  <center>
@@ -116,6 +132,9 @@
 		<div class="heading-box heading-bg">
 		  <div class="heading-number2">2</div>
 		  <div class="heading-title">DAN<br />PLEBISCITA</div>
+		  <div class="scroll-indicator">
+		    <img src="img/scroll_indicator2.png">
+		  </div>
 		</div>
 
 		<!------------------------------

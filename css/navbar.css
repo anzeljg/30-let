@@ -79,6 +79,7 @@
 
 .menu {
 	padding: 0.5rem;
+	padding-top: 0;
 	color: #858585;
 }
 
@@ -153,17 +154,18 @@
 .bb { border-bottom: 1px solid rgba(255,255,255,.1) }
 
 /* Navbar menu item heights */
-.nh20 { height: 20vh }
-.nh40 { height: 40vh }
-.nh60 { height: 60vh }
+.nh15 { height: 15vh }
+.nh55 { height: 55vh }
 
 /* Previous and Next buttons */
 .nav-prev-btn,
 .nav-next-btn {
   position: fixed;
-  top: 35vh;
+  top: 45vh;
   height: 6.5vh;
+  min-height: 3rem;
   width: 6vh;
+  min-width: 2.5rem;
   color: #858585;
   /* Semi-transparent #393939 background */
   background-color: rgba(57, 57, 57, 0.8);

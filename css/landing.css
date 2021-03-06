@@ -17,6 +17,8 @@
 
 body {
 	font-family: 'Rubik', sans-serif;
+	font-size: 2.4vh;
+	line-height: 3.2vh;
 }
 
 body#plebiscit {
@@ -46,11 +48,11 @@ a {
 
 .flex-item {
 	flex-grow: 1;
-	padding: 2vw;
+	padding: 2vh;
 }
 
 .green-line {
-	font-size: 0.75rem;
+	font-size: 1.8vh;
 	border-left: 2px solid #48AC33;
 }
 
@@ -74,13 +76,14 @@ a {
 	border-right: 1px solid #979797;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 3vh;
-	line-height: 3vh;
+	font-size: 4vh;
+	line-height: 6vh;
+	z-index: 10;
 }
 
 .button {
 	height: 100%;
-	padding: 8.5vh 5vh;
+	padding: 7vh 5vh;
 	border-left: 1px solid #979797;
 	border-right: 1px solid #979797;
 	background-repeat: no-repeat;
@@ -154,17 +157,72 @@ a {
 }
 
 #start {
-	height: 6rem;
+	/*height: 6rem;*/
+	height: 12vh;
 	padding-left: 3rem;
 }
 
 #notice {
-	padding: 1.5rem;
+	padding: 2vh;
 	color: #FFFFFF;
 	background-color: #393939;
 	font-family: 'Rubik';
 	font-weight: bold;
-	font-size: 3rem;
-	line-height: 3rem;
+}
+
+#logo {
+	height: 60vh;
+}
+
+.intro-video {
+	width: 115vh;
+	height: 65vh;
+}
+
+/*
+ *  Device orientation
+ */
+#device-orientation {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	color: #FFFFFF;
+	background-color: #393939;
+}
+#device-orientation {
+	display: none;
+	z-index: 9999;
+}
+
+#orientation-box {
+	width: 40vh;
+	height: 40vh;
+	margin-top: 30vh;
+	text-align: center;
+	border: auto;
+	background-color: #393939;
+}
+
+
+@media only screen and (orientation:portrait){
+	#device-orientation {
+		display: block;
+	}
+
+	body {
+		-ms-overflow-style: none; /* Internet Explorer 10+ */
+		scrollbar-width: none;    /* Firefox, except on Windows */
+	}
+	body::-webkit-scrollbar { 
+		display: none;  /* Safari and Chrome */
+	}
+
+}
+
+@media only screen and (orientation:landscape){
+	#device-orientation {
+		display: none;
+	}
+
 }
 
