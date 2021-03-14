@@ -47,6 +47,7 @@
 	transform-origin: bottom left;
 	color: #858585;
 	z-index: 100;
+	text-align: left;
 }
 
 .navbar-toggler {

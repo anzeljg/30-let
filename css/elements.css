@@ -159,42 +159,61 @@
 	z-index:5;
 }
 
-.cover-img#part11,
-.cover-box#part11 {
+/*
+ Naslovne slike za vse dele:
+ */
+.cover-img#plebiscit11,
+.cover-box#plebiscit11 {
 	background-image: url('../media/11/cover11.jpg');
 }
 
-.cover-img#part12,
-.cover-box#part12 {
+.cover-img#plebiscit12,
+.cover-box#plebiscit12 {
 	background-image: url('../media/11/cover12.jpg');
 }
 
-.cover-img#part13,
-.cover-box#part13 {
+.cover-img#plebiscit13,
+.cover-box#plebiscit13 {
 	background-image: url('../media/11/cover13.jpg');
 }
 
-.cover-img#part14,
-.cover-box#part14 {
+.cover-img#plebiscit14,
+.cover-box#plebiscit14 {
 	background-image: url('../media/11/cover14.jpg');
 }
 
-.cover-img#part15,
-.cover-box#part15 {
+.cover-img#plebiscit15,
+.cover-box#plebiscit15 {
 	background-image: url('../media/11/cover15.jpg');
 }
 
-.cover-img#part16,
-.cover-box#part16 {
+.cover-img#plebiscit16,
+.cover-box#plebiscit16 {
 	background-image: url('../media/11/cover16.jpg');
 }
 
-.cover-box#part21 {
+.cover-box#plebiscit21 {
 	background-image: url('../media/12/cover21.jpg');
 }
 
-.cover-box#part31 {
+.cover-box#plebiscit31 {
 	background-image: url('../media/13/cover31.jpg');
+}
+
+.cover-box#samostojnost11 {
+	background-image: url('../media/13/cover31.jpg');
+}
+
+.cover-box#samostojnost21 {
+	background-image: url('../media/13/cover31.jpg');
+}
+
+.cover-box#samostojnost31 {
+	background-image: url('../media/23/cover31.jpg');
+}
+
+.cover-box#samostojnost41 {
+	background-image: url('../media/24/cover31.jpg');
 }
 
 .cover-box-title {
@@ -828,3 +847,23 @@ img#us:hover {
 	z-index: 20;
 }
 
+/* unvisited link */
+a:link {
+	color: #1066c2;
+}
+
+/* visited link */
+a:visited {
+	color: #1066c2;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #1066c2;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #1066c2;
+	text-decoration: underline;
+}
