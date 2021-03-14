@@ -35,9 +35,9 @@
 
 .navbar-title {
 	position: absolute;
-	bottom: 3.6rem;
+	bottom: 2rem;
 	left: 4rem;
-	width: 12rem;
+	width: 20rem;
 	height: 3.6rem;
 	font-family: 'Rubik';
 	font-weight: bold;
@@ -68,7 +68,7 @@
 
 #navbarToggleMenu {
 	position: fixed;
-	width: 45vh;
+	width: 50vh;
 	height: 100vh;
 	line-height: 1.5;
 	left: 4.5rem;
@@ -155,6 +155,7 @@
 
 /* Navbar menu item heights */
 .nh15 { height: 15vh }
+.nh40 { height: 40vh }
 .nh55 { height: 55vh }
 
 /* Previous and Next buttons */
