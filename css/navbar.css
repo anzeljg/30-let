@@ -37,7 +37,7 @@
 	position: absolute;
 	bottom: 3.6rem;
 	left: 4rem;
-	width: 12rem;
+	width: 18rem;
 	height: 3.6rem;
 	font-family: 'Rubik';
 	font-weight: bold;
@@ -47,6 +47,7 @@
 	transform-origin: bottom left;
 	color: #858585;
 	z-index: 100;
+	text-align: left;
 }
 
 .navbar-toggler {

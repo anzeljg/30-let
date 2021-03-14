@@ -63,9 +63,9 @@
 		  <div class="menu-number">1</div>
 		  <div class="menu-title">80. LETA<br />V JUGOSLAVIJI</div>
 		  <div class="menu-items">
-			<a href="#part11">Zadnja leta Jugoslavije</a><br />
-			<a href="#part12">Afera JBTZ</a><br />
-			<a href="#part13">Politična zaostrovanja</a><br />
+			<a href="#samostojnost11">Zadnja leta Jugoslavije</a><br />
+			<a href="#samostojnost12">Afera JBTZ</a><br />
+			<a href="#samostojnost13">Politična zaostrovanja</a><br />
 		  </div>
 		</div>
 		<div class="menu nh15 bt bb" onclick="location.href='samostojnost2.html'">
@@ -139,8 +139,8 @@
 		<!------------------------------
 		//  PART 1
 		//----------------------------->
-		<div class="cover-box rel pointer"><!-- MUST use "rel" -->
-		  <div class="abs cover-img" style="background-image: url('./media/11/cover11.jpg')"></div><!-- Cover over footer -->
+		<div class="cover-box rel pointer" id="samostojnost11"><!-- MUST use "rel" -->
+		  <div class="abs cover-img" id="samostojnost11"></div><!-- Cover over footer -->
 		  <div class="heading-last-diagonal wd"></div>
 		  <div class="cover-box-title">
 			<div class="frame">
@@ -153,14 +153,34 @@
 		<div class="intro-box w80" style="margin-left:-1px">
 		  <div class="h20 flex-row">
 		    <div class="intro-title">
-		    ** TODO **
+				Zadnja leta Jugoslavije
 			</div>
 		  </div>
 		  <div class="h60 flex-row">
 		    <div class="intro-content">
-				Maja 1980 je umrl dosmrtni predsednik Jugoslavije, Josip Broz Tito. V letih po njegovi smrti so se razkrile vse slabosti Jugoslavije, tako na političnem in gospodarskem kot kulturnem področju. Šest republik in dve avtonomni pokrajini, ki so sestavljale skupno državo so se zelo razlikovale po družbenem in gospodarskem razvoju, pestila pa so jih tudi etnična trenja. Že tako napete razmere je dodatno zaostrilo še slabšanje gospodarske situacije. Vse več moči je po Titovi smrti pridobivala tudi Jugoslovanska ljudska armada. Posebej z vzponom <b>Slobodana Miloševića</b> v Srbiji, se je začel vpliv JLA širiti tudi na politične procese v Jugoslaviji.
+				Maja 1980 je umrl dosmrtni predsednik Jugoslavije, Josip Broz Tito. V letih po njegovi smrti so se razkrile vse slabosti Jugoslavije, tako na političnem in gospodarskem kot kulturnem področju. Šest republik in dve avtonomni pokrajini, ki so sestavljale skupno državo so se zelo razlikovale po družbenem in gospodarskem razvoju, pestila pa so jih tudi etnična trenja. Že tako napete razmere je dodatno zaostrilo še slabšanje gospodarske situacije. Vse več moči je po Titovi smrti pridobivala tudi Jugoslovanska ljudska armada. Posebej z vzponom <b><a href="#" id="pokaziPodrobnosti" data-toggle="modal" data-target="#podrobnosti21">Slobodana Miloševića</a></b> v Srbiji, se je začel vpliv JLA širiti tudi na politične procese v Jugoslaviji.
 		    </div>
 		  </div>
+		</div>
+
+		<!-- Modal Podrobnosti o Slobodanu Miloševiću-->
+		<div class="modal fade" id="podrobnosti21" tabindex="-1" role="dialog" aria-labelledby="podrobnosti21" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Slobodan Milošević</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						V 2. polovici 80-ih let prejšnjega stoletja je bil predsednik Centralnega komiteja Zveze komunistov Srbije, med leti 1989 in 1997 predsednik Srbije, 1997-2000 pa predsednik Zvezne republike Jugoslavije. Bil je eden ključnih akterjev v Jugoslovanskih vojnah v 90-ih letih prejšnjega stoletja. Maja 1999 je bil obtožen na Mednarodnem sodišču za vojne zločine na območju nekdanje Jugoslavije. Umrl je v zaporu leta 2006. <img src="/thumb/docs3/bucar.jpg"><br>Slika: Slobodan Milošević (vir: splet)
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Zapri</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="content-box">
@@ -1138,7 +1158,7 @@
 		<div class="heading-box">
 		  <div class="gray-last-diagonal wd"></div>
 		  <div class="heading-next flex-row float-right" id="naprej">
-			<div class="w40">DAN<br />PLEBISCITA</div>
+			<div class="w55">PROCESI<br />DEMOKRATIZACIJE</div>
 		    <img src="img/naprej.svg" id="start">
 		  </div>
 		</div>
