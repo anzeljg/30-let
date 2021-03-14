@@ -201,11 +201,11 @@
 }
 
 .cover-box#samostojnost11 {
-	background-image: url('../media/13/cover31.jpg');
+	background-image: url('../media/21/cover11.jpg');
 }
 
 .cover-box#samostojnost21 {
-	background-image: url('../media/13/cover31.jpg');
+	background-image: url('../media/22/cover21.jpg');
 }
 
 .cover-box#samostojnost31 {
@@ -213,7 +213,7 @@
 }
 
 .cover-box#samostojnost41 {
-	background-image: url('../media/24/cover31.jpg');
+	background-image: url('../media/24/cover41.jpg');
 }
 
 .cover-box-title {
@@ -845,25 +845,4 @@ img#us:hover {
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	z-index: 20;
-}
-
-/* unvisited link */
-a:link {
-	color: #1066c2;
-}
-
-/* visited link */
-a:visited {
-	color: #1066c2;
-}
-
-a:hover {
-	font-weight: bold;
-	color: #1066c2;
-	text-decoration: underline;
-}
-
-a:active {
-	color: #1066c2;
-	text-decoration: underline;
 }

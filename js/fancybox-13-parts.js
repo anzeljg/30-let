@@ -3,7 +3,7 @@ $(document).ready(function() {
 	/*
 	 *  Cover
 	 */
-	$('#part31').click(function () {
+	$('#plebiscit31').click(function () {
 		$.fancybox.open([
 			{
 				src: 'media/13/cover31.jpg',
