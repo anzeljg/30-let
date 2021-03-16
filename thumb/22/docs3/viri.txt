@@ -1,0 +1,13 @@
+govor: Milan Kučan - govor po prvih svobodnih volitvah
+
+plakat_demos: Plakat volilne kampanje Demosa (hrani MNZ)
+
+sestava: Sestava skupščine RS (Matic Čič)
+
+volitve1: Volitve 1990, Večer, 2.4.1990, str. 2
+
+volitve2: VOLITVE 1990 Naša Obramba, št. 3-1990, marec, leto 22, str. 26-27
+
+zh: Zakon o himni, DZ RS (imss.dz-rs.si)
+
+znacka_demos: Primer značke volilne kampanje Demosa (hrani Peter Požar)
