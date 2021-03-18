@@ -1,0 +1,33 @@
+diareja_mladina_1_01: Diareja, Tomaž Lavrič: »JLA prikrito podpira režim Slobodana Miloševića« (Mladina, 1988)
+diareja_mladina_1_02: Diareja, Tomaž Lavrič: »Pendrek« (Mladina, 1989)
+diareja_mladina_1_03: Diareja, Tomaž Lavrič: »Zlepa ali zgrda« (Mladina, 1988)
+diareja_mladina_1_04: Diareja, Tomaž Lavrič: »Delavske stavke« (Mladina, 1988)
+diareja_mladina_1_05: Diareja, Tomaž Lavrič: »Vrtoglava inflacija« (Mladina, 1988)
+diareja_mladina_1_06: Diareja, Tomaž Lavrič: »Jugoslovanska valuta izgublja vrednost« (Mladina, 1988)
+diareja_mladina_1_07: Diareja, Tomaž Lavrič: »Inflacija« (Mladina, 1989)
+diareja_mladina_1_08: Diareja, Tomaž Lavrič: »Slovenija se upira plačevanju« (Mladina, 1988)
+diareja_mladina_1_09: Diareja, Tomaž Lavrič: »Samocenzura« (Mladina, 1988)
+diareja_mladina_1_10: Diareja, Tomaž Lavrič: »Člen 1208« (Mladina, 1988)
+diareja_mladina_1_11: Diareja, Tomaž Lavrič: »Odprava 133. člena« (Mladina, 1990)
+diareja_mladina_1_12: Diareja, Tomaž Lavrič: »Laibach« (Mladina, 1989)
+
+---
+
+diareja_mladina_2_01: Diareja, Tomaž Lavrič: »J. Janša – simbol odpora« (Mladina, 1988)
+diareja_mladina_2_02: Diareja, Tomaž Lavrič: »Cenzura zidov« (Mladina, 1988)
+diareja_mladina_2_03: Diareja, Tomaž Lavrič: »Četverico pošljejo na prestajanje kazni« (Mladina, 1989)
+
+---
+
+diareja_mladina_3_01: Diareja, Tomaž Lavrič: »Zahteve sveta po spoštovanju človekovih pravic so preslišane« (Mladina, 1989)
+diareja_mladina_3_02: Diareja, Tomaž Lavrič: »Nasprotovanje režimu vse bolj množično« (Mladina, 1989)
+diareja_mladina_3_03: Diareja, Tomaž Lavrič: »Policijske sile na Kosovu razganjajo demonstrante s solzivcev« (Mladina, 1989)
+diareja_mladina_3_04: Diareja, Tomaž Lavrič: »Nerazviti« (Mladina, 1989)
+diareja_mladina_3_05: Diareja, Tomaž Lavrič: »Srbski bojkot slovenskih izdelkov« (Mladina, 1989)
+diareja_mladina_3_06: Diareja, Tomaž Lavrič: »Vse selektivnejši bojkot slovenskih izdelkov v Srbiji« (Mladina, 1989)
+
+---
+
+Karikatura Franco Juri »Sklad za nerazvite« - Franco Juri, Jama brez dna, 1990
+
+Karikatura - 133, Večer, 8.10.1988, str. 29
