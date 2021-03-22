@@ -11,3 +11,5 @@ volitve2: VOLITVE 1990 Naša Obramba, št. 3-1990, marec, leto 22, str. 26-27
 zh: Zakon o himni, DZ RS (imss.dz-rs.si)
 
 znacka_demos: Primer značke volilne kampanje Demosa (hrani Peter Požar)
+
+vlada: Interaktivno: Člani prve demokratične slovenske vlade (avtor: Tone Stojko, hrani Muzej novejše zgodovine Slovenije) (S klikom na osebo se izpišeta njeno ime in funkcija.)
