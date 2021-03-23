@@ -1,0 +1,136 @@
+{
+    "title": {
+        "text": {
+          "headline": "Nastanek strank",
+          "text": "<p>Na političnem prizorišču so po desetletjih prepovedanega političnega združevanja in enostrankarskega sistema so konec 1980. let nastale nove zveze in gibanja, ki so prerasle v stranke.</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "./thumb/22/timeline/skz.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "5",
+          "day": "12",
+          "year": "1988"
+        },
+        "text": {
+          "headline": "SKZ",
+          "text": "<p>Slovenska kmečka zveza (SZK) in Zveza slovenske kmečke mladine.</p><p>Vodja stranke: Ivan Oman</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/sdz.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "1",
+          "day": "11",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "SDZ",
+          "text": "<p>Slovenska demokratična zveza (SDZ).</p><p>Vodja stranke: Dimitrij Rupel</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/sdzs.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "2",
+          "day": "16",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "SDZS",
+          "text": "<p>Socialdemokratska zveza Slovenije (SDZS).</p><p>Vodja stranke: France Tomšič</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/skd.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "3",
+          "day": "19",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "SKD",
+          "text": "<p>Slovensko krščansko socialno gibanje (SKSG), kasneje Slovenski krščanski demokrati (SKD).</p><p>Vodja stranke: Peter Kovačič, kasneje Lojze Peterle</p>"
+        }
+      },
+      {
+        "media": {
+          "url": ""
+        },
+        "start_date": {
+          "month": "3",
+          "day": "28",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "MZS",
+          "text": "<p>Meščanska zelena stranka (MZS).</p><p>Vodja stranke: Marek Lenardič</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/zs.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "6",
+          "day": "11",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "ZS",
+          "text": "<p>Ekološko gibanje oziroma Stranka zelenih Slovenije (ZS).</p><p>Vodja stranke: Dušan Plut</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/sos.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "12",
+          "day": "27",
+          "year": "1989"
+        },
+        "text": {
+          "headline": "SOS",
+          "text": "<p>Slovenska obrtniška stranka (SOS), kasneje Liberalna stranka.</p><p>Vodja stranke: Franc Golja</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "./thumb/22/timeline/ssp.png",
+		  "caption": "",
+		  "credit": ""
+        },
+        "start_date": {
+          "month": "1",
+          "day": "18",
+          "year": "1990"
+        },
+        "text": {
+          "headline": "SSP",
+          "text": "<p>Stranka sivih panterjev (SSP).</p><p>Vodja stranke: Dragan Černetič</p>"
+        }
+      }
+    ]
+}
