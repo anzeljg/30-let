@@ -846,3 +846,46 @@ img#us:hover {
 	line-height: 1.5rem;*/
 	z-index: 20;
 }
+
+/*
+ *  Pragraphs of text
+ */
+
+.text-paragraph {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 2vh;
+	line-height: 3vh;
+}
+
+/*
+ *  Different links
+ */
+
+a.popup-link {
+	color: #393939;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.popup-link:active,
+a.popup-link:hover {
+	color: #48AC33;
+}
+
+a.intro-popup-link,
+a.news-popup-link {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.intro-popup-link:active,
+a.intro-popup-link:hover {
+	color: #393939;
+}
+
+a.news-popup-link:active,
+a.news-popup-link:hover {
+	color: #48AC33;
+}
