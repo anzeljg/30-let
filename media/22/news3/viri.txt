@@ -1,14 +1,16 @@
 01: »Konec volilne kampanje, jutri pa volilni molk«, Delo, 6.4.1990, str.1
 02: »Opozicija prepričana v zmago«, Večer, 3.4.1990, str. 2
 03: »K suverenosti naroda in kulture«, Družina, letnik 39, 28.1.1990, str. 2
-04: »Tone Anderlič v Murski Soboti«, Večer, 2.4.1990, str. 2
-05: »Milan Kučan med Primorci«, Večer, 2.4.1990, str.2
-06: »Krščanska odgovornost in prihodnje svobodne volitve«, Družina, letnik 39, 4.2.1990, str. 15
-07: »Prismojeni predvolilni golaž«, Večer, 3.4.1990, str. 2
-08: »Ovadba proti dr. Pučniku«, Naša obramba, št.4, 1990, leto 22, str. 20
-09: »Izjava slovenskih škofov o volitvah«, Družina, letnik 39, 1.4.1990, str. 1
-10: »Izjava o položaju v Sloveniji«, Družina, letnik 39, 4.2.1990, str. 3
-11: »Cerkev in volitve«, Družina, letnik 39, 25.2.1990, str. 6
+04: Kdo se bo potegoval za naklonjenost volivcev, Primorske novice, št. 3, 12.1.1990, str. 2
+05: »Tone Anderlič v Murski Soboti«, Večer, 2.4.1990, str. 2
+06: »Milan Kučan med Primorci«, Večer, 2.4.1990, str.2
+07: »Krščanska odgovornost in prihodnje svobodne volitve«, Družina, letnik 39, 4.2.1990, str. 15
+08: »Prismojeni predvolilni golaž«, Večer, 3.4.1990, str. 2
+09: »Ovadba proti dr. Pučniku«, Naša obramba, št.4, 1990, leto 22, str. 20
+10: Za odpravo enopartijskega sistema, Primorske novice, št. 5, 19.1.1990, str. 2
+11: »Izjava slovenskih škofov o volitvah«, Družina, letnik 39, 1.4.1990, str. 1
+12: »Izjava o položaju v Sloveniji«, Družina, letnik 39, 4.2.1990, str. 3
+13: »Cerkev in volitve«, Družina, letnik 39, 25.2.1990, str. 6
 
 ---
 
@@ -16,6 +18,7 @@
 22: »Ivan Kramberger«, Demokracija, 13.2.1990, str. 3
 23: »Dr. M. Demšar v Celju«, Večer, 2.4.1990, str. 2
 24: »Beseda predsedniških kandidatov«, Naša obramba, št. 2, 1990, leto 22, str. 26
+25: Ivan Kramberger v našem uredništvu, Primorske novice, št. 11, 9.2.1990, str. 3
 
 ---
 
@@ -30,9 +33,13 @@
 42: »Novi obeti«, Družina, letnik 39, 22.4.1990, str. 3
 43: »Izid glasovanja v DPZ«, Naša obramba, št. 4, 1990, leto 22, str. 21
 44: »Demosu se obeta večina«, Večer, 11.4.1990, str. 1
+45: Čas je za demos, Primorske novice, št. 31, 20.4.1990, str. 14
+46: Politične barve na primorskem, Primorske novice, št. 33-34, 27.4.1990, str. 1
+47: DEMOS JE ZMAGAL, Demokracija, izredna številka, 20.4.1990, str. 1
 
 ---
 
+50: Kučan in Pučnik v drugi krog, Primorske novice, 10.4.1990, str. 1
 51: »Kako bomo volili«, Družina, letnik 39, 15.4.1990, str. 7
 52: »V nedeljo bomo spet volili«, Družina, letnik 39, 22.4.1990, str. 4
 53: »Mislim, da je to dober rezultat«, Večer, 9.4.1990, str. 4
@@ -40,6 +47,8 @@
 55: »Kučan predsednik«, Večer, 23.4.1990, str. 1
 56: »Voščilo Milanu Kučanu«, Družina, letnik 39, 6.5.1990, str.1
 57: »Kučan v predsedstvo, Demos v vlado«, Naša obramba, št. 4, 1990, leto 22, str. 20
+58: Drugi krog brez presenečenj, Primorske novice, št. 32, 24.4.1990, str. 1
+59: TOTOvoliTVe, Primorske novice, št. 25, 30.3.1990, str. 3
 
 ---
 
