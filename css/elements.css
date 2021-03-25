@@ -649,8 +649,8 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
@@ -662,8 +662,8 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -675,8 +675,8 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 5vh;
@@ -701,7 +701,7 @@ img#us:hover {
 	background-color: #393939;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1.7vh;
+	font-size: 1.5vh;
 	line-height: 2vh;
 	/*font-size: 0.85rem;
 	line-height: 1rem;*/
@@ -728,8 +728,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-left: 1rem;
@@ -742,8 +742,8 @@ img#us:hover {
 	background: url('../img/rob_moder_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -755,8 +755,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 5vh;
@@ -778,8 +778,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
@@ -791,8 +791,8 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -805,7 +805,7 @@ img#us:hover {
 	background-color: #636363;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 2vh;
+	font-size: 1.5vh; /* 2vh */
 	/*font-size: 1rem;*/
 	line-height: 1rem;	
 }
@@ -851,11 +851,18 @@ img#us:hover {
  *  Pragraphs of text
  */
 
-.text-paragraph {
+.text-level1 {
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
 	font-size: 2vh;
 	line-height: 3vh;
+}
+
+.text-level2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1.5vh;
+	line-height: 2vh;
 }
 
 /*
