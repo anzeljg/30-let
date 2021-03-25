@@ -201,7 +201,7 @@
 }
 
 .cover-box#samostojnost11 {
-	background-image: url('../media/21/karikatura_vecer_133.jpg');
+	background-image: url('../media/21/cover11.jpg');
 }
 
 .cover-box#samostojnost21 {
@@ -649,8 +649,8 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
@@ -662,8 +662,8 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -675,8 +675,8 @@ img#us:hover {
 	color: #393939;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 5vh;
@@ -701,7 +701,7 @@ img#us:hover {
 	background-color: #393939;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1.7vh;
+	font-size: 1.5vh;
 	line-height: 2vh;
 	/*font-size: 0.85rem;
 	line-height: 1rem;*/
@@ -728,8 +728,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-left: 1rem;
@@ -742,8 +742,8 @@ img#us:hover {
 	background: url('../img/rob_moder_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -755,8 +755,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 5vh;
@@ -778,8 +778,8 @@ img#us:hover {
 	color: #FFFFFF;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
@@ -791,8 +791,8 @@ img#us:hover {
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
-	font-size: 2vh;
-	line-height: 3vh;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
 	/*font-size: 1rem;
 	line-height: 1.5rem;*/
 	margin-top: 1rem;
@@ -805,7 +805,7 @@ img#us:hover {
 	background-color: #636363;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 2vh;
+	font-size: 1.5vh; /* 2vh */
 	/*font-size: 1rem;*/
 	line-height: 1rem;	
 }
@@ -847,12 +847,52 @@ img#us:hover {
 	z-index: 20;
 }
 
-a:link.popup-link {
-	color: white;
+/*
+ *  Pragraphs of text
+ */
+
+.text-level1 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 2vh;
+	line-height: 3vh;
+}
+
+.text-level2 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1.5vh;
+	line-height: 2vh;
+}
+
+/*
+ *  Different links
+ */
+
+a.popup-link {
+	color: #393939;
+	font-weight: bold;
 	text-decoration: underline;
 }
 
-a:hover.popup-link {
-	color: white;
+a.popup-link:active,
+a.popup-link:hover {
+	color: #48AC33;
+}
+
+a.intro-popup-link,
+a.news-popup-link {
+	color: #FFFFFF;
 	font-weight: bold;
+	text-decoration: underline;
+}
+
+a.intro-popup-link:active,
+a.intro-popup-link:hover {
+	color: #393939;
+}
+
+a.news-popup-link:active,
+a.news-popup-link:hover {
+	color: #48AC33;
 }
