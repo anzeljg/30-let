@@ -268,9 +268,9 @@
 	padding-top: 0.5vh;
 }
 
-.cover-box-title .green {
+.cover-box-title .green,
+.green {
 	color: #48AC33;
-	
 }
 
 
@@ -895,8 +895,14 @@ img#us:hover {
 }
 
 /*
- *  Different links
+ *  Different popup links & popup photos
  */
+
+.popup-photo {
+	/* original size: 240 x 320 px*/
+	width:  180px; /* 75% */
+	height: 240px; /* 75% */
+}
 
 a.popup-link {
 	color: #393939;
