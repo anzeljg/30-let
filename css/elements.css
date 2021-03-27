@@ -164,61 +164,86 @@
  */
 .cover-img#plebiscit11,
 .cover-box#plebiscit11 {
-	background-image: url('../media/11/cover11.jpg');
+	background-image: url('../media/11/cover111.jpg');
 }
 
 .cover-img#plebiscit12,
 .cover-box#plebiscit12 {
-	background-image: url('../media/11/cover12.jpg');
+	background-image: url('../media/11/cover112.jpg');
 }
 
 .cover-img#plebiscit13,
 .cover-box#plebiscit13 {
-	background-image: url('../media/11/cover13.jpg');
+	background-image: url('../media/11/cover113.jpg');
 }
 
 .cover-img#plebiscit14,
 .cover-box#plebiscit14 {
-	background-image: url('../media/11/cover14.jpg');
+	background-image: url('../media/11/cover114.jpg');
 }
 
 .cover-img#plebiscit15,
 .cover-box#plebiscit15 {
-	background-image: url('../media/11/cover15.jpg');
+	background-image: url('../media/11/cover115.jpg');
 }
 
 .cover-img#plebiscit16,
 .cover-box#plebiscit16 {
-	background-image: url('../media/11/cover16.jpg');
+	background-image: url('../media/11/cover116.jpg');
 }
 
 .cover-box#plebiscit21 {
-	background-image: url('../media/12/cover21.jpg');
+	background-image: url('../media/12/cover121.jpg');
 }
 
 .cover-box#plebiscit31 {
-	background-image: url('../media/13/cover31.jpg');
+	background-image: url('../media/13/cover131.jpg');
 }
 
 .cover-box#samostojnost11 {
-	background-image: url('../media/21/karikatura_vecer_133.jpg');
+	background-image: url('../media/21/cover211.jpg');
 }
 
 .cover-box#samostojnost12 {
-	background-image: url('../media/21/cover22.jpg');
+	background-image: url('../media/21/cover212.jpg');
+}
+
+.cover-box#samostojnost13 {
+	background-image: url('../media/21/cover213.jpg');
 }
 
 .cover-box#samostojnost21 {
-	background-image: url('../media/21/cover21.jpg');
+	background-image: url('../media/22/cover221.jpg');
+}
+
+.cover-box#samostojnost22 {
+	background-image: url('../media/22/cover222.jpg');
+}
+
+.cover-box#samostojnost23a {
+	background-image: url('../media/22/cover223a.jpg');
+}
+
+.cover-box#samostojnost23b {
+	background-image: url('../media/22/cover223b.jpg');
 }
 
 .cover-box#samostojnost31 {
-	background-image: url('../media/23/cover31.jpg');
+	background-image: url('../media/23/cover231.jpg');
+}
+
+.cover-box#samostojnost32 {
+	background-image: url('../media/23/cover232.jpg');
 }
 
 .cover-box#samostojnost41 {
-	background-image: url('../media/24/cover41.jpg');
+	background-image: url('../media/24/cover241.jpg');
 }
+
+.cover-box#samostojnost42 {
+	background-image: url('../media/24/cover241.jpg');
+}
+
 
 .cover-box-title {
 	position: absolute;

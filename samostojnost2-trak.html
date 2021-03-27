@@ -43,8 +43,8 @@
         embed.style.height = getComputedStyle(document.body).height;
         window.timeline = new TL.Timeline('timeline-embed', './thumb/22/timeline/trak-stranke.json', {
             hash_bookmark: false,
-			font: 'georgia-helvetica',
-			language: 'sl'
+			font: './timeline3/css/fonts/font.rubik.css',
+			language: './timeline3/js/locale/sl.json'
         });
         window.addEventListener('resize', function() {
             var embed = document.getElementById('timeline-embed');
