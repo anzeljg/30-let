@@ -201,11 +201,15 @@
 }
 
 .cover-box#samostojnost11 {
-	background-image: url('../media/21/cover11.jpg');
+	background-image: url('../media/21/karikatura_vecer_133.jpg');
+}
+
+.cover-box#samostojnost12 {
+	background-image: url('../media/21/cover22.jpg');
 }
 
 .cover-box#samostojnost21 {
-	background-image: url('../media/22/cover21.jpg');
+	background-image: url('../media/21/cover21.jpg');
 }
 
 .cover-box#samostojnost31 {
