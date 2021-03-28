@@ -241,17 +241,17 @@
 }
 
 .cover-box#samostojnost42 {
-	background-image: url('../media/24/cover241.jpg');
+	background-image: url('../media/24/cover242.jpg');
 }
 
 
 .cover-box-title {
 	position: absolute;
 	display: table; /* For vertically centering the text */
-	width: 80vh;
+	width: 90vh;
 	height: 30vh;
 	margin-top: 35vh;
-	margin-left: 50vh;
+	margin-left: 40vh;
 	padding: 3vh 4vw;
 	color: #000000;
 	font-family: 'Rubik';
@@ -268,9 +268,9 @@
 	padding-top: 0.5vh;
 }
 
-.cover-box-title .green {
+.cover-box-title .green,
+.green {
 	color: #48AC33;
-	
 }
 
 
@@ -686,6 +686,19 @@ img#us:hover {
 	border-left: 3px solid #48AC33;
 }
 
+.side-note-left {
+	color: #393939;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
+	padding-right: 0.75rem;
+	border-right: 3px solid #48AC33;
+	text-align: right
+}
+
 .bottom-note {
 	color: #393939;
 	background: url('../img/rob_zelen_zgoraj.svg') no-repeat top left;
@@ -834,9 +847,9 @@ img#us:hover {
 	background-color: #636363;
 	font-family: 'Courier', monotype;
 	font-weight: bold;
-	font-size: 1.5vh; /* 2vh */
+	font-size: 2vh;
 	/*font-size: 1rem;*/
-	line-height: 1rem;	
+	line-height: 3vh;	
 }
 
 .beige-label {
@@ -895,8 +908,14 @@ img#us:hover {
 }
 
 /*
- *  Different links
+ *  Different popup links & popup photos
  */
+
+.popup-photo {
+	/* original size: 240 x 320 px*/
+	width:  180px; /* 75% */
+	height: 240px; /* 75% */
+}
 
 a.popup-link {
 	color: #393939;

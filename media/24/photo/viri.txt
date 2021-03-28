@@ -1,0 +1,9 @@
+hocem_brata: Svojega brata hočem domov (avtor Nace Bizilj, hrani Muzej novejše zgodovine Slovenije)
+
+postroj: Postroj TO Kočevska reka 17. 12. 1990 (avtor Marjan Garbajs, hrani PVZ)
+
+postroj31, postroj33: Postroj TO Kočevska reka 27. 12. 1990 (avtor Marjan Garbajs, hrani PVZ)
+
+premik: Premik 1 in Premik 2 (avtor M.Garbajs, hrani PVZ)
+
+zasedba_rsto: Igor Bavčar ob zasedbi RŠTO 5.10.1990 (avtor Igor Napast, hrani Večer)
