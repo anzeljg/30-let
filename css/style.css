@@ -92,6 +92,13 @@ footer {
 	border-radius: 0;
 }
 
+/* Add custom close icon to modal windows */
+.close-icon {
+	text-align: right;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
 
 /* Add pointer cursor to point to FancyBox galleries */
 .pointer {

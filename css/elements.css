@@ -220,12 +220,8 @@
 	background-image: url('../media/22/cover222.jpg');
 }
 
-.cover-box#samostojnost23a {
-	background-image: url('../media/22/cover223a.jpg');
-}
-
-.cover-box#samostojnost23b {
-	background-image: url('../media/22/cover223b.jpg');
+.cover-box#samostojnost23 {
+	background-image: url('../media/22/cover223.jpg');
 }
 
 .cover-box#samostojnost31 {
@@ -663,6 +659,24 @@ img#us:hover {
 .beige-last-diagonal {
 	content: '';
 	background: url('../img/diagonala_zakljucna_F0EFD4.svg') no-repeat center left;
+	margin-right: auto;
+	height: 100vh;
+	width: 10vw;
+	z-index: 10;
+}
+
+.silver-first-diagonal {
+	content: '';
+	background: url('../img/diagonala_zacetna_srebrna.svg') no-repeat center right;
+	margin-left: auto;
+	height: 100vh;
+	width: 10vw;
+	z-index: 10;
+}
+
+.silver-last-diagonal {
+	content: '';
+	background: url('../img/diagonala_zakljucna_srebrna.svg') no-repeat center left;
 	margin-right: auto;
 	height: 100vh;
 	width: 10vw;
