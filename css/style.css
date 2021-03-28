@@ -156,6 +156,7 @@ footer {
 /* Margins used in flex positioning */
 .ml1rem { margin-left: 1rem }
 .ma1rem { margin: 1rem }
+.mr1rem { margin-right: 1rem }
 .ml2 { margin-left: 2vh }
 .mr2 { margin-right: 2vh }
 .mb2 { margin-bottom: 2vh }
