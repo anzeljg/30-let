@@ -1,8 +1,8 @@
 {
     "title": {
         "text": {
-          "headline": "NASTANEK STRANK",
-          "text": "<p>Na političnem prizorišču so po desetletjih prepovedanega političnega združevanja in enostrankarskega sistema so konec 1980. let nastale nove zveze in gibanja, ki so prerasle v stranke.</p>"
+          "headline": "Nastanek najpomembnejših opozicijskih strank",
+          "text": ""
         }
     },
     "events": [
@@ -10,7 +10,7 @@
         "media": {
           "url": "./thumb/22/timeline/skz.png",
 		  "caption": "",
-		  "credit": "wikipedija, splet"
+		  "credit": "Spletni vir: Wikipedija"
         },
         "start_date": {
           "month": "5",
@@ -26,7 +26,7 @@
         "media": {
           "url": "./thumb/22/timeline/sdz.png",
 		  "caption": "",
-		  "credit": "demos.nakamniskem.si, splet"
+		  "credit": "Spletni vir: demos.nakamniskem.si"
         },
         "start_date": {
           "month": "1",
@@ -42,7 +42,7 @@
         "media": {
           "url": "./thumb/22/timeline/sdzs.png",
 		  "caption": "",
-		  "credit": "sds.si, splet"
+		  "credit": "Spletni vir: sds.si"
         },
         "start_date": {
           "month": "2",
@@ -58,7 +58,7 @@
         "media": {
           "url": "./thumb/22/timeline/skd.png",
 		  "caption": "",
-		  "credit": "plakat Demos, hrani MNZ"
+		  "credit": "Spletni vir: demos.nakamniskem.si"
         },
         "start_date": {
           "month": "3",
@@ -88,7 +88,7 @@
         "media": {
           "url": "./thumb/22/timeline/zs.png",
 		  "caption": "",
-		  "credit": "plakat Demos, hrani MNZ"
+		  "credit": "Spletni vir: nova24tv.si"
         },
         "start_date": {
           "month": "6",
@@ -102,9 +102,7 @@
       },
       {
         "media": {
-          "url": "./thumb/22/timeline/sos.png",
-		  "caption": "",
-		  "credit": "plakat Demos, hrani MNZ"
+          "url": ""
         },
         "start_date": {
           "month": "12",
@@ -120,7 +118,7 @@
         "media": {
           "url": "./thumb/22/timeline/ssp.png",
 		  "caption": "",
-		  "credit": "slovenskenovice.si, splet"
+		  "credit": "Spletni vir: slovenskenovice.si"
         },
         "start_date": {
           "month": "1",

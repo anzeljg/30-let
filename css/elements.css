@@ -933,7 +933,7 @@ img#us:hover {
 
 a.popup-link {
 	color: #393939;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-decoration: underline;
 }
 
@@ -945,7 +945,7 @@ a.popup-link:hover {
 a.intro-popup-link,
 a.news-popup-link {
 	color: #FFFFFF;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	text-decoration: underline;
 }
 
