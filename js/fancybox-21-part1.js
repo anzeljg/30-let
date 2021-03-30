@@ -3252,10 +3252,10 @@ $(document).ready(function() {
 	$('#slika_pankrti').click(function () {
 		$.fancybox.open([
 			{
-				src: 'media/21/photo1/pankrti.jpg',
+				src: 'media/21/photo/pankrti.jpg',
 				opts : {
 					caption : 'Vir: 18.4.1980, Študentsko naselje, skupina Pankrti, avtor Janez Bogataj, hrani Muzej novejše zgodovine Slovenije',
-					thumb   : 'thumb/21/photo1/pankrti.jpg'
+					thumb   : 'thumb/21/photo/pankrti.jpg'
 				}
 			},
 		], {
