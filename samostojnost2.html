@@ -30,6 +30,11 @@
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/elements.css" rel="stylesheet">
     <link href="css/parallax.css" rel="stylesheet">
+
+	<!-- Image map CSS -->
+	<style>
+	  area { cursor: pointer; }
+	</style>
 </head>
 
 <body>
@@ -537,6 +542,24 @@
 		</div>
 	</div>
 
+	<!-- Modal: Prva vlada -->
+	<!-- dinamično spreminjanje podatkov za vsakega člana prve vlade -->
+	<div class="modal fade" id="prva_vlada" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-level1">
+					<div class="close-icon">
+					  <span data-dismiss="modal" aria-label="Zapri">
+						<img src="img/icon_zapri_siva.svg">
+					  </span>
+					</div>
+					<p id="oseba_ime">Janez Novak</p>
+					<p id="oseba_funkcija" class="bottom-note">funkcija, ki jo opravlja</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Main page content -->
     <div class="main-content">
@@ -869,21 +892,6 @@
 		</div>
 
 		<div class="content-box">
-	      <div class="flex-column ml8">
-			<div class="h80 mt-auto mb-auto">
-			  <div><img src="thumb/22/docs1/himna1.jpg" class="h80 pointer" id="docs1_himna"></div>
-			</div>
-		  </div>
-	      <div class="flex-column ml1rem">
-		    <div class="content-box-inner flex-column">
-			  <div class="side-note w25 mb-auto">
-			  Zakon o himni
-			  </div>
-			</div>
-		  </div>
-		</div>
-
-		<div class="content-box">
 		  <div class="content-box-inner gallery-2rows-zigzag h70 ml8 flex-zigzag pointer" style="width:140vh" id="docs1_zvs">
 			<div class="gallery-zigzag-item">
 			  <img src="thumb/22/docs1/zvs01.jpg" class="p2">
@@ -1074,12 +1082,12 @@
 		<div class="content-box">
 	      <div class="flex-column ml8">
 			<div class="h80 mt-auto mb-auto">
-			  <div><img src="media/22/docs2/sporazum_demos1.jpg" class="h80 pointer" id="docs1_himna"></div>
+			  <div><img src="media/22/docs2/sporazum_demos1.jpg" class="h80 pointer" id="docs2_demos"></div>
 			</div>
 		  </div>
 	      <div class="flex-column ml4 mr8">
 			<div class="h80 mt-auto mb-auto">
-			  <div><img src="media/22/docs2/sporazum_demos2.jpg" class="h80 pointer" id="docs1_himna"></div>
+			  <div><img src="media/22/docs2/sporazum_demos2.jpg" class="h80 pointer" id="docs2_demos"></div>
 			</div>
 		  </div>
 		</div>
@@ -1236,7 +1244,7 @@
 		<div class="content-box">
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/22/docs1/himna2.jpg" class="h50 pointer" id="docs1_himna">
+			  <img src="thumb/22/docs3/himna2.jpg" class="h50 pointer" id="docs3_himna">
 			  <div class="bottom-note w30">
 			    Zakon o himni
 			  </div>
@@ -1244,7 +1252,7 @@
 		  </div>
 	      <div class="flex-column ml2">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/22/docs1/himna3.jpg" class="h50 pointer" id="docs1_himna">
+			  <img src="thumb/22/docs3/himna3.jpg" class="h50 pointer" id="docs3_himna">
 			</div>
 		  </div>
 	      <div class="flex-column ml4 mr8">
@@ -1473,7 +1481,36 @@
 		<div class="content-box">
 	      <div class="flex-row ml8 mr8">
 			<div class="h100 mb-auto">
-			  <img src="media/22/photo/vlada.jpg" class="h100">
+			  <!--<img src="media/22/photo/prva_vlada.jpg" class="h100">-->
+			  <img src="media/22/photo/prva_vlada.jpg" class="h100" usemap="#map">
+			  <map name="map">
+				<area shape="circle" coords="136,485,20" title="Viktor Brezar" onclick="showPerson('oseba01')" />
+				<area shape="circle" coords="202,470,20" title="Miha Tomšič" onclick="showPerson('oseba02')" />
+				<area shape="circle" coords="228,509,20" title="Izidor Rejc" onclick="showPerson('oseba03')" />
+				<area shape="circle" coords="256,480,20" title="Jožef Osterc" onclick="showPerson('oseba04')" />
+				<area shape="circle" coords="297,491,20" title="Ingo Paš" onclick="showPerson('oseba05')" />
+				<area shape="circle" coords="348,479,20" title="Peter Vencelj" onclick="showPerson('oseba06')" />
+				<area shape="circle" coords="375,508,20" title="Marko Kranjec" onclick="showPerson('oseba07')" />
+				<area shape="circle" coords="429,497,20" title="Andrej Capuder" onclick="showPerson('oseba08')" />
+				<area shape="circle" coords="485,509,20" title="Jožefa Puhar" onclick="showPerson('oseba09')" />
+				<area shape="circle" coords="510,479,20" title="Janez Janša" onclick="showPerson('oseba10')" />
+				<area shape="circle" coords="545,498,20" title="Lojze Peterle" onclick="showPerson('oseba11')" />
+				<area shape="circle" coords="578,493,19" title="Peter Tancig" onclick="showPerson('oseba12')" />
+				<area shape="circle" coords="599,464,20" title="Igor Bavčar" onclick="showPerson('oseba13')" />
+				<area shape="circle" coords="611,515,20" title="Katja Boh" onclick="showPerson('oseba14')" />
+				<area shape="circle" coords="642,476,20" title="Marjan Kranjc" onclick="showPerson('oseba15')" />
+				<area shape="circle" coords="665,508,20" title="Matija Malešič" onclick="showPerson('oseba16')" />
+				<area shape="circle" coords="713,473,20" title="Miha Jazbinšek" onclick="showPerson('oseba17')" />
+				<area shape="circle" coords="718,513,20" title="Franc Godeša" onclick="showPerson('oseba18')" />
+				<area shape="circle" coords="774,498,20" title="Leopold Šešerko" onclick="showPerson('oseba19')" />
+				<area shape="circle" coords="814,496,20" title="Igor Umek" onclick="showPerson('oseba20')" />
+				<area shape="circle" coords="853,486,20" title="Dimitrij Rupel" onclick="showPerson('oseba21')" />
+				<area shape="circle" coords="867,527,20" title="Maks Bastl" onclick="showPerson('oseba22')" />
+				<area shape="circle" coords="893,496,20" title="Rajko Pirnat" onclick="showPerson('oseba23')" />
+				<area shape="circle" coords="934,510,20" title="Alojz Janko" onclick="showPerson('oseba24')" />
+				<area shape="circle" coords="1022,502,20" title="Jože Mencinger" onclick="showPerson('oseba25')" />
+				<area shape="circle" coords="1076,504,20" title="Stane Stanič" onclick="showPerson('oseba26')" />
+			  </map>
 			</div>
 		    <div class="content-box-inner ml1rem">
 		      <div class="side-note w25">
@@ -1600,6 +1637,55 @@ $(function() {
 	});
 
 });
+</script>
+
+<!-- Interaktivnost: prva vlada -->
+<!----- Image map JavaScript ----->
+<script src="js/image-map.js"></script>
+<script>
+/* JavaScript */
+ImageMap('img[usemap]', 0);
+
+/* jQuery */
+//$('img[usemap]').imageMap(500);
+
+/* Podatki o osebah v vladi */
+var osebe = {
+	'oseba01': ['Viktor Brezar', 'predsednik Republiškega komiteja za drobno gospodarstvo'],
+	'oseba02': ['Miha Tomšič', 'predsednik Republiškega komiteja za energetiko'],
+	'oseba03': ['Izidor Rejc', 'predsednik Republiškega komiteja za industrijo in gradbeništvo'],
+	'oseba04': ['Jožef Osterc', 'predsednik Republiškega komiteja za kmetijstvo', 'gozdarstvo in prehrano'],
+	'oseba05': ['Ingo Paš', 'predsednik Republiškega komiteja za turizem in gostinstvo'],
+	'oseba06': ['Peter Vencelj', 'predsednik Republiškega komiteja za vzgojo in izobraževanje'],
+	'oseba07': ['Marko Kranjec', 'republiški sekretar za finance'],
+	'oseba08': ['Andrej Capuder', 'predsednik Republiškega komiteja za kulturo'],
+	'oseba09': ['Jožefa Puhar', 'predsednica Republiškega komiteja za delo'],
+	'oseba10': ['Janez Janša', 'republiški sekretar za ljudsko obrambo'],
+	'oseba11': ['Lojze Peterle', 'predsednik vlade'],
+	'oseba12': ['Peter Tancig', 'predsednik Republiškega komiteja za raziskovalno dejavnost in tehnologijo'],
+	'oseba13': ['Igor Bavčar', 'republiški sekretar za notranje zadeve'],
+	'oseba14': ['Katja Boh', 'predsednica Republiškega komiteja za zdravstvo in socialno varstvo'],
+	'oseba15': ['Marjan Kranjc', 'predsednik Republiškega komiteja za promet in zveze'],
+	'oseba16': ['Matija Malešič', 'podpredsednik vlade', 'predsednik Republiškega komiteja za družbene dejavnosti'],
+	'oseba17': ['Miha Jazbinšek', 'predsednik Republiškega komiteja za varstvo okolja in urejanje prostora'],
+	'oseba18': ['Franc Godeša', 'predsednik Republiškega komiteja za borce in vojaške invalide'],
+	'oseba19': ['Leopold Šešerko', 'podpredsednik vlade', 'predsednik Republiškega komiteja za varstvo okolja in regionalni razvoj'],
+	'oseba20': ['Igor Umek', 'predsednik Republiškega komiteja za družbeno planiranje'],
+	'oseba21': ['Dimitrij Rupel', 'predsednik Republiškega komiteja za mednarodno sodelovanje'],
+	'oseba22': ['Maks Bastl', 'predsednik Republiškega komiteja za trgovino'],
+	'oseba23': ['Rajko Pirnat', 'republiški sekretar za pravosodje in upravo'],
+	'oseba24': ['Alojz Janko', 'predsednik Republiškega komiteja za zakonodajo'],
+	'oseba25': ['Jože Mencinger', 'podpredsednik vlade', 'predsednik Republiškega komiteja za gospodarstvo'],
+	'oseba26': ['Stane Stanič', 'predsednik Republiškega komiteja za informiranje']
+};
+
+function showPerson(oseba) {
+	var name = osebe[oseba][0];
+	var func = osebe[oseba][1];
+	$('#oseba_ime').html(name);
+	$('#oseba_funkcija').html(func);
+	$('#prva_vlada').modal('show');
+}
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

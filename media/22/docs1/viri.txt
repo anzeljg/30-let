@@ -1,7 +1,5 @@
 amandmaji: Ustavni amandmaji (vir: Uradni list Socialistične Republike Slovenije, št. 32, 2.10.1989)
 
-himna: Zakon o himni (vir: arhiv državnega zbora)
-
 zpz: Zakon o političnem združevanju (Arhiv DZ)
 
 zvs: Zakon o volitvah v skupščine, 27.12.1989 (DZ RS-splet)
