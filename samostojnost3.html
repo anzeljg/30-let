@@ -1099,11 +1099,9 @@
 
 		<div class="heading-box">
 		  <div class="gray-last-diagonal wd"></div>
-		  <div class="heading-next flex-row float-right">
-			<div class="w35">
-				VARNOSTNI<br />VIDIKI<br />
-			</div>
-			  <img src="img/naprej.svg" id="start">
+		  <div class="heading-next flex-row float-right" id="naprej">
+			<div class="w55">VARNOSTNI<br />VIDIKI</div>
+		    <img src="img/naprej.svg" id="start">
 		  </div>
 		</div>
 
@@ -1186,6 +1184,13 @@ $(function() {
 		touchMove: true,
 		swipeToSlide: true,
 		swipe: true
+	});
+
+	/*
+	 *  Advance to next part
+	 */
+	$('#naprej').click(function(event){
+		window.location.href = 'samostojnost4.html';
 	});
 
 });
