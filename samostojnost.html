@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="sl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+	<!-- Force landscape mode -->
+	<link rel="manifest" href="manifest.json">
+
+    <title>Zbrali smo pogum</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this site -->
+    <link href="css/landing.css" rel="stylesheet">
+</head>
+
+<body id="samostojnost">
+
+	<!-- Device orientation -->
+    <div id="device-orientation">
+	  <center>
+	    <div id="orientation-box">
+	      <p><img src="img/list_desno.svg" style="height:20vh"></p>
+	      <p>Ta stran se vidi najbolje, če
+		  <br />je naprava obrnjena vodoravno.</p>
+	    </div>
+	  </center>
+	</div>
+
+	<!-- Content -->
+	<div class="video">
+
+	  <div style="text-align:center;padding-top:7vh;">
+<!--
+		<video class="intro-video" controls>
+		  <source src="https://video.arnes.si/portal/video/api/asset/eNYpgESWMmC8GRdmX3VjjJEq/play.mp4
+	" type="video/mp4">
+		  Brskalnik ne podpira oznake video.
+		</video>
+		<br />
+		<div class="btn-group btn-group-sm" role="group" aria-label="Ločljivost">
+		  <button id="sd" type="button" class="btn button-on">SD</button>
+		  <button id="hd" type="button" class="btn button-off">HD</button>
+		</div>
+//-->
+		<img src="img/video_disabled.svg" class="intro-video">
+	  </div>
+	</div>
+
+	<div id="banner">
+		<img src="img/naprej.svg" id="start" class="float-right">
+		OGLED<br />RAZSTAVE
+	</div>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom JavaScript for this site -->
+<script>
+/*
+    $('#sd').click(function(event){
+		$('#sd').toggleClass('button-on');
+		$('#sd').toggleClass('button-off');
+		$('#hd').toggleClass('button-on');
+		$('#hd').toggleClass('button-off');
+		$('#video source').attr('src', 'https://video.arnes.si/portal/video/api/asset/eNYpgESWMmC8GRdmX3VjjJEq/play.mp4');
+		$('video')[0].load();
+	});
+
+    $('#hd').click(function(event){
+		$('#sd').toggleClass('button-on');
+		$('#sd').toggleClass('button-off');
+		$('#hd').toggleClass('button-on');
+		$('#hd').toggleClass('button-off');
+		$('#video source').attr('src', 'https://video.arnes.si/portal/video/api/asset/R2QZtO5P5Rc9EVkMdkHW2Uhv/play.mp4');
+		$('video')[0].load();
+	});
+*/
+
+	$('#banner').click(function(event){
+		window.location.href = 'samostojnost1.html';
+	});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66REXS9BK3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-66REXS9BK3');
+</script>
+
+</body>
+</html>

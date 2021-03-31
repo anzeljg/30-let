@@ -313,23 +313,3 @@ footer {
 	}
 
 }
-
-.modal-naslov {
-	height: 24px;
-	color: #48AC33;
-	font-family: Rubik;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 0.05px;
-	line-height: 24px;
-}
-
-.zbirka-fotografij {
-	height: 90px;
-	color: #FFFFFF;
-	font-family: Courier;
-	font-size: 21px;
-	font-weight: bold;
-	letter-spacing: 0.08px;
-	line-height: 30px;
-}
