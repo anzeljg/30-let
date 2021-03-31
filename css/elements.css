@@ -528,6 +528,10 @@
 	background-image: url('../media/12/glasovanje.jpg');
 }
 
+.image-box#skupscina1 {
+	background-image: url('../media/23/skupscina.jpg');
+}
+
 
 /*
  *  Supporting countries container box
@@ -779,6 +783,36 @@ img#us:hover {
 	z-index: 20;
 }
 
+.blue-speech {
+	padding: 1.5rem 2.5rem 1.5rem 3.5rem;
+	color: #FFFFFF;
+	background: url('../img/icon_zapri.svg') no-repeat top left;
+	background-color: #0C55A3;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 2vh;
+	line-height: 3vh;
+	z-index: 20;
+	overflow-y: scroll;
+}
+
+.blue-speech::-webkit-scrollbar {
+ width: 15px;
+ height: 30px;
+}
+.blue-speech::-webkit-scrollbar-thumb {
+ background: #FFFFFF;
+ border: 6px solid #0C55A3;
+ border-radius: 3px;
+}
+.blue-speech::-webkit-scrollbar-thumb:hover{
+ background: #266FBD; /* 10% lighter than #0C55A3 */
+}
+.blue-speech::-webkit-scrollbar-track{
+ background: #0C55A3;
+ border-radius: 3px;
+}
+
 .more-side-note {
 	position: absolute;
 	color: #FFFFFF;
@@ -957,4 +991,21 @@ a.intro-popup-link:hover {
 a.news-popup-link:active,
 a.news-popup-link:hover {
 	color: #48AC33;
+}
+
+/*
+ *  Custom styles for Chart.js
+ */
+
+.chart1,
+.chart2 {
+	background-color: #FFFFFF;
+}
+
+.chart-container {
+	position: relative;
+	margin: auto;
+	height: 30vh;
+	width: 50vh;
+	background-color: #FFFFFF;
 }

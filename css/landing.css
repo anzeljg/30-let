@@ -28,6 +28,13 @@ body#plebiscit {
 	background-image: url('../img/plebiscit_video_bg.jpg');
 }
 
+body#samostojnost {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/samostojnost_video_bg.jpg');
+}
+
 a {
 	color: #0C55A3;
 }
@@ -102,6 +109,10 @@ a {
 
 .button#plebiscit {
 	background-image: url('../img/plebiscit_button_bg.jpg');
+}
+
+.button#samostojnost {
+	background-image: url('../img/samostojnost_button_bg.jpg');
 }
 
 .button-on {
