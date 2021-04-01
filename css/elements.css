@@ -714,7 +714,7 @@ img#us:hover {
 	line-height: 1.5rem;*/
 	padding-right: 0.75rem;
 	border-right: 3px solid #48AC33;
-	text-align: right
+	text-align: right;
 }
 
 .bottom-note {
@@ -874,6 +874,19 @@ img#us:hover {
 	line-height: 1.5rem;*/
 	padding-left: 0.75rem;
 	border-left: 3px solid #48AC33;
+}
+
+.news-note-left {
+	color: #FFFFFF;
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-size: 1.5vh; /* 2vh */
+	line-height: 2vh; /* 3vh */
+	/*font-size: 1rem;
+	line-height: 1.5rem;*/
+	padding-right: 0.75rem;
+	border-right: 3px solid #48AC33;
+	text-align: right;
 }
 
 .news-bottom-note {

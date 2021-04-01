@@ -71,7 +71,9 @@ a {
 
 /* Width & height */
 .w25 { width: 25vw }
+.w30 { width: 30vw }
 .w33 { width: 33.33333vw }
+.w40 { width: 40vw }
 .w50 { width: 50vw }
 .h20 { height: 20vh }
 .h80 { height: 80vh }
