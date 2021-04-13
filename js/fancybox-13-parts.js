@@ -6,10 +6,10 @@ $(document).ready(function() {
 	$('#plebiscit31').click(function () {
 		$.fancybox.open([
 			{
-				src: 'media/13/cover31.jpg',
+				src: 'media/13/cover131.jpg',
 				opts : {
 					caption : 'Vir: Tone Stojko, fototeka Muzeja novejše zgodovine Slovenije.',
-					thumb   : 'media/13/cover31.jpg'
+					thumb   : 'media/13/cover131.jpg'
 				}
 			},
 		], {

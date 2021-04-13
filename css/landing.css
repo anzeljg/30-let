@@ -110,11 +110,15 @@ a {
 }
 
 .button#plebiscit {
+	background-size: 40vw auto;
 	background-image: url('../img/plebiscit_button_bg.jpg');
+	background-position: 50% 40%;
 }
 
 .button#samostojnost {
+	background-size: 40vw auto;
 	background-image: url('../img/samostojnost_button_bg.jpg');
+	background-position: 50% 20%;
 }
 
 .button-on {

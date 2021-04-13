@@ -655,7 +655,7 @@
 		  </div>
 
 	      <div class="news-single h60 mt-auto mb-auto" style="width:60vh">
-			<img src="media/22/news1/02.jpg" style="width:57vh;height:60vh" class="p2 pointer" id="news1_2">
+			<img src="media/22/news1/02.jpg" style="width:57vh;height:60vh" class="p2 pointer" id="ustanovitev_skz">
 		  </div>
 
 		  <div class="content-box-inner h60 flex-column ml8 mr4">
@@ -682,7 +682,7 @@
 		  </div>
 
 	      <div class="news-single h100 mt-auto mb-auto" style="width:70vh">
-			<img src="media/22/photo/ustanovitev_sdz.jpg" style="width:66vh;height:100vh" class="pointer" id="photo22_1">
+			<img src="media/22/photo/ustanovitev_sdz.jpg" style="width:66vh;height:100vh" class="pointer" id="ustanovitev_sdz">
 		  </div>
 
 		  <div class="content-box-inner flex-column-space">
@@ -816,7 +816,7 @@
 		  <div class="content-box-inner flex-column-space">
 			<div class="mt-auto ml8 mr8">
 		      <div class="flex-column">
-				<img src="media/22/diareja_mladina_1_02.jpg" class="h50 pointer" id="diareja_mladina_1_01">
+				<img src="media/22/diareja_mladina_1_02.jpg" class="h50 pointer" id="diareja_mladina_1_02">
 			    <div class="bottom-note w60 mb-auto">
 				  Ustanovljena prva ekološka stranka pri nas
 			    </div>
@@ -1008,7 +1008,7 @@
 		  <div class="content-box-inner flex-column-space">
 			<div class="mt-auto ml8 mr8">
 		      <div class="flex-column">
-				<img src="media/22/diareja_mladina_1_03.jpg" class="h50 pointer" id="diareja_mladina_1_01">
+				<img src="media/22/diareja_mladina_1_03.jpg" class="h50 pointer" id="diareja_mladina_1_03">
 			    <div class="bottom-note w60 mb-auto">
 				  Politika izgublja podporo ljudstva
 			    </div>
@@ -1228,7 +1228,7 @@
 		  </div>
 		  <div class="h50 flex-row">
 		    <div class="flex-column">
-			  <img src="thumb/22/docs3/znacka_demos.png" class="h40 pointer" id="docs3_znacka">
+			  <img src="thumb/22/docs3/priponka_demos.png" class="h40 pointer" id="docs3_priponka">
 			  <div class="bottom-note w40">
 				Primer priponke volilne kampanje Demosa.
 				<br /><br />
@@ -1269,10 +1269,10 @@
 		  <div class="gray-last-diagonal wd"></div>
 		</div>
 
-		<div class="content-box">
+		<div class="content-box" id="docs3_himna">
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/22/docs3/himna2.jpg" class="h50 pointer" id="docs3_himna">
+			  <img src="thumb/22/docs3/himna2.jpg" class="h50 pointer">
 			  <div class="bottom-note w30">
 			    Zakon o himni
 			  </div>
@@ -1280,9 +1280,12 @@
 		  </div>
 	      <div class="flex-column ml2">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/22/docs3/himna3.jpg" class="h50 pointer" id="docs3_himna">
+			  <img src="thumb/22/docs3/himna3.jpg" class="h50 pointer">
 			</div>
 		  </div>
+		</div>
+
+		<div class="content-box">
 	      <div class="flex-column ml4 mr8">
 			<div class="text-level2 h60 w20 mt-auto mb-auto">
 			  V času priprav na volitve je bil 29. marca 1990 sprejet Zakon o himni Republike Slovenije, v Ljubljani pa je bila odprta tudi prva borza vrednostnih papirjev na območju nekdanjih socialističnih držav, ki je sledila tržnemu sistemu.
@@ -1293,7 +1296,7 @@
 		<div class="content-box">
 	      <div class="flex-column ml8 mr8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="media/22/news3/21.jpg" class="h50 pointer" id="news3_2">
+			  <img src="media/22/news3/21.png" class="h50 pointer" id="volitve_pred_durmi">
 			</div>
 		  </div>
 		</div>
@@ -1518,8 +1521,7 @@
 		<div class="content-box">
 	      <div class="flex-row ml8">
 			<div class="h100 mb-auto">
-			  <!--<img src="media/22/photo/prva_vlada.jpg" class="h100">-->
-			  <img src="media/22/photo/prva_vlada.jpg" class="h100" usemap="#map">
+			  <img src="media/22/photo/prva_vlada.jpg" class="h100 pointer" id="prva_vlada_imagemap" usemap="#map">
 			  <map name="map">
 				<area shape="circle" coords="136,485,20" title="Viktor Brezar" onclick="showPerson('oseba01')" />
 				<area shape="circle" coords="202,470,20" title="Miha Tomšič" onclick="showPerson('oseba02')" />
@@ -1584,9 +1586,7 @@
 
 <!-- FancyBox 3 JavaScript -->
 <script src="js/jquery.fancybox.min.js"></script>
-<!--
 <script src="js/fancybox-22-parts.js"></script>
-//-->
 <script src="js/fancybox-22-video.js"></script>
 
 <!-- Custom JavaScript for this site -->
@@ -1723,11 +1723,16 @@ var osebe = {
 };
 
 function showPerson(oseba) {
-	var name = osebe[oseba][0];
-	var func = osebe[oseba][1];
-	$('#oseba_ime').html(name);
-	$('#oseba_funkcija').html(func);
-	$('#prva_vlada').modal('show');
+	//if oseba != 'info' {
+		var name = osebe[oseba][0];
+		var func = osebe[oseba][1];
+		$('#oseba_ime').html(name);
+		$('#oseba_funkcija').html(func);
+		$('#prva_vlada').modal('show');
+	/*}
+	else {
+		alert('clicked');
+	}*/
 }
 </script>
 
