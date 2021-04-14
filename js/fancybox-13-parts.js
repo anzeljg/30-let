@@ -270,6 +270,13 @@ $(document).ready(function() {
 					thumb   : 'thumb/13/cestitke/20.jpg'
 				}
 			},
+			{
+				src: 'media/13/cestitke/21.jpg',
+				opts : {
+					caption : 'Vir: Arhiv RS, AS 2057, Urad Vlade RS za informiranje, šk. 84.<br>Arhiv Državnega zbora RS, fond Skupščina SR Slovenije, šk. 5, št. zadeve: 000-01/90-3.',
+					thumb   : 'thumb/13/cestitke/21.jpg'
+				}
+			},
 		], {
 			loop: false,
 			buttons: ["zoom", "thumbs", "close"],
