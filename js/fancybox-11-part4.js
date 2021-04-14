@@ -46,15 +46,50 @@ $(document).ready(function() {
 			{
 				src: 'media/11/docs4/plakat1.jpg',
 				opts : {
-					caption : 'Vir: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
 					thumb   : 'thumb/11/docs4/plakat1.jpg'
 				}
 			},
 			{
 				src: 'media/11/docs4/plakat2.jpg',
 				opts : {
-					caption : 'Vir: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
 					thumb   : 'thumb/11/docs4/plakat2.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/plakat3.jpg',
+				opts : {
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					thumb   : 'thumb/11/docs4/plakat3.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/plakat4.jpg',
+				opts : {
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					thumb   : 'thumb/11/docs4/plakat4.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/plakat_sl.jpg',
+				opts : {
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					thumb   : 'thumb/11/docs4/plakat_sl.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/plakat_hu.jpg',
+				opts : {
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					thumb   : 'thumb/11/docs4/plakat_hu.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/plakat_it.jpg',
+				opts : {
+					caption : 'Vir: Uradni oglaševalski elementi (plakati, obešanke, priponke, spominska stojka) iz medijske kampanje v podporo plebiscitu.<br />Avtor: Jure Apih & Futura, Zbirka plakatov, letakov in transparentov Muzeja novejše zgodovine Slovenije in gradivo iz zbirk Slovenskega etnografskega muzeja.',
+					thumb   : 'thumb/11/docs4/plakat_it.jpg'
 				}
 			},
 		], {
@@ -174,10 +209,213 @@ $(document).ready(function() {
 	$('#docs4_ideja').click(function () {
 		$.fancybox.open([
 			{
-				src: 'media/11/docs4/ideja01.jpg',
+				src: 'media/11/docs4/idejni_projekt/ideja01.jpg',
 				opts : {
 					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
-					thumb   : 'thumb/11/docs4/ideja01.jpg'
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja01.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja02.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja02.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja03.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja03.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja04.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja04.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja05.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja05.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja06.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja06.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja07.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja07.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja08.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja08.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja09.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja09.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja10.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja10.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja11.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja11.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja12.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja12.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja13.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja13.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja14.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja14.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja15.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja15.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja16.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja16.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja17.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja17.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja18.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja18.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja19.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja19.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja20.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja20.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja21.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja21.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja22.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja22.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja23.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja23.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja24.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja24.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja25.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja25.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja26.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja26.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja27.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja27.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja28.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja28.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja29.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja29.jpg'
+				}
+			},
+			{
+				src: 'media/11/docs4/idejni_projekt/ideja30.jpg',
+				opts : {
+					caption : 'Vir: Arhiv Vlade RS, št. zadeve: 402-09/90-33/4-1.',
+					thumb   : 'thumb/11/docs4/idejni_projekt/ideja30.jpg'
 				}
 			},
 		], {
