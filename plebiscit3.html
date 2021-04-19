@@ -589,11 +589,8 @@
 		<div class="heading-box">
 		  <div class="green-last-diagonal wd"></div>
 		  <div class="heading-next flex-row float-right">
-			<div class="w50">
-			  PRIHODNJA<br />RAZSTAVA<br />
-			  <!--<button class="btn btn-success">SPOMNI ME</button>-->
-			  bo maja 2021 ...
-			</div>
+			<div class="w60">80. LETA<br />V JUGOSLAVIJI</div>
+		    <img src="img/naprej.svg" id="start">
 		  </div>
 		</div>
 
@@ -674,6 +671,13 @@ $(function() {
 		touchMove: true,
 		swipeToSlide: true,
 		swipe: true
+	});
+
+	/*
+	 *  Advance to next part
+	 */
+	$('#naprej').click(function(event){
+		window.location.href = 'samostojnost1.html';
 	});
 
 });

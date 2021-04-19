@@ -81,7 +81,8 @@
 
 .heading-number1,
 .heading-number2,
-.heading-number3 {
+.heading-number3,
+.heading-number4 {
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-left: 18vh;
@@ -238,6 +239,38 @@
 
 .cover-box#samostojnost42 {
 	background-image: url('../media/24/cover242.jpg');
+}
+
+.cover-box#vojna11 {
+	background-image: url('../media/31/cover311.jpg');
+}
+
+.cover-box#vojna12 {
+	background-image: url('../media/31/cover312.jpg');
+}
+
+.cover-box#vojna21 {
+	background-image: url('../media/32/cover321.jpg');
+}
+
+.cover-box#vojna22 {
+	background-image: url('../media/32/cover322.jpg');
+}
+
+.cover-box#vojna23 {
+	background-image: url('../media/32/cover323.jpg');
+}
+
+.cover-box#vojna24 {
+	background-image: url('../media/32/cover324.jpg');
+}
+
+.cover-box#vojna31 {
+	background-image: url('../media/33/cover331.jpg');
+}
+
+.cover-box#vojna32 {
+	background-image: url('../media/33/cover332.jpg');
 }
 
 

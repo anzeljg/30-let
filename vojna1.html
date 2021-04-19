@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="sl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+	<!-- Force landscape mode -->
+	<link rel="manifest" href="manifest.json">
+
+    <title>Zbrali smo pogum</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Slick Carousel CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+
+	<!-- FancyBox 3 CSS -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<!-- FancyBox 3 customizations -->
+    <link href="css/fancybox.css" rel="stylesheet">
+
+    <!-- Custom styles for this site -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/elements.css" rel="stylesheet">
+    <link href="css/parallax.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="br navbar navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+	    <img id="logo" src="img/logo_menu.svg">
+		<div class="navbar-back">
+			<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5)">
+					<g id="nazaj" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
+						<polyline id="nazaj" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+					</g>
+				</g>
+				<rect y="1" x="0" height="28" width="3" stroke="none" stroke-width="1" fill=#858585 />
+			</svg>
+		</div>
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
+	    <div class="navbar-title">DAN PREJ</div>
+        <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
+        <span id="navbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
+      </button>
+    </nav>
+
+    <!-- Navbar menu -->
+    <div id="navbarToggleMenu" class="br text-light hidden">
+		<div class="menu nh15 bt bb" onclick="location.href='index.html'">
+		  <div class="menu-number">Z</div>
+		  <div class="menu-title">NA<br />ZAČETEK</div>
+		</div>
+		<div class="menu active nh55">
+		  <div class="menu-number">1</div>
+		  <div class="menu-title">DAN<br />PREJ</div>
+		  <div class="menu-items">
+		    <a href="#vojna11">Približevanje konflikta</a><br />
+			<a href="#vojna12">26. junij 1991</a><br />
+		  </div>
+		</div>
+		<div class="menu nh15 bt bb" onclick="location.href='vojna2.html'">
+		  <div class="menu-number">2</div>
+		  <div class="menu-title">SPOPADI</div>
+		</div>
+		<div class="menu nh15" onclick="location.href='vojna3.html'">
+		  <div class="menu-number">3</div>
+		  <div class="menu-title">KONEC<br />VOJNE</div>
+		</div>
+    </div>
+
+	<!-- Previous and next buttons -->
+	<div class="nav-prev-btn" id="navPrevBtn">
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="nazaj_24" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
+					<polyline id="nazaj_24" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
+				</g>
+			</g>
+		</svg>
+	</div>
+	<div class="nav-next-btn" id="navNextBtn">
+		<center>
+		<svg width="20px" height="30px" viewBox="0 0 20 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="naprej_24" transform="translate(-204, -729)" stroke="#858585" stroke-width="6">
+					<polyline id="naprej_24" points="207 732 219 744 207 756"></polyline>
+				</g>
+			</g>
+		</svg>
+		</center>
+	</div>
+
+
+	<!-- Device orientation -->
+    <div id="device-orientation">
+	  <center>
+	    <div id="orientation-box">
+	      <p><img src="img/list_desno.svg" style="height:20vh"></p>
+	      <p>Ta stran se vidi najbolje, če
+		  <br />je naprava obrnjena vodoravno.</p>
+	    </div>
+	  </center>
+	</div>
+
+	<!-- Loading box -->
+    <div id="content-loading">
+	  <center>
+	    <div id="loading-box">
+	      <img src="img/nalaganje_opt.gif">
+	      <br />Nalaganje v teku ...
+	    </div>
+	  </center>
+	</div>
+
+	<!-- Main page content -->
+    <div class="main-content">
+
+		<div class="heading-box heading-bg">
+		  <div class="heading-number1">1</div>
+		  <div class="heading-title">DAN<br />PREJ</div>
+		  <div class="scroll-indicator">
+		    <img src="img/scroll_indicator2.png">
+		  </div>
+		</div>
+
+		<!------------------------------
+		//  PART 1
+		//----------------------------->
+		<div class="cover-box rel pointer" id="vojna11"><!-- MUST use "rel" -->
+		  <div class="heading-last-diagonal wd"></div>
+		  <div class="cover-box-title">
+			<div class="frame">
+			  PRIBLIŽEVANJE<br /><span class="green">KONFLIKTA</span>
+			</div>
+		  </div>
+		  <div class="intro-first-diagonal wd"></div>
+		</div>
+
+		<div class="intro-box w80" style="margin-left:-1px">
+		  <div class="h20 flex-row">
+		    <div class="intro-title">Naslov</div>
+		  </div>
+		  <div class="h60 flex-row">
+		    <div class="intro-content">
+		    Vsebina
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box">
+		  <div class="w60">
+		  </div>
+		</div>
+
+		<!------------------------------
+		//  PART 2
+		//----------------------------->
+		<div class="cover-box rel pointer" id="vojna12"><!-- MUST use "rel" -->
+		  <div class="beige-last-diagonal wd"></div>
+		  <div class="cover-box-title">
+			<div class="frame">
+			  <span class="green">26. JUNIJ 1991</span>
+			</div>
+		  </div>
+		  <div class="intro-first-diagonal wd"></div>
+		</div>
+
+		<div class="intro-box w80" style="margin-left:-1px">
+		  <div class="h20 flex-row">
+		    <div class="intro-title">Naslov</div>
+		  </div>
+		  <div class="h60 flex-row">
+		    <div class="intro-content">
+		    Vsebina
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box">
+		  <div class="w60">
+		  </div>
+		</div>
+
+		<div class="heading-box">
+		  <div class="beige-last-diagonal wd"></div>
+		  <div class="heading-next flex-row float-right" id="naprej">
+			<div class="w60">SPOPADI</div>
+		    <img src="img/naprej.svg" id="start">
+		  </div>
+		</div>
+
+    </div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Slick Carousel JavaScript -->
+<script src="js/slick.min.js"></script>
+
+<!-- FancyBox 3 JavaScript -->
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/fancybox-12-parts.js"></script>
+<script src="js/fancybox-12-video.js"></script>
+
+<!-- Custom JavaScript for this site -->
+<script>
+/*
+ *  Hide loading box when page load complete
+ */
+window.onload = function(){
+	document.getElementById('content-loading').style.visibility = 'hidden';
+};
+
+
+$(function() {
+	  
+	/*
+	 *  Toggle side menu on/off
+	 */
+	$('#navbarToggleMenu')
+		.on('shown.bs.collapse', function() {
+			$('#navbar-hamburger').addClass('hidden');
+			$('#navbar-cheeseburger').removeClass('hidden'); 
+			$('#navbarToggleMenu').removeClass('hidden');		  
+		})
+		.on('hidden.bs.collapse', function() {
+			$('#navbar-hamburger').removeClass('hidden');
+			$('#navbar-cheeseburger').addClass('hidden');        
+			$('#navbarToggleMenu').addClass('hidden');		  
+		});
+	  
+	/*
+	 *  Previous and next buttons
+	 */
+	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
+	$('#navNextBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() + vw
+		}, "slow");
+	});
+
+	$('#navPrevBtn').click(function() {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollLeft: $('html, body').scrollLeft() - vw
+		}, "slow");
+	});
+
+    /*
+	 *  Scroll newspaper articles up in carousel
+	 */
+	$('.news_up').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
+	});
+
+	/*
+	 *  Advance to next part
+	 */
+	$('#naprej').click(function(event){
+		window.location.href = 'vojna2.html';
+	});
+
+});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66REXS9BK3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-66REXS9BK3');
+</script>
+
+</body>
+</html>
