@@ -1,0 +1,3 @@
+tanki_bukovje: Posnetek tanki v Bukovju (hrani PVZ)
+
+tanki_pivka: Posnetek izhod tankov Pivka (hrani PVZ)

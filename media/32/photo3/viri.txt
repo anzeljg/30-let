@@ -1,0 +1,16 @@
+letali_MiG-21: Primerek letala MiG-21, ki jih je v vojni za Slovenijo uporabljala JLA
+
+maribor: Maribor 9.7.1991 (avtor Boris Vugrinec, hrani Večer)
+
+prebeg: Maribor-prebegli vojaki, 4.7.1991 (avtor Danilo Škofič, hrani Večer)
+predaja: Vojaki se predajajo 28.6.1991 (avtor Danilo Škofič, hrani Večer)
+
+tank_T-55: Tank T-55 (avtor Simon Avsec, hrani PVZ)
+
+vozilo_MTLB: Vozilo MTLB, ki ga je JLA uporabljala v spopadu v Gornji Radgoni
+
+znak_brnik: Spominski bojni znak BRNIK (spletni vir- Vojaški muzej SV)
+znak_holmec: Spominski bojni znak HOLMEC (spletni vir- Vojaški muzej SV)
+znak_limbus: Spominski bojni znak LIMBUŠ (spletni vir-Vojaški muzej SV)
+znak_radgona: Spominski bojni znak GORNJA RADGONA (spletni vir- Vojaški muzej SV)
+znak_vrtojba: Spominski bojni znak ROŽNA DOLINA-VRTOJBA (spletni vir- Vojaški muzej SV)

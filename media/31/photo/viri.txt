@@ -1,0 +1,13 @@
+cad: Marjan Čad (spletni vir Mladina, avtor Uroš Abram)
+
+ig: Ig, 18.6.91 (Večer)
+
+milosevic: Vladimir Miloševič (spletni vir, E-enciklopedija)
+
+prisega: Slovesna prisega prvih vojakov, avtor Marjan Garbajs, hrani PVZ
+
+voz: Primer nabornega vozu v PVZ (hrani PVZ)
+
+znak_1: Vojaški znak, ki so ga na uniformah nosili vojaki 1. generacije slovenske vojske (hrani PVZ)
+
+znak_pekre: Spominski bojni znak Pekre (spletni vir VMSV)
