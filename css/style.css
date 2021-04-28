@@ -139,6 +139,7 @@ footer {
 .w40 { width: 40vh }
 .w50 { width: 50vh }
 .w60 { width: 60vh }
+.w70 { width: 70vh }
 .w80 { width: 80vh }
 .w100 { width: 100vh }
 
@@ -149,6 +150,7 @@ footer {
 .h30 { height: 30vh }
 .h35 { height: 35vh }
 .h40 { height: 40vh }
+.h45 { height: 45vh }
 .h50 { height: 50vh }
 .h60 { height: 60vh }
 .h70 { height: 70vh }
