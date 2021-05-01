@@ -6,10 +6,12 @@ jugo: Jugo v Parku vojaške zgodovine (avtor Simon Avsec, hrani PVZ)
 
 mine: Pozor mine (avtor Marjan Garbajs, hrani PVZ)
 
-napad: Napad na Slovenijo (hrani Večer)
+napad: Napad na Slovenijo 27.6.1991 (avtor Boris Vugrinec, hrani Večer)
 
 oklepnik: Oklepni avtomobil BOV M-86 (VP) v PVZ
 
 plakat: Plakat JLA (hrani Večer)
+
+protest: Napad na Slovenijo (hrani Večer)
 
 resilec: Vozilo Mercedes Benz Zdravstvenega doma Velenje, ki v vojni sicer ni sodelovalo, a je bilo v pripravljenosti. Vozilo je na ogled v Parku vojaške zgodovine Pivka
