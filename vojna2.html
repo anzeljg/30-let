@@ -17,6 +17,8 @@
     <!-- Slick Carousel CSS -->
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
+	<!-- Slick Carousel customization for vertical down direction -->
+    <link href="css/slick-down.css" rel="stylesheet">
 
 	<!-- FancyBox 3 CSS -->
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
@@ -729,8 +731,8 @@
 
 		<div class="content-box">
 	      <div class=" flex-row ml8">
-		    <div class="h100 mt-auto mb-auto pointer" id="docs1_struktura">
-			  <img src="thumb/32/docs1/struktura.jpg" class="h100">
+		    <div class="h70 mt-auto mb-auto pointer" id="docs1_struktura">
+			  <img src="thumb/32/docs1/struktura.jpg" class="h70">
 		    </div>
 		  </div>
 		</div>
@@ -779,8 +781,8 @@
 
 		<div class="content-box" id="photo1_pripadniki">
 	      <div class="flex-column ml8">
-			<div class="h80 mt-auto mb-auto">
-			  <img src="thumb/32/docs1/pripadniki.jpg" class="h80 pointer">
+			<div class="h70 mt-auto mb-auto">
+			  <img src="thumb/32/docs1/pripadniki.jpg" class="h70 pointer">
 			</div>
 		  </div>
 	      <div class="flex-column ml1rem">
@@ -844,7 +846,7 @@
 		<div class="content-box" id="photo1_oklepnik">
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/32/photo1/oklepnik.jpg" class="h50 pointer">
+			  <img src="thumb/32/photo1/oklepnik.png" class="h50 pointer">
 			  <div class="bottom-note w60">
 				<a href="#" class="popup-link" data-toggle="modal" data-target="#popup_oklepnik">Oklepni avtomobil BOV <nobr>M-86</nobr> (VP)</a>, ki ga je uporabljala slovenska milica med vojno za Slovenijo. Vozilo je na ogled v Parku vojaške zgodovine Pivka.
 			  </div>
@@ -889,25 +891,22 @@
 			  <img src="thumb/32/photo1/milica/11.jpg" class="h80 pointer">
 			</div>
 		  </div>
-	      <div class="flex-column ml1rem">
-		    <div class="h60 mb-auto mt-auto">
-		      <div class="mb-auto flex-column">
-			    <div class="side-note w20 mb-auto">
-			    Pripadniki posebne enote milice.
-			    </div>
-			  </div>
+		  <div class="content-box-inner h60 flex-column-space ml1rem">
+			<div class="side-note w25 mb-auto">
+			Pripadniki posebne enote milice.
+			</div>
+			<div class="text-level2 w25 mt-auto">
+			Leta 1988 je bila ustanovljena Posebna enota milice (PEM) Republiškega sekretariata za notranje zadeve, ki je vključevala aktivne in rezervne miličnike. PEM je leta 1989 izvajala naloge v akciji Sever in uspešno preprečila miting resnice ter s tem destabilizacijo Slovenije. Med vojno 1991 so njeni pripadniki varovali mejne kontrolne točke in blokade, nadzirali objekte JLA, izvajali kontrolo vozil in oseb, zasegali orožje in opremo ter sodelovali v bojnih spopadih.
 			</div>
 		  </div>
 		</div>
 
 		<div class="content-box">
 	      <div class=" flex-row ml8">
-		    <div class="h60 mt-auto mb-auto pointer" id="photo1_celada">
-			  <img src="thumb/32/photo1/milica/12.jpg" class="h45 p2">
-			  <div class="bottom-note w60">
-			    <p>Čelada pripadnikov Posebne enote milice, iz časa pred vojno za Slovenijo.
-				<br /><br />
-				Leta 1988 je bila ustanovljena Posebna enota milice (PEM) Republiškega sekretariata za notranje zadeve, ki je vključevala aktivne in rezervne miličnike. PEM je leta 1989 izvajala naloge v akciji Sever in uspešno preprečila miting resnice ter s tem destabilizacijo Slovenije. Med vojno 1991 so njeni pripadniki varovali mejne kontrolne točke in blokade, nadzirali objekte JLA, izvajali kontrolo vozil in oseb, zasegali orožje in opremo ter sodelovali v bojnih spopadih.</p>
+		    <div class="h70 mt-auto mb-auto pointer" id="photo1_celada">
+			  <img src="thumb/32/photo1/milica/12.jpg" class="h60">
+			  <div class="bottom-note w40">
+			    Čelada pripadnikov Posebne enote milice, iz časa pred vojno za Slovenijo.
 			  </div>
 		    </div>
 		  </div>
@@ -916,7 +915,7 @@
 		<div class="content-box">
 	      <div class=" flex-row ml8 mr4">
 		    <div class="h60 mt-auto mb-auto pointer" id="photo1_celada">
-			  <img src="thumb/32/photo1/obramba/21.jpg" class="h45 p2">
+			  <img src="thumb/32/photo1/obramba/21.jpg" class="h45">
 			  <div class="bottom-note w60">
 			    <p>Trak, ki so ga na rokavih nosili pripadniki Narodne zaščite.
 				<br /><br />
@@ -957,7 +956,7 @@
 		<div class="content-box" id="photo1_resilec">
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/32/photo1/resilec.jpg" class="h50 pointer">
+			  <img src="thumb/32/photo1/resilec.png" class="h50 pointer">
 			  <div class="bottom-note w60">
 				Reševalno vozilo <a href="#" class="popup-link" data-toggle="modal" data-target="#popup_resilec">Mercedes Benz 230-BINZ</a> Zdravstvenega doma Velenje, ki v razstavi Pot v samostojnost v Parku vojaške zgodovine predstavlja pomembno vlogo zdravstvene in reševalne službe med vojno 1991.
 			  </div>
@@ -1466,7 +1465,7 @@
 
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
-			  <img src="thumb/32/photo2/tank_PT-76.jpg" class="h50 pointer" id="photo2_tank_tp76">
+			  <img src="thumb/32/photo2/tank_PT-76.png" class="h50 pointer" id="photo2_tank_tp76">
 			  <div class="news-bottom-note w60">
 			    Tank PT-76, ki ga je JLA v vojni za Slovenijo uporabila v spopadu za mejni prehod Karavanke. Tank je na ogled v parku vojaške zgodovine Pivka.
 			  </div>
@@ -1530,7 +1529,7 @@
 		<div class="content-box">
 	      <div class="flex-column ml8">
 		    <div class="h80 mt-auto mb-auto">
-		    <img src="thumb/32/photo3/letalo_MiG-21.jpg" class="h70 pointer" id="photo3_mig_21">
+		    <img src="thumb/32/photo3/letalo_MiG-21.png" class="h70 pointer" id="photo3_mig_21">
 			  <div class="bottom-note w50">
 			  Primerek <a href="#" class="popup-link" data-toggle="modal" data-target="#popup_mig_21">letala MiG-21</a>, ki jih je med vojno za Slovenijo uporabljala JLA. Letalo je na ogled v Parku vojaške zgodovine Pivka.
 			  </div>
@@ -1642,17 +1641,11 @@
 		</div>
 
 		<div class="content-box" id="photo3_vojaki">
-			<div class="flex-column ml4">
-				<div class="h40 mt-auto">
-				    <div><img src="thumb/32/photo3/predaja.jpg" class="h30 pointer"></div>
+			<div class="flex-column ml8">
+				<div class="h60 mt-auto mb-auto">
+				    <div><img src="thumb/32/photo3/predaja.jpg" class="h60 pointer"></div>
 					<div class="bottom-note w40">
 					  Vojaki se predajajo.
-					</div>
-				</div>
-				<div class="h40 mb-auto">
-				    <div><img src="thumb/32/photo3/prebeg.jpg" class="h30 pointer"></div>
-					<div class="bottom-note w40">
-					  Prebegli vojaki na poti do sejmišča.
 					</div>
 				</div>
 			</div>
@@ -1883,7 +1876,7 @@
 		  <div class="content-box" id="photo3_vozilo_mtlbu">
 	        <div class="flex-column ml8">
 			  <div class="h60 mt-auto mb-auto">
-			    <img src="thumb/32/photo3/vozilo_MT-LBu.jpg" class="h50 pointer">
+			    <img src="thumb/32/photo3/vozilo_MT-LBu.png" class="h50 pointer">
 			    <div class="news-bottom-note w70">
 				  <a href="#" class="news-popup-link" data-toggle="modal" data-target="#popup_vozilo_mtlbu">Vozilo MT-LBu</a>, ki ga je JLA uporabljala v spopadu v Gornji Radgoni. Vozilo je na ogled v Parku vojaške zgodovine Pivka.
 			    </div>
@@ -1955,7 +1948,7 @@
 		  <div class="content-box" id="photo3_helikopter_gazela">
 	        <div class="flex-column ml8">
 			  <div class="h60 mt-auto mb-auto">
-			    <img src="thumb/32/photo3/golte/01.jpg" class="h50 pointer">
+			    <img src="thumb/32/photo3/golte/01.png" class="h50 pointer">
 			    <div class="news-bottom-note w70">
 				  Helikopter Gazela TO-001 Velenje, ki je na ogled v Parku vojaške zgodovine Pivka.
 			    </div>
@@ -2167,7 +2160,7 @@
 		  <div class="content-box" id="photo4_vozilo_bov3">
 	        <div class="flex-column ml8">
 			  <div class="h60 mt-auto mb-auto">
-			    <img src="thumb/32/photo4/vozilo_BOV-3.jpg" class="h50 pointer">
+			    <img src="thumb/32/photo4/vozilo_BOV-3.png" class="h50 pointer">
 			    <div class="news-bottom-note w60">
 				  Vozilo BOV-3, ki je bilo udeleženo v spopadu pri Krakovskem gozdu. Vozilo je na ogled v Parku vojaške zgodovine Pivka.
 			    </div>
@@ -2202,7 +2195,7 @@
 		  <div class="content-box" id="photo4_kupola">
 	        <div class="flex-column ml8">
 			  <div class="h60 mt-auto mb-auto">
-			    <img src="thumb/32/photo4/kupola.jpg" class="h50 pointer">
+			    <img src="thumb/32/photo4/kupola.png" class="h50 pointer">
 			    <div class="news-bottom-note w70">
 				  Uničena kupola tanka M-84, ki je bil poškodovan v spopadu pri Prilipah. Kupola je na ogled v Parku vojaške zgodovine Pivka.
 			    </div>
@@ -2326,13 +2319,283 @@
 		  </div>
 		</div>
 
+		<div class="content-box flex-row ml8 pointer" id="news4_4">
+			<div class="news-column news_up img-vertical-scroll w40">
+				<img src="thumb/32/news4/31.jpg" class="p2">
+				<img src="thumb/32/news4/32.jpg" class="p2">
+				<img src="thumb/32/news4/33.jpg" class="p2">
+				<img src="thumb/32/news4/34.jpg" class="p2">
+				<img src="thumb/32/news4/35.jpg" class="p2">
+				<img src="thumb/32/news4/36.jpg" class="p2">
+				<img src="thumb/32/news4/37.jpg" class="p2">
+				<img src="thumb/32/news4/38.jpg" class="p2">
+				<img src="thumb/32/news4/39.jpg" class="p2">
+			</div>
+		</div>
+
+		<div class="content-box" id="photo4_komenda">
+		  <div class="flex-column ml8">
+			<div class="h60 mt-auto mb-auto">
+			  <div><img src="thumb/32/photo4/komenda-moste.jpg" class="h50 pointer"></div>
+			  <div class="bottom-note w40">
+				Komenda-Moste.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+			<div class="content-box-inner flex-column">
+				<div class="flex-row w40 text-level1">
+					<p>V tem času so Ljubljano obiskali prvi opazovalci Evropske skupnosti, v prestolnico pa pridejo tudi starši vojakov na služenju vojaškega roka v JLA na ozemlju Slovenije. Njihov cilj je bila varna vrnitev njihovih sinov, s čimer so predstavljali dodaten pritisk na vojaški vrh JLA. S prihodom staršev po sinove se je pokazalo nezaupanje drugih narodov v tedanji Jugoslaviji do JLA, s čimer je bila še dodatno načeta legitimnost njenega vojaškega posredovanja v Sloveniji. Enote JLA so se zato od 2. julija postopoma, tudi neorganizirano začele umikati v vojašnice, hitro pa je naraščalo tudi število prebegov in vdaj pripadnikov JLA.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-box" id="photo4_brnik">
+		  <div class="flex-column ml8">
+			<div class="h80 mt-auto mb-auto">
+			  <div><img src="thumb/32/photo4/brnik/02.jpg" class="h70 p2 pointer"></div>
+			  <div class="bottom-note w40">
+				Brnik.
+			  </div>
+			</div>
+		  </div>
+		  <div class="flex-column">
+			<div class="h35 mt-auto">
+			  <div><img src="thumb/32/photo4/brnik/01.jpg" class="h35 p2 pointer"></div>
+			</div>
+			<div class="h45 mb-auto">
+			  <div><img src="thumb/32/photo4/brnik/03.jpg" class="h35 p2 pointer"></div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+		  <div class="gray-first-diagonal wd"></div>
+		</div>
+		<div class="news-box" style="margin-left:-1px">
+		  <div class="flex-column">
+			<div class="news-title float-right">
+			ODMEVI V<br>ČASOPISJU
+			</div>
+		  </div>
+	      <div class="flex-row ml8 mr8 pointer" id="news4_5">
+			<div class="news-column news_up img-vertical-scroll w40">
+			  <img src="thumb/32/news4/41.jpg" class="p2">
+			  <img src="thumb/32/news4/42.jpg" class="p2">
+			  <img src="thumb/32/news4/43.jpg" class="p2">
+			  <img src="thumb/32/news4/44.jpg" class="p2">
+			  <img src="thumb/32/news4/45.jpg" class="p2">
+			  <img src="thumb/32/news4/46.jpg" class="p2">
+		    </div>
+		  </div>
+		</div>
 		<div class="content-box">
-		  <div class="w60">
+		  <div class="gray-last-diagonal wd"></div>
+		</div>
+
+		<div class="content-box" id="photo4_brezovica">
+		  <div class="flex-column ml8">
+			<div class="h80 mt-auto mb-auto">
+			  <div><img src="thumb/32/photo4/brezovica.jpg" class="h70 p2 pointer"></div>
+			  <div class="bottom-note w40">
+				Brezovica
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+			<div class="content-box-inner flex-column">
+				<div class="flex-row w40 text-level1">
+					<p>Začeli so se vrstiti poskusi diplomatske rešitve konflikta, med drugim je bila 3. in 4. julija na zasedanju Organizacije za varnosti v Evropi (OVSE) v Pragi sprejeta odločitev o imenovanju opazovalne misije in ustanovitvi mednarodne konference o Jugoslaviji. Na ta način je bila ponujena pomoč pri pogajanjih in nadaljnjem upravljanju krize po mirni poti. Zunanji ministri Evropske skupnosti v Haagu so nato 5. julija sprejeli še deklaracijo o Jugoslaviji, v kateri so zahtevali zamrznitev vseh osamosvojitvenih dejanj od 25. junija dalje.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-box" id="docs4_bojno_porocilo">
+	      <div class="flex-column ml8">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/docs4/bojno_porocilo.jpg" class="h70 pointer">
+			  <div class="bottom-note w40">
+			    Redno bojno poročilo.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box" id="docs4_ormoz">
+	      <div class="flex-column ml8">
+			<div class="h60 mt-auto mb-auto">
+			  <img src="thumb/32/photo4/ormoz.jpg" class="h50 pointer">
+			  <div class="bottom-note w40">
+			    Ormož
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+			<div class="content-box-inner flex-column">
+				<div class="flex-row w40 text-level1">
+					<p>Nasprotno z napori mednarodne skupnosti je deloval vrh JLA, ki je zavzemal vse bolj politično držo, kritiziral ravnanje Slovenije in Hrvaške ter voditelje obtoževal razbijanja skupne države. Obtoževal pa je tudi zvezno vlado in grozil z mobilizacijo novih enot, predvsem v Srbiji, ki se bodo borile za ohranitev enotne SFRJ.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-box" id="diareja_mladina_prekinitev">
+		  <div class="flex-column ml8">
+			<div class="h60 mt-auto mb-auto">
+			  <div><img src="media/32/diareja_mladina_prekinitev.jpg" class="h50 pointer"></div>
+			  <div class="bottom-note w40">
+				»JLA ne spoštuje dogovorjenih prekinitev ognja«
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box" id="docs4_odobritev">
+	      <div class="flex-column ml8 mr8">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/docs4/odobritev.jpg" class="h70 pointer">
+			  <div class="bottom-note w40">
+			    Odobritev preletov.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box mr1rem flex-column">
+		  <div class="h20 flex-row">
+		    <div class="side-note-left w25 mt-auto mb-auto">
+		      Bojno poročilo o preletih.
+		    </div>
+		  </div>
+		  <div class="h60 flex-row"></div>
+		</div>
+		<div class="content-box">
+	      <div class="flex-row pointer">
+			<div class="news-column news_up img-vertical-scroll w40" id="docs4_porocilo_p">
+			  <img src="thumb/32/docs4/porocilo_p1.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p2.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p3.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p4.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p5.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p6.jpg" class="p2">
+			  <img src="thumb/32/docs4/porocilo_p7.jpg" class="p2">
+		    </div>
+		    <div class="news-column news_down img-vertical-scroll w40" id="news4_6>
+			  <img src="thumb/32/news4/51.jpg" class="p2">
+			  <img src="thumb/32/news4/52.jpg" class="p2">
+			  <img src="thumb/32/news4/53.jpg" class="p2">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+			<div class="content-box-inner flex-column">
+				<div class="flex-row w40 text-level1">
+					<p>A diplomatski napori so se nadaljevali. Enote so ohranjale svoje položaje, vprašanje slovenskih nabornikov v JLA in nabornikov iz drugih republik v Sloveniji pa se je še stopnjevalo. Sledili so obiski jugoslovanskih delegacij v Ljubljani, ki so zmanjševali napetosti in obetali miren zaključek konflikta.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-box" id="photo4_materi">
+	      <div class="flex-column ml8 ">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/photo4/materi.jpg" class="h70 pointer">
+			  <div class="bottom-note w40">
+			    Dve materi prišli po sinova.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box" id="photo4_starsi">
+	      <div class="flex-column ml8 ">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/photo4/starsi.jpg" class="h70 pointer">
+			  <div class="bottom-note w40">
+			    Starši vojakov v Mariboru.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+		  <div class="gray-first-diagonal wd"></div>
+		</div>
+		<div class="news-box" style="margin-left:-1px">
+		  <div class="flex-column">
+			<div class="news-title float-right">
+			ODMEVI V<br>ČASOPISJU
+			</div>
+		  </div>
+	      <div class="flex-row ml8 mr8 pointer" id="news4_7">
+			<div class="news-column news_up img-vertical-scroll w40">
+			  <img src="thumb/32/news4/60.jpg" class="p2">
+			  <img src="thumb/32/news4/61.jpg" class="p2">
+			  <img src="thumb/32/news4/62.jpg" class="p2">
+			  <img src="thumb/32/news4/63.jpg" class="p2">
+			  <img src="thumb/32/news4/64.jpg" class="p2">
+			  <img src="thumb/32/news4/65.jpg" class="p2">
+			  <img src="thumb/32/news4/66.jpg" class="p2">
+			  <img src="thumb/32/news4/67.jpg" class="p2">
+			  <img src="thumb/32/news4/68.jpg" class="p2">
+			  <img src="thumb/32/news4/69.jpg" class="p2">
+		    </div>
+		  </div>
+		</div>
+		<div class="content-box">
+		  <div class="gray-last-diagonal wd"></div>
+		</div>
+
+		<div class="content-box" id="photo4_prebeg">
+	      <div class="flex-column ml8 ">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/photo4/prebeg.jpg" class="h50 pointer">
+			  <div class="bottom-note w70">
+			    Prebegli vojaki na poti do sejmišča.
+				<br /><br />
+				Med spopadi so slovenske obrambne sile zajele veliko število vojakov JLA, ki se niso želeli bojevati. Slovensko vodstvo na tako veliko količino vojnih ujetnikov na začetku ni bilo pripravljeno, nato pa je izdalo ukaz o oblikovanju predhodnih zbirnih centrov v vseh pokrajinah ter nato regijskih zbirnih centrov, pri čemer je bilo zahtevano spoštovanje ženevskih konvencij in tesno sodelovanje z Rdečim križem. Zaradi hitrega povečevanja ujetnikov je bila 2. julija oblikovana tudi posebna operativna skupina za delo z njimi. Prehodni zbirni centri so bili organizirani v raznih zavodih, šolah, postajah milice, marsikateri ujetniki pa so bili takoj po predaji napoteni prek slovensko-hrvaške meje. Evidenca RKS je registrirala kar 4.077 vojnih ujetnikov, večino so repatriirali med 8. in 11. julijem.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box" id="photo4_bajzek">
+	      <div class="flex-column ml8 ">
+			<div class="h80 mt-auto mb-auto">
+			  <img src="thumb/32/photo4/kum-kog/11.jpg" class="h70 pointer">
+			  <div class="bottom-note w40">
+			    Bajzek pri Kogu.
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<div class="content-box ml8">
+		  <div class="gray-first-diagonal wd"></div>
+		</div>
+		<div class="news-box" style="margin-left:-1px">
+		  <div class="flex-column">
+			<div class="news-title float-right">
+			ODMEVI V<br>ČASOPISJU
+			</div>
+		  </div>
+	      <div class="flex-row ml8 mr8 pointer" id="news4_8">
+			<div class="news-column news_up img-vertical-scroll w40">
+			  <img src="thumb/32/news4/71.jpg" class="p2">
+			  <img src="thumb/32/news4/72.jpg" class="p2">
+			  <img src="thumb/32/news4/73.jpg" class="p2">
+			  <img src="thumb/32/news4/74.jpg" class="p2">
+		    </div>
 		  </div>
 		</div>
 
 		<div class="heading-box">
-		  <div class="beige-last-diagonal wd"></div>
+		  <div class="gray-last-diagonal wd"></div>
 		  <div class="heading-next flex-row float-right" id="naprej">
 			<div class="w60">KONEC<br />VOJNE</div>
 		    <img src="img/naprej.svg" id="start">
@@ -2409,6 +2672,25 @@ $(function() {
 	 *  Scroll newspaper articles up in carousel
 	 */
 	$('.news_up').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
+	});
+
+    /*
+	 *  Scroll newspaper articles down in carousel
+	 *  The opposite (down) direction is achieved by CSS
+	 */
+	$('.news_down').slick({
 		vertical: true,
 		verticalSwiping: true,
 		slidesToScroll: -1,

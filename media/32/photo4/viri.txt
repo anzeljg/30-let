@@ -10,6 +10,8 @@ nanos: Nanos 3.7.1991 (avtor Marjan Garbajs, hrani PVZ)
 
 ormoz: Ormož 29.6.1991 (avtor Boris Vugrinec, hrani Večer)
 
+prebeg: Maribor-prebegli vojaki na poti do sejmišča 4.7.1991 (avtor Danilo Škofič, hrani Večer)
+
 starsi: Maribor, starši 4.7.1991 (avtor Danilo Škofič, hrani Večer)
 
 vozilo_BOV-3: Vozilo BOV-3, ki je bilo udeleženo v spopadu v Krakovskem gozdu (na ogled v PVZ)
