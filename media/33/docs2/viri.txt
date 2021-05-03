@@ -1,0 +1,24 @@
+au_peticije: Peticije za priznanje Slovenije (Naša bitka za Slovenijo, str. 58)
+au_delegacija: Prizadevanja za mednarodno priznanje (Naša bitka za Slovenijo, str. 64)
+au_priznanje1: Avstralija- prva prekmorska država, ki je priznala Slovenijo 05 (Naša bitka za Slovenijo, str. 66)
+au_priznanje2: Avstralija- prva prekmorska država, ki je priznala Slovenijo (Naša bitka za Slovenijo, str. 66)
+au_izjava: Izjava avstralskega predsednika vlade ob priznanju Slovenije (Naša bitka za Slovenijo, str. 68)
+au_novica: Novica o priznanju Slovenije s strani Avstralije (Naša bitka za Slovenijo, str. 70)
+au_zahvala1: Zahvala za pomoč Slovencem v Avstraliji (Naša bitka za Slovenijo, str. 71)
+au_zahvala2: Zahvala Avstralski slovenski konferenci (Naša bitka za Slovenijo, str. 76)
+au_predstavnistva: Odpiranje prvih predstavništev v Avstraliji (Naša bitka za Slovenijo, str. 94)
+
+is_priznanje: Mednarodno priznanje Slovenije s strani Islandije (Diplomatski arhiv MZZ)
+
+lt_priznanje: Mednarodno priznanje Slovenije s strani Litve (Diplomatski arhiv MZZ)
+
+odlok: Odlok o razglasitvi ustave (spletni vir: gov.si)
+
+va_priznanje: Mednarodno priznanje Slovenije s strani Vatikana (Diplomatski arhiv MZZ)
+
+zahvala_kacin: Zahvala Jelka Kacina Slovencem v tujini (Naša bitka za Slovenijo, str. 52)
+
+zahvala_zupana: Javna zahvala župana (Ptuj in leto 1991, Janez Merc (ur.), Ptuj_ Območno združenje veteranov vojne za Slovenijo, 2006, str. 177)
+
+znak_odlikovanje: Odlikovanje Častni znak svobode (hrani Primorske novice)
+znak_plaketa: Častni znak svobode (hrani Primrske novice)

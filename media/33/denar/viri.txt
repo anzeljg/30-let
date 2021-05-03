@@ -1,0 +1,5 @@
+sit0050: 50 tolarjev (hrani Peter Požar)
+
+sit0500: 500 tolarjev (hrani Peter Požar)
+
+sit1000: 1000 tolarjev (hrani Peter Požar)
