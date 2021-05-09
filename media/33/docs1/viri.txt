@@ -15,3 +15,5 @@ stalisca: Stališča skupščine RS ob izteku 3 mesečnega moratorija (spletni v
 zde: Zakon o denarni enoti RS (spletni vir gov.si)
 
 zvzva: Zakon o varstvu žrtev vojaške agresije (spletni vir gov.si)
+
+brioni_vojna: Brioni (Vojna za Slovenijo, str. 472)
