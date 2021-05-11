@@ -2,7 +2,7 @@
     "title": {
         "text": {
             "headline": "Priznanja in sporazumi",
-            "text": "Priznanja Republike Slovenije s strani drugih držav in sporazumi o navezavi diplomatskih stikov."
+            "text": "Priznanja Republike Slovenije s strani drugih dr\u017eav in sporazumi o navezavi diplomatskih stikov."
         }
     },
     "events": [
@@ -18,7 +18,7 @@
                 "year": "1991"
             },
             "text": {
-                "headline": "Hrvaška",
+                "headline": "Hrva\u0161ka",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -188,7 +188,7 @@
                 "year": "1991"
             },
             "text": {
-                "headline": "Švedska",
+                "headline": "\u0160vedska",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -205,7 +205,7 @@
                 "year": "1991"
             },
             "text": {
-                "headline": "Nemčija",
+                "headline": "Nem\u010dija",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -324,7 +324,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Švica",
+                "headline": "\u0160vica",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -426,7 +426,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Madžarska",
+                "headline": "Mad\u017earska",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -460,7 +460,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Norveška",
+                "headline": "Norve\u0161ka",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -528,7 +528,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Španija",
+                "headline": "\u0160panija",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -579,7 +579,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Nemčija",
+                "headline": "Nem\u010dija",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -647,7 +647,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Češkoslovaška federativna republika",
+                "headline": "\u010ce\u0161koslova\u0161ka federativna republika",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -681,7 +681,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Čile",
+                "headline": "\u010cile",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -732,7 +732,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Madžarska",
+                "headline": "Mad\u017earska",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -953,7 +953,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Švedska",
+                "headline": "\u0160vedska",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -970,7 +970,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Švica",
+                "headline": "\u0160vica",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1021,7 +1021,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Turčija",
+                "headline": "Tur\u010dija",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -1038,7 +1038,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Češkoslovaška federativna republika",
+                "headline": "\u010ce\u0161koslova\u0161ka federativna republika",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1072,7 +1072,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Hrvaška",
+                "headline": "Hrva\u0161ka",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1157,7 +1157,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Norveška",
+                "headline": "Norve\u0161ka",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1446,7 +1446,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Španija",
+                "headline": "\u0160panija",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1463,7 +1463,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Južnoafriška republika",
+                "headline": "Ju\u017enoafri\u0161ka republika",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -1480,7 +1480,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Združene države Amerike",
+                "headline": "Zdru\u017eene dr\u017eave Amerike",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -1497,7 +1497,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Grčija",
+                "headline": "Gr\u010dija",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -1599,7 +1599,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Čile",
+                "headline": "\u010cile",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -1650,7 +1650,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Združeni arabski emirati",
+                "headline": "Zdru\u017eeni arabski emirati",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -1701,7 +1701,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Alžirija",
+                "headline": "Al\u017eirija",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -2024,7 +2024,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Bangladeš",
+                "headline": "Banglade\u0161",
                 "text": "<p>Priznanje Republike Slovenije</p>"
             },
             "group": "Priznanje"
@@ -2143,7 +2143,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Grčija",
+                "headline": "Gr\u010dija",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"
@@ -2211,7 +2211,7 @@
                 "year": "1992"
             },
             "text": {
-                "headline": "Turčija",
+                "headline": "Tur\u010dija",
                 "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
             },
             "group": "Sporazum"

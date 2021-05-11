@@ -35,6 +35,13 @@ body#samostojnost {
 	background-image: url('../img/samostojnost_video_bg.jpg');
 }
 
+body#vojna {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/vojna_video_bg.jpg');
+}
+
 a {
 	color: #0C55A3;
 }
@@ -118,6 +125,12 @@ a {
 .button#samostojnost {
 	background-size: 40vw auto;
 	background-image: url('../img/samostojnost_button_bg.jpg');
+	background-position: 50% 20%;
+}
+
+.button#vojna {
+	background-size: 40vw auto;
+	background-image: url('../img/vojna_button_bg.jpg');
 	background-position: 50% 20%;
 }
 
