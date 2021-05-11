@@ -17,6 +17,8 @@
     <!-- Slick Carousel CSS -->
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
+	<!-- Slick Carousel customization for vertical down direction -->
+    <link href="css/slick-down.css" rel="stylesheet">
 
 	<!-- FancyBox 3 CSS -->
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
@@ -458,7 +460,7 @@
 					<img src="thumb/33/news1/13.jpg" class="p2">
 					<img src="thumb/33/news1/14.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/33/news1/15.jpg" class="p2">
 					<img src="thumb/33/news1/16.jpg" class="p2">
 					<img src="thumb/33/news1/17.jpg" class="p2">
@@ -504,7 +506,7 @@
 					<img src="thumb/33/news1/22.jpg" class="p2">
 					<img src="thumb/33/news1/23.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/33/news1/24.jpg" class="p2">
 					<img src="thumb/33/news1/25.jpg" class="p2">
 					<img src="thumb/33/news1/26.jpg" class="p2">
@@ -566,7 +568,7 @@
 					<img src="thumb/33/news1/33.jpg" class="p2">
 					<img src="thumb/33/news1/34.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/33/news1/35.jpg" class="p2">
 					<img src="thumb/33/news1/36.jpg" class="p2">
 					<img src="thumb/33/news1/37.jpg" class="p2">
@@ -814,7 +816,7 @@
 					<img src="thumb/33/news1/63.jpg" class="p2">
 					<img src="thumb/33/news1/64.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/33/news1/65.jpg" class="p2">
 					<img src="thumb/33/news1/66.jpg" class="p2">
 					<img src="thumb/33/news1/67.jpg" class="p2">
@@ -1449,8 +1451,6 @@
 					<img src="thumb/33/news2/52.jpg" class="p2">
 					<img src="thumb/33/news2/53.jpg" class="p2">
 					<img src="thumb/33/news2/54.jpg" class="p2">
-				</div>
-				<div class="news-column news-up img-vertical-scroll w40">
 					<img src="thumb/33/news2/55.jpg" class="p2">
 					<img src="thumb/33/news2/56.jpg" class="p2">
 					<img src="thumb/33/news2/57.jpg" class="p2">
@@ -1680,14 +1680,24 @@ $(function() {
 		swipe: true
 	});
 
-	/*
-	 *  Advance to next part
+    /*
+	 *  Scroll newspaper articles down in carousel
+	 *  The opposite (down) direction is achieved by CSS
 	 */
-/*
-	$('#naprej').click(function(event){
-		window.location.href = 'plebiscit3.html';
+	$('.news_down').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
 	});
-*/
 
 });
 </script>

@@ -17,6 +17,8 @@
     <!-- Slick Carousel CSS -->
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/slick-theme.css" rel="stylesheet">
+	<!-- Slick Carousel customization for vertical down direction -->
+    <link href="css/slick-down.css" rel="stylesheet">
 
 	<!-- FancyBox 3 CSS -->
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
@@ -363,7 +365,7 @@
 					<img src="thumb/31/news1/11d.jpg" class="p2">
 					<img src="thumb/31/news1/11e.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/31/news1/12.jpg" class="p2">
 					<img src="thumb/31/news1/13.jpg" class="p2">
 					<img src="thumb/31/news1/14a.jpg" class="p2">
@@ -741,7 +743,7 @@
 					<img src="thumb/31/news2/02.jpg" class="p2">
 					<img src="thumb/31/news2/03.jpg" class="p2">
 				</div>
-				<div class="news-column news_up img-vertical-scroll w40">
+				<div class="news-column news_down img-vertical-scroll w40">
 					<img src="thumb/31/news2/04.jpg" class="p2">
 					<img src="thumb/31/news2/05.jpg" class="p2">
 					<img src="thumb/31/news2/06.jpg" class="p2">
@@ -1083,6 +1085,25 @@ $(function() {
 	 *  Scroll newspaper articles up in carousel
 	 */
 	$('.news_up').slick({
+		vertical: true,
+		verticalSwiping: true,
+		slidesToScroll: -1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 15000,
+		cssEase: 'linear',
+		infinite: true,
+		arrows: false,
+		touchMove: true,
+		swipeToSlide: true,
+		swipe: true
+	});
+
+    /*
+	 *  Scroll newspaper articles down in carousel
+	 *  The opposite (down) direction is achieved by CSS
+	 */
+	$('.news_down').slick({
 		vertical: true,
 		verticalSwiping: true,
 		slidesToScroll: -1,
