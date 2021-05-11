@@ -4,6 +4,8 @@ kadijevic: Veljko Kadijević (spletni vir Vreme)
 
 kolsek: Konrad Kolšek (spleti vir Delo)
 
+markovic: Ante Marković (spletni vir Dnevnik)
+
 peperko: Edvard Peperko (spletni vir Demokracija)
 
 svetina: Janez Svetina (spletni vir Obrazi slovenskih pokrajin)

@@ -405,20 +405,11 @@
 		</div>
 
 		<div class="content-box">
-		  <div class="content-box-inner flex-column-space ml8 mr8">
+		  <div class="content-box-inner flex-column-space ml8">
 			<div class="mb-auto">
 		      <div class="text-level1 w50">
-				Slovenija je pristojnost nad republiško TO pridobila z ustavnim amandmajem, ki ga je sprejela slovenska skupščina konec septembra 1990. Predsedstvo Republike Slovenije je nato odstavilo generala Hočevarja in imenovalo majorja <a href="#" class="popup-link" data-toggle="modal" data-target="#popup_slapar">Janeza Slaparja</a>, dotedanjega poveljnika Pokrajinskega štaba TO za Gorenjsko, za vršilca dolžnosti načelnika RŠTO. Ta je ob predhodnem soglasju Predsedstva Republike Slovenije imenoval še poveljnike pokrajinskih štabov TO. S tem so prenehali tudi razlogi za delovanje MSNZ – slednjo so razpustili, večino njenih pripadnikov pa razporedili v sestavo nove TO.   
-			  </div>
-			</div>
-		  </div>
-		</div>
-
-		<div class="content-box">
-		  <div class="content-box-inner flex-column-space ml4 mr8">
-			<div class="mb-auto h40">
-		      <div class="text-level1 w50">
-				V odgovor na zamenjavo poveljnika RŠTO je JLA v noči s 4. na 5. oktober 1990 zasedla nekdanje prostore Republiškega štaba Teritorialne obrambe v Ljubljani in v njih vztrajala šest mesecev. RŠTO pod poveljstvom Janeza Slaparja se je preselil v prostore Republiškega sekretariata za ljudsko obrambo.   
+				<p>Slovenija je pristojnost nad republiško TO pridobila z ustavnim amandmajem, ki ga je sprejela slovenska skupščina konec septembra 1990. Predsedstvo Republike Slovenije je nato odstavilo generala Hočevarja in imenovalo majorja <a href="#" class="popup-link" data-toggle="modal" data-target="#popup_slapar">Janeza Slaparja</a>, dotedanjega poveljnika Pokrajinskega štaba TO za Gorenjsko, za vršilca dolžnosti načelnika RŠTO. Ta je ob predhodnem soglasju Predsedstva Republike Slovenije imenoval še poveljnike pokrajinskih štabov TO. S tem so prenehali tudi razlogi za delovanje MSNZ – slednjo so razpustili, večino njenih pripadnikov pa razporedili v sestavo nove TO.</p>
+				<p>V odgovor na zamenjavo poveljnika RŠTO je JLA v noči s 4. na 5. oktober 1990 zasedla nekdanje prostore Republiškega štaba Teritorialne obrambe v Ljubljani in v njih vztrajala šest mesecev. RŠTO pod poveljstvom Janeza Slaparja se je preselil v prostore Republiškega sekretariata za ljudsko obrambo.</p>
 			  </div>
 			</div>
 		  </div>
@@ -881,12 +872,9 @@
 
 		<div class="heading-box">
 		  <div class="beige-last-diagonal wd"></div>
-		  <div class="heading-next flex-row float-right">
-			<div class="w60">
-			  PRIHODNJA<br />RAZSTAVA<br />
-			  <!--<button class="btn btn-success">SPOMNI ME</button>-->
-			  bo aprila 2021 ...
-			</div>
+		  <div class="heading-next flex-row float-right" id="naprej">
+			<div class="w60">DAN<br />PREJ</div>
+		    <img src="img/naprej.svg" id="start">
 		  </div>
 		</div>
 
@@ -988,6 +976,13 @@ $(function() {
 		touchMove: true,
 		swipeToSlide: true,
 		swipe: true
+	});
+
+	/*
+	 *  Advance to next part
+	 */
+	$('#naprej').click(function(event){
+		window.location.href = 'vojna1.html';
 	});
 
 });

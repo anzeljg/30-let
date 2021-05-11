@@ -1,0 +1,146 @@
+{
+    "title": {
+        "text": {
+          "headline": "Priznanja in sporazumi",
+          "text": "Priznanja Republike Slovenije s strani drugih držav in sporazumi o navezavi diplomatskih stikov."
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/HR.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "6",
+          "day": "26",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Hrvaška",
+          "text": "<p>Priznanje Republike Slovenije - vzajemno priznanje</p>"
+        },
+		"group": "Priznanja"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/LT.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "7",
+          "day": "30",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Litva",
+          "text": "<p>Priznanje Republike Slovenije</p>"
+        },
+		"group": "Priznanja"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/GE.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "8",
+          "day": "14",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Gruzija",
+          "text": "<p>Priznanje Republike Slovenije</p>"
+        },
+		"group": "Priznanja"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/LV.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "8",
+          "day": "29",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Latvija",
+          "text": "<p>Priznanje Republike Slovenije</p>"
+        },
+		"group": "Priznanja"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/EE.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "9",
+          "day": "25",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Estonija",
+          "text": "<p>Priznanje Republike Slovenije</p>"
+        },
+		"group": "Priznanja"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/SI.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "11",
+          "day": "22",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Litva",
+          "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
+        },
+		"group": "Sporazumi"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/SI.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "3",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Latvija",
+          "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
+        },
+		"group": "Sporazumi"
+      },
+      {
+        "media": {
+          "url": "./thumb/33/timeline/flags/SI.png",
+		  "caption": "",
+		  "credit": "spletni vir: GoSquared"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "11",
+          "year": "1991"
+        },
+        "text": {
+          "headline": "Estonija",
+          "text": "<p>Sporazum o navezavi diplomatskih odnosov</p>"
+        },
+		"group": "Sporazumi"
+      }
+    ]
+}

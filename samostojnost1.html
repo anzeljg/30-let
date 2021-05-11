@@ -29,6 +29,7 @@
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/elements.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -439,8 +440,9 @@
 		  </div>
 		</div>
 
-		<div class="content-box ml8">
-		  <div class="h60 content-box-inner flex-column">
+		<div class="content-box">
+		  <div class="blue-last-diagonal wd"></div>
+		  <div class="h60 content-box-inner flex-column ml8">
 			<img src="media/21/diareja_mladina_1_01.jpg" class="h50 pointer" id="diareja_mladina_1_01">
 		    <div class="bottom-note w60">
 			  JLA prikrito podpira režim Slobodana Miloševića
@@ -488,8 +490,9 @@
 			</div>
 		</div>
 
-		<div class="content-box ml8">
-			<div class="h60 content-box-inner flex-column">
+		<div class="content-box">
+			<div class="gray-last-diagonal wd"></div>
+			<div class="h60 content-box-inner flex-column ml8 mr8">
 				<img src="media/21/diareja_mladina_1_03.jpg" class="h50 pointer" id="diareja_mladina_1_03">
 				<div class="bottom-note w60">
 					Zlepa ali zgrda
@@ -1512,8 +1515,9 @@
             </div>
         </div>
 
-		<div class="content-box ml8">
-			<div class="h60 content-box-inner flex-column">
+		<div class="content-box">
+			<div class="gray-last-diagonal wd"></div>
+			<div class="h60 content-box-inner flex-column ml8">
 				<img src="media/21/diareja_mladina_3_05.jpg" class="h50 pointer" id="diareja_mladina_3_05">
 				<div class="bottom-note">
 					Srbski bojkot slovenskih izdelkov
@@ -1800,6 +1804,11 @@ $(function() {
 
 	var options = {
 	  maintainAspectRatio: false,
+	  legend: {
+	    labels: {
+		  defaultFontFamily: "'Rubik', sans-serif"
+		}
+	  },
 	  scales: {
 		yAxes: [{
 		  stacked: true,
