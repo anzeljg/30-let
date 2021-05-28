@@ -76,7 +76,7 @@
 		</div>
 		<div class="menu nh15" onclick="location.href='vojna3.html'">
 		  <div class="menu-number">3</div>
-		  <div class="menu-title">PO<br />PLEBISCITU</div>
+		  <div class="menu-title">KONEC<br />VOJNE</div>
 		</div>
     </div>
 
@@ -588,6 +588,22 @@
 		</div>
 	</div>
 
+	<!-- Modal: vir grafa -->
+	<div class="modal fade" id="popup_vir_grafa" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-level1">
+					<div class="close-icon">
+					  <span data-dismiss="modal" aria-label="Zapri">
+						<img src="img/icon_zapri_siva.svg">
+					  </span>
+					</div>
+					<p>Povzeto po Guštin, Damijan, Prebilič, Vladimir (ur.), Osamosvojitev Slovenije, priročnik za učitelje osnovnih in srednjih šol, Ljubljana: Zavod Republike Slovenije za šolstvo, 2008, str. 116.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Main page content -->
     <div class="main-content">
@@ -629,9 +645,6 @@
 	      <div class="flex-column ml8 mr8">
 			<div class="h60 mt-auto mb-auto">
 			  <img src="media/32/karikatura_a-dzic.jpg" class="h60 pointer" id="karikatura_a-dzic">
-			  <div class="bottom-note w60">
-			    »A-džič!«
-			  </div>
 			</div>
 		  </div>
 		</div>
@@ -836,7 +849,7 @@
 		</div>
 
 		<div class="content-box ml8">
-		  <div class="gallery-3rows h80 flex-gallery pointer photo1_obramba" style="width:85vh">
+		  <div class="gallery-3rows h80 flex-gallery pointer" id="photo1_obramba" style="width:85vh">
 			<div class="w40" style="border:2px solid transparent">
 			  <div class="photo-note" style="height:26.1vh">
 			  Pripadniki TO
@@ -877,7 +890,7 @@
 		  </div>
 		</div>
 
-		<div class="content-box" id="photo1_pripadniki">
+		<div class="content-box" id="docs1_pripadniki">
 	      <div class="flex-column ml8">
 			<div class="h70 mt-auto mb-auto">
 			  <img src="thumb/32/docs1/pripadniki.jpg" class="h70 pointer">
@@ -953,7 +966,7 @@
 		</div>
 
 		<div class="content-box ml8">
-		  <div class="gallery-3rows h80 flex-gallery pointer photo1_milica" style="width:95vh">
+		  <div class="gallery-3rows h80 flex-gallery pointer" id="photo1_milica" style="width:95vh">
 			<div class="w40" style="border:2px solid transparent">
 			  <div class="photo-note" style="height:26.1vh">
 			  Pripadniki milice
@@ -1012,7 +1025,7 @@
 
 		<div class="content-box">
 	      <div class=" flex-row ml8 mr4">
-		    <div class="h60 mt-auto mb-auto pointer" id="photo1_celada">
+		    <div class="h60 mt-auto mb-auto pointer" id="photo1_trak">
 			  <img src="thumb/32/photo1/obramba/21.jpg" class="h45">
 			  <div class="bottom-note w60">
 			    <p>Trak, ki so ga na rokavih nosili pripadniki Narodne zaščite.
@@ -1030,6 +1043,7 @@
 				</div>
 				<div class="bottom-note w70">
 					Število oboroženih sil Jugoslavije v Sloveniji in Republike Slovenije med 25. junijem in 13. julijem 1991.
+					<br />(<a href="#" class="popup-link" data-toggle="modal" data-target="#popup_vir_grafa">vir</a>)
 				</div>
 			</div>
 		</div>
@@ -1271,9 +1285,6 @@
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
 			  <img src="media/32/karikatura_dan-po.jpg" class="h60 pointer" id="karikatura_dan-po">
-			  <div class="bottom-note w60">
-			    »Dan potem«
-			  </div>
 			</div>
 		  </div>
 		</div>
@@ -1360,7 +1371,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo2_medvedjek" style="width:100vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo2_medvedjek" style="width:100vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo2/medvedjek/01.jpg" class="p2">
 			  </div>
@@ -1473,7 +1484,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo2_sentilj" style="width:80vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo2_sentilj" style="width:80vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo2/sentilj/01.jpg" class="p2">
 			  </div>
@@ -1524,7 +1535,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo2_dravograd" style="width:120vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo2_dravograd" style="width:120vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo2/dravograd/01.jpg" class="p2">
 			  </div>
@@ -1674,7 +1685,7 @@
 		</div>
 
 		<div class="content-box ml8 mr8">
-		  <div class="gallery-3rows h80 flex-gallery pointer photo3_zaklonisca" style="width:80vh">
+		  <div class="gallery-3rows h80 flex-gallery pointer" id="photo3_zaklonisca" style="width:95vh">
 			<div class="w40" style="border:2px solid transparent">
 			  <div class="photo-note" style="height:26.1vh">
 			  Civilno prebivalstvo se je ob letalskih alarmih zatekalo v zaklonišča
@@ -1697,6 +1708,9 @@
 			</div>
 			<div class="gallery-3rows-img">
 			  <img src="thumb/32/photo3/zaklonisca/06.jpg" class="p2">
+			</div>
+			<div class="gallery-3rows-img">
+			  <img src="thumb/32/photo3/zaklonisca/07.jpg" class="p2">
 			</div>
 		  </div>
 		</div>
@@ -1741,7 +1755,7 @@
 		  </div>
 		</div>
 
-		<div class="content-box" id="photo3_vojaki">
+		<div class="content-box" id="photo3_predaja">
 			<div class="flex-column ml8">
 				<div class="h60 mt-auto mb-auto">
 				    <div><img src="thumb/32/photo3/predaja.jpg" class="h60 pointer"></div>
@@ -1807,7 +1821,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo3_brnik" style="width:160vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo3_brnik" style="width:160vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo3/brnik/01.jpg" class="p2">
 			  </div>
@@ -1943,7 +1957,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo3_radgona" style="width:135vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo3_radgona" style="width:135vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo3/radgona/01.jpg" class="p2">
 			  </div>
@@ -2006,7 +2020,7 @@
 		  </div>
 
 		  <div class="content-box ml8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo3_holmec" style="width:80vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo3_holmec" style="width:80vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo3/holmec/01.jpg" class="p2">
 			  </div>
@@ -2201,7 +2215,7 @@
 		</div>
 
 		<div class="content-box ml8">
-		  <div class="gallery-3rows h80 flex-gallery pointer photo4_domzale" style="width:60vh">
+		  <div class="gallery-3rows h80 flex-gallery pointer" id="photo4_domzale" style="width:60vh">
 			<div class="w40" style="border:2px solid transparent">
 			  <div class="photo-note" style="height:26.1vh">
 			  Napad na radijski oddajnik pri Domžalah
@@ -2229,9 +2243,6 @@
 	      <div class="flex-column ml8">
 			<div class="h60 mt-auto mb-auto">
 			  <img src="media/32/karikatura_tanki.jpg" class="h60 pointer" id="karikatura_tanki">
-			  <div class="bottom-note w60">
-			    Tanki JLA
-			  </div>
 			</div>
 		  </div>
 		</div>
@@ -2327,7 +2338,7 @@
 		  </div>
 
 		  <div class="content-box ml8 mr8">
-		    <div class="gallery-3rows h80 flex-gallery pointer photo4_vrhnika" style="width:120vh">
+		    <div class="gallery-3rows h80 flex-gallery pointer" id="photo4_vrhnika" style="width:120vh">
 			  <div class="gallery-3rows-img">
 			    <img src="thumb/32/photo4/vrhnika/01.jpg" class="p2">
 			  </div>
@@ -2557,7 +2568,7 @@
 			<div class="h80 mt-auto mb-auto">
 			  <img src="thumb/32/docs4/odobritev.jpg" class="h70 pointer">
 			  <div class="bottom-note w40">
-			    Odobritev preletov.
+			    Odobritve preletov.
 			  </div>
 			</div>
 		  </div>
@@ -2582,7 +2593,7 @@
 			  <img src="thumb/32/docs4/porocilo_p6.jpg" class="p2">
 			  <img src="thumb/32/docs4/porocilo_p7.jpg" class="p2">
 		    </div>
-		    <div class="news-column news_down img-vertical-scroll w40" id="news4_6>
+		    <div class="news-column news_down img-vertical-scroll w40" id="news4_6">
 			  <img src="thumb/32/news4/51.jpg" class="p2">
 			  <img src="thumb/32/news4/52.jpg" class="p2">
 			  <img src="thumb/32/news4/53.jpg" class="p2">

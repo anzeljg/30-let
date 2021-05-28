@@ -150,7 +150,7 @@ $(document).ready(function() {
 			{
 				src: 'media/24/docs1/odlocba.jpg',
 				opts : {
-					caption : 'Vir: Odločba o imenovanju načelnika Narodne Zaščite, Arhiv MNZ.',
+					caption : 'Vir: Odločba o imenovanju načelnika Narodne Zaščite, arhiv Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/24/docs1/odlocba.jpg'
 				}
 			},
@@ -234,7 +234,7 @@ $(document).ready(function() {
 			{
 				src: 'media/24/news1/21.jpg',
 				opts : {
-					caption : 'Vir: »Zasedba RŠTO«, Večer, 6. 10. 1990, str. 2.',
+					caption : 'Vir: »Ni razloga za vznemirjenje!«, Večer, 6. 10. 1990, str. 2.',
 					thumb   : 'thumb/24/news1/21.jpg'
 				}
 			},
@@ -255,7 +255,7 @@ $(document).ready(function() {
 			{
 				src: 'media/24/news1/24.jpg',
 				opts : {
-					caption : 'Vir: »Odziv slovenskih strank«, Večer, 6. 10. 1990, str. 4.',
+					caption : 'Vir: »Odmevi slovenskih strank po včerajšnji zasedbi bivše zgradbe RŠ TO«, Večer, 6. 10. 1990, str. 4.',
 					thumb   : 'thumb/24/news1/24.jpg'
 				}
 			},
@@ -274,14 +274,14 @@ $(document).ready(function() {
 	});
 
 	/*
-	 *  Karikatura Roke u vis
+	 *  Karikatura Na muhi
 	 */
 	$('#karikatura_na_muhi').click(function () {
 		$.fancybox.open([
 			{
 				src: 'media/24/karikatura_na_muhi.jpg',
 				opts : {
-					caption : 'Vir: Karikatura »Roke u vis«, avtor Franco Juri, Delo, 6. 10. 1990, str. 1.',
+					caption : 'Vir: Karikatura »Na muhi«, avtor Franco Juri, Delo, 6. 10. 1990, str. 1.',
 					thumb   : 'media/24/karikatura_na_muhi.jpg'
 				}
 			},
@@ -524,7 +524,7 @@ $(document).ready(function() {
 			{
 				src: 'media/24/news2/14.jpg',
 				opts : {
-					caption : 'Vir: »Slovenija - demilitarizirana dežela, 21. 9. 1990, str. 3.',
+					caption : 'Vir: »Slovenija - demilitarizirana dežela«, Primorske novice, 21. 9. 1990, str. 3.',
 					thumb   : 'thumb/24/news2/14.jpg'
 				}
 			},

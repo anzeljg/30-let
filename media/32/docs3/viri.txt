@@ -1,7 +1,0 @@
-bojno_porocilo: Redno bojno poročilo (Vojna za Slovenijo, str. 238)
-
-porocilo_a: Dnevno operativno poročilo (Vojna za Slovenijo, str. 225-227)
-
-porocilo_b: Dnevno operativno poročilo (Vojna za Slovenijo, str. 252-253)
-
-raketiranje: Ukaz raketiranje Brnik, Medvedjek (Vojna za Slovenijo str. 205)

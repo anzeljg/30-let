@@ -46,7 +46,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/news1/01.jpg',
 				opts : {
-					caption : 'Vir: »Strah nas je«, Večer, 7. 10. 1988., str. 2',
+					caption : 'Vir: »Strah nas je«, Večer, 7. 10. 1988, str. 2.',
 					thumb   : 'thumb/21/news1/01.jpg'
 				}
 			},
@@ -65,14 +65,14 @@ $(document).ready(function() {
 			{
 				src: 'media/21/news1/11a.jpg',
 				opts : {
-					caption : 'Vir: »Umrl je Tito«, Večer, 5. 5. 1980.',
+					caption : 'Vir: »Umrl je Tito«, Večer, 5. 5. 1980, str. 2.',
 					thumb   : 'thumb/21/news1/11a.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/11b.jpg',
 				opts : {
-					caption : 'Vir: »Umrl je Tito«, Večer, 5. 5. 1980.',
+					caption : 'Vir: »Umrl je Tito«, Večer, 5. 5. 1980, str. 2.',
 					thumb   : 'thumb/21/news1/11b.jpg'
 				}
 			},
@@ -91,84 +91,84 @@ $(document).ready(function() {
 			{
 				src: 'media/21/news1/12.jpg',
 				opts : {
-					caption : 'Vir: »Umrl je Tito«, Dogovori, leto VIII, št. 8, 5. 5. 1980.',
+					caption : 'Vir: »Umrl je Tito«, Dogovori, leto VIII, št. 8, 5. 5. 1980, str. 1.',
 					thumb   : 'thumb/21/news1/12.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/13.jpg',
 				opts : {
-					caption : 'Vir: »Ljubljana se je poslovila od Tita«, Zbor občanov, letnik 20, številka 9.',
+					caption : 'Vir: »Ljubljana se je poslovila od Tita«, Zbor občanov, letnik 20, št. 9.',
 					thumb   : 'thumb/21/news1/13.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14a.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14a.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14b.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14b.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14c.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14c.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14d.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14d.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14e.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14e.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14f.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14f.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14g.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14g.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14h.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14h.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14i.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14i.jpg'
 				}
 			},
 			{
 				src: 'media/21/news1/14j.jpg',
 				opts : {
-					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, številka 10624, 5. 5. 1980.',
+					caption : 'Vir: »Tito je umrl«, Primorski dnevnik, letnik 36, št. 104, 5. 5. 1980.',
 					thumb   : 'thumb/21/news1/14j.jpg'
 				}
 			},
@@ -378,7 +378,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/docs1/bon_jla.jpg',
 				opts : {
-					caption : 'Vir: Bon JLA za dizelsko gradivo, hrani Peter Požar.',
+					caption : 'Vir: Bon JLA za dizelsko gorivo, hrani Peter Požar.',
 					thumb   : 'thumb/21/docs1/bon_jla.jpg'
 				}
 			},
@@ -574,7 +574,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/karikatura_jama.jpg',
 				opts : {
-					caption : 'Vir: Franco Juri »Jama brez dna, Sklad za nerazvite«, 1990.',
+					caption : 'Vir: Karikatura »Jama brez dna«, Franco Juri, 1990.',
 					thumb   : 'media/21/karikatura_jama.jpg'
 				}
 			},
@@ -771,7 +771,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/cover212.jpg',
 				opts : {
-					caption : 'Vir: »Tetka – Roška cesta«, 26. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
+					caption : 'Vir: »Roška cesta«, 26. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'media/21/cover212.jpg'
 				}
 			},
@@ -869,13 +869,13 @@ $(document).ready(function() {
 					thumb   : 'thumb/21/news2/15.jpg'
 				}
 			},
-			{
+			/*{
 				src: 'media/21/news2/16.jpg',
 				opts : {
 					caption : 'Vir: »Za referendum o ustavnih spremembah«, Večer, 11. 10. 1988, str. 4.',
 					thumb   : 'thumb/21/news2/16.jpg'
 				}
-			},
+			},*/
 		], {
 			loop: false,
 			buttons: ["zoom", "thumbs", "close"],
@@ -891,7 +891,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/protest.jpg',
 				opts : {
-					caption : 'Vir: Protestno zborovanje, 21. 6. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: Protestno zborovanje, 21. 6. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/protest.jpg'
 				}
 			},
@@ -910,7 +910,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/protest2.jpg',
 				opts : {
-					caption : 'Vir: Veliko protestno zborovanje, 21. 11. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: Veliko protestno zborovanje, 21. 11. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/protest2.jpg'
 				}
 			},
@@ -929,7 +929,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/docs2/priponke2.jpg',
 				opts : {
-					caption : 'Vir: Priponke, hranita Park vojaške zgodovine in Maruša Mele Pavlin.',
+					caption : 'Vir: Priponke, hranita Peter Požar in Park vojaške zgodovine Pivka.',
 					thumb   : 'thumb/21/docs2/priponke2.jpg'
 				}
 			},
@@ -1012,7 +1012,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/enotno.jpg',
 				opts : {
-					caption : 'Vir: »Enotno za naše pravice - Roška cesta«, 27. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: »Enotno za naše pravice - Roška cesta«, 27. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/enotno.jpg'
 				}
 			},
@@ -1050,7 +1050,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/tetka.jpg',
 				opts : {
-					caption : 'Vir: »Tetka - Roška cesta«, 26. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: »Roška cesta«, 26. 7. 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/tetka.jpg'
 				}
 			},
@@ -1069,7 +1069,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/mnozica.jpg',
 				opts : {
-					caption : 'Vir: »Množica - Roška cesta«, junij/julij 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: »Množica - Roška cesta«, junij/julij 1988, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/mnozica.jpg'
 				}
 			},
@@ -1197,7 +1197,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/photo/volitve.jpg',
 				opts : {
-					caption : 'Vir: »Hočemo svobodne volitve«, 21. 6. 1989, avtor Nace Bizilj, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: »Hočemo svobodne volitve«, 21. 6. 1989, avtor Nace Bizilj, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/photo/volitve.jpg'
 				}
 			},
@@ -1216,7 +1216,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/docs2/listina.jpg',
 				opts : {
-					caption : 'Vir: Temeljna listina Slovenije, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: Temeljna listina Slovenije, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/21/docs2/listina.jpg'
 				}
 			},
@@ -1874,7 +1874,7 @@ $(document).ready(function() {
 			{
 				src: 'media/21/news3/71.jpg',
 				opts : {
-					caption : 'Vir: »Odločni NE totalitarizmu«,(Večer, 2. 12. 1989, str. 1.',
+					caption : 'Vir: »Odločni NE totalitarizmu«, Večer, 2. 12. 1989, str. 1.',
 					thumb   : 'thumb/21/news3/71.jpg'
 				}
 			},

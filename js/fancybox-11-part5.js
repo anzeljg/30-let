@@ -148,13 +148,13 @@ $(document).ready(function() {
 					thumb   : 'thumb/11/docs5/nasprotovanje2.jpg'
 				}
 			},
-			{
+			/*{
 				src: 'media/11/docs5/nasprotovanje3.jpg',
 				opts : {
 					caption : 'Vir: Arhiv RS, AS 1210, Zbirka Plebiscit 1990, šk. 530.',
 					thumb   : 'thumb/11/docs5/nasprotovanje3.jpg'
 				}
-			},
+			},*/
 			{
 				src: 'media/11/docs5/nasprotovanje4.jpg',
 				opts : {

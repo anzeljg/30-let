@@ -1,8 +1,0 @@
-01: Oklepna kolona Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-02: Barikada Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-03: Tovornjaki Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-04: Poškodovan tovornjak Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-05: Poškodovana hiša Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-06: Poškodovana vozila Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-07: Uničen kozolec Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)
-08: Uničena hiša Medvedjek 30.6.91 (avtor Marjan Garbajs, hrani PVZ)

@@ -129,7 +129,7 @@ $(document).ready(function() {
 			{
 				src: 'thumb/31/photo/znak_1.jpg',
 				opts : {
-					caption : 'Vir: Vojaški znak, ki so ga na uniformah nosili vojaki prve generacije slovenske vojske, hrani PVZ.',
+					caption : 'Vir: Vojaški znak, ki so ga na uniformah nosili vojaki prve generacije slovenske vojske, hrani Park vojaške zgodovine Pivka.',
 					thumb   : 'thumb/31/photo/znak_1.jpg'
 				}
 			},
@@ -223,7 +223,7 @@ $(document).ready(function() {
 			{
 				src: 'media/31/photo/prisega.jpg',
 				opts : {
-					caption : 'Vir: Slovesna prisega prvih vojakov, avtor Marjan Garbajs, hrani PVZ.',
+					caption : 'Vir: Slovesna prisega prvih vojakov, avtor Marjan Garbajs, hrani Park vojaške zgodovine Pivka.',
 					thumb   : 'thumb/31/photo/prisega.jpg'
 				}
 			},
@@ -767,7 +767,7 @@ $(document).ready(function() {
 			{
 				src: 'media/31/cover312.jpg',
 				opts : {
-					caption : 'Vir: Spomenik pred vhodov v Park vojaške zgodovine, hrani PVZ',
+					caption : 'Vir: Spomenik pred vhodov v Park vojaške zgodovine, hrani Park vojaške zgodovine Pivka',
 					thumb   : 'media/31/cover312.jpg'
 				}
 			},

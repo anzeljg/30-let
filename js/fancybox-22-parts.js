@@ -202,7 +202,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/karikatura_delegacija.jpg',
 				opts : {
-					caption : 'Vir: Karikatura, Franco Juri: »Slovenska delegacija zapusti 14. izredni kongres ZKJ«.',
+					caption : 'Vir: Karikatura »Zadnja zgodovinska kongresa«, Franco Juri.',
 					thumb   : 'media/22/karikatura_delegacija.jpg'
 				}
 			},
@@ -869,7 +869,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/photo/demos.jpg',
 				opts : {
-					caption : 'Vir: Koalicija Demos, Ljubljana, 8. januar 1990, foto Tone Stojko, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: Koalicija Demos, Ljubljana, 8. januar 1990, foto Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/22/photo/demos.jpg'
 				}
 			},
@@ -1028,7 +1028,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/docs3/plakat_demos.jpg',
 				opts : {
-					caption : 'Vir: Plakat volilne kampanje Demosa, hrani MNZ.',
+					caption : 'Vir: Plakat volilne kampanje Demosa, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/22/docs3/plakat_demos.jpg'
 				}
 			},
@@ -1202,7 +1202,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/news3/21.png',
 				opts : {
-					caption : 'Vir: »Volitve so pred durmi«, Naša obramba, št.3, 1990, leto 22, str. 26.',
+					caption : 'Vir: »Volitve so pred durmi«, Naša obramba, št. 3, 1990, leto 22, str. 26.',
 					thumb   : 'thumb/22/news3/21.png'
 				}
 			},
@@ -1221,7 +1221,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/photo/kandidati.jpg',
 				opts : {
-					caption : 'Vir: Vsi štirje kandidati za predsednika države, avtor Tone Stojko, hrani MNZ.',
+					caption : 'Vir: Vsi štirje kandidati za predsednika države, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/22/photo/kandidati.jpg'
 				}
 			},
@@ -1306,7 +1306,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/news3/32.jpg',
 				opts : {
-					caption : 'Vir: »Volitve«, Naša obramba, št.3, 1990, leto 22, str. 26.',
+					caption : 'Vir: »Volitve«, Naša obramba, št. 3, 1990, leto 22, str. 26.',
 					thumb   : 'thumb/22/news3/32.jpg'
 				}
 			},
@@ -1546,7 +1546,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/news3/62.jpg',
 				opts : {
-					caption : 'Vir: »Pri izbiranju ministrov prevladala strokovnost«, Delo, 17 .5 .1990, str. 3.',
+					caption : 'Vir: »Pri izbiranju ministrov prevladala strokovnost«, Delo, 17. 5. 1990, str. 3.',
 					thumb   : 'thumb/22/news3/62.jpg'
 				}
 			},
@@ -1600,7 +1600,7 @@ $(document).ready(function() {
 			{
 				src: 'media/22/photo/prva_vlada.jpg',
 				opts : {
-					caption : 'Vir: Prva slovenska vlada z Lojzetom Peterletom kot predsednikom na čelu, avtor Tone Stojko, hrani MNZ.',
+					caption : 'Vir: Prva slovenska vlada z Lojzetom Peterletom kot predsednikom na čelu, avtor Tone Stojko, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/22/photo/prva_vlada.jpg'
 				}
 			},

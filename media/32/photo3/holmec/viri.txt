@@ -1,6 +1,0 @@
-01: Holmec 8.7.1991 (avtor Boris Vugrinec, hrani Večer)
-02: Razdejanje Holmec 8.7.1991 (avtor Boris Vugrinec, hrani Večer)
-03: Prehod Holmec 6.7.91 (avtor Marjan Garbajs, hrani PVZ)
-04: Uničen Holmec 6.7.91 (avtor Marjan Garbajs, hrani PVZ)
-05: Poškodovan prehod Holmec 6.7.91 (avtor Marjan Garbajs, hrani PVZ)
-06: Holmec notranjost 6.7.91 (avtor Marjan Garbajs, hrani PVZ)

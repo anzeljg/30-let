@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.81"
-     inkscape:cx="323.13733"
+     inkscape:cx="84.248441"
      inkscape:cy="268.00458"
      inkscape:document-units="mm"
      inkscape:current-layer="g1399"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,7 +96,7 @@
            id="tspan817"
            x="119.05173"
            y="35.108883"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888893px;font-family:arial;-inkscape-font-specification:arial;text-align:center;text-anchor:middle;fill:#515151;fill-opacity:1;stroke-width:0.26458332">Video bo na voljo konec aprila.</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888893px;font-family:arial;-inkscape-font-specification:arial;text-align:center;text-anchor:middle;fill:#515151;fill-opacity:1;stroke-width:0.26458332">Video bo na voljo konec maja.</tspan></text>
     </g>
   </g>
 </svg>

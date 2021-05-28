@@ -8,7 +8,7 @@ $(document).ready(function() {
 			{
 				src: 'media/23/cover231.jpg',
 				opts : {
-					caption : 'Vir: »Žive naj vsi narodi, ki hrepene dočakat dan«, Družina, letnik 39, 16.12.1990, str. 7.',
+					caption : 'Vir: »Žive naj vsi narodi, ki hrepene dočakat dan«, Družina, letnik 39, 16. 12. 1990, str. 7.',
 					thumb   : 'media/23/cover231.jpg'
 				}
 			},
@@ -105,7 +105,7 @@ $(document).ready(function() {
 			{
 				src: 'media/23/news1/13.jpg',
 				opts : {
-					caption : 'Vir: »Zdaj je čas miru«, Družina, letnik 39, 15. 7. 1990, str.3.',
+					caption : 'Vir: »Zdaj je čas miru«, Družina, letnik 39, 15. 7. 1990, str. 3.',
 					thumb   : 'thumb/23/news1/13.jpg'
 				}
 			},
@@ -1206,7 +1206,7 @@ $(document).ready(function() {
 			{
 				src: 'media/23/skupscina.jpg',
 				opts : {
-					caption : 'Vir: France Bučar v skupščini RS, 25. 6. 1991, avtor Nace Bizilj, hrani Muzej novejše zgodovine.',
+					caption : 'Vir: France Bučar v skupščini RS, 25. 6. 1991, avtor Nace Bizilj, hrani Muzej novejše zgodovine Slovenije.',
 					thumb   : 'thumb/23/skupscina.jpg'
 				}
 			},
