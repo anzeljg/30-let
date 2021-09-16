@@ -26,6 +26,7 @@
     <link href="css/fancybox.css" rel="stylesheet">
 
     <!-- Custom styles for this site -->
+    <link href="css/landing.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/elements.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -33,20 +34,102 @@
 
 <body>
 
-	<nav class="br navbar navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html">
-	    <img id="logo" src="img/logo_menu.svg">
-		<div class="navbar-back">
-			<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5)">
-					<g id="nazaj" transform="translate(-19, -103)" stroke="#858585" stroke-width="6">
-						<polyline id="nazaj" transform="translate(30, 118) rotate(-180) translate(-30, -118)" points="24 106 36 118 24 130"></polyline>
-					</g>
-				</g>
-				<rect y="1" x="0" height="28" width="3" stroke="none" stroke-width="1" fill=#858585 />
-			</svg>
+	<!-- Modal -->
+	<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-body">
+			<div class="close-icon">
+			  <span data-dismiss="modal" aria-label="Zapri">
+				<img src="img/icon_zapri_siva.svg">
+			  </span>
+			</div>
+			<div class="flex-row">
+			  <div class="flex-column" style="width:45%;margin-bottom:2rem">
+				<a href="https://www.gov.si/drzavni-organi/organi-v-sestavi/arhiv/" target="_blank"><img src="img/logo_MK_arhivSL.png" class="flex-item"></a>
+				<a href="https://www.zrss.si/" target="_blank"><img src="img/logo_ZRSS.png" class="flex-item"></a>
+				<a href="https://www.parkvojaskezgodovine.si/" target="_blank"><img src="img/logo_PVZ.png" class="flex-item"></a>
+			  </div>
+			  <div class="flex-item green-line credits-box" style="width:55%;padding:0 2vh">
+				<p>
+				  <b>Partnerji</b><br />
+				  Arhiv Republike Slovenije, direktor dr. Bojan Cvelfar<br />
+				  Zavod Republike Slovenije za šolstvo, direktor dr. Vinko Logaj<br />
+				  Park vojaške zgodovine Pivka, direktor mag. Janko Boštjančič
+				</p>
+				<p>
+				  <b>Avtorji</b><br />
+				  mag. Alenka Starman Alič, Arhiv Republike Slovenije<br />
+				  Ana Čič, Park vojaške zgodovine<br />
+				  dr. Vilma Brodnik, Zavod Republike Slovenije za šolstvo
+				</p>
+				<p>
+				  <b>Strokovni sodelavci projekta</b><br />
+				  dr. Bojan Cvelfar, Arhiv Republike Slovenije<br />
+				  mag. Janko Boštjančič, Park vojaške zgodovine<br />
+				  dr. Andrej Brodnik, Fakulteta za matematiko, naravoslovje in informacijske tehnologije, Univerza na Primorskem<br />
+				  Gregor Anželj, Gimnazija Bežigrad<br />
+				  Peter Požar in Žiga Požar
+				</p>
+				<p>
+				  <b>Avtorici učnega gradiva za osnovno šolo</b><br />
+				  Jana Bec, Osnovna šola Prule<br />
+				  Bojana Mlinar Podobnik, Osnovna šola Prule
+				</p>
+				<p>
+				  <b>Institucije in drugi zunanji sodelavci</b><br />
+				  Urad predsednika Republike Slovenije<br />
+				  Predsednik RS Borut Pahor<br />
+				  Ministrstvo za obrambo<br />
+				  Ministrstvo za zunanje zadeve<br />
+				  Ministrstvo za notranje zadeve<br />
+				  Državni zbor RS<br />
+				  Muzej novejše zgodovine Slovenije<br />
+				  Slovenski etnografski muzej<br />
+				  Narodni muzej Slovenije<br />
+				  RTV Slovenija<br />
+				  Narodna univerzitetna knjižnica<br />
+				  Pošta Slovenije<br />
+				  Skupina Futura<br />
+				  Časopisi: Delo, Družina, Primorske novice, Večer<br />
+				  Posamezniki: Franco Juri, Tomaž Lavrič (Mladina), Helena Race
+				</p>
+				<p>
+				  <b>Videoprodukcija</b><br />
+				  Koprodukcija: RTV Slovenija<br />
+				  Izvedbena produkcija: Studio Virc d.o.o.
+				</p>
+				<!--<p>
+				  <b>Oblikovanje</b><br />
+				  Matic Leban
+				</p>-->
+			  </div>
+			</div>
+		  </div>
 		</div>
-	  </a>
+	  </div>
+	</div>
+
+	<!-- Copyright -->
+	<div class="modal fade" id="copyright" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-level1">
+					<div class="close-icon">
+					  <span data-dismiss="modal" aria-label="Zapri">
+						<img src="img/icon_zapri_siva.svg">
+					  </span>
+					</div>
+					<p><b><span class="green">Obvestilo o avtorskih pravicah</b></p>
+					<p>Vse pravice pridržane. Brez pisnega dovoljenja ni dovoljeno nobenega dela virtualnega učnega gradiva (razstava, video film) na kakršenkoli način reproducirati, kopirati ali kako drugače razširjati. Ta prepoved se nanaša tako na mehanske oblike reprodukcije (fotokopiranje) kot na elektronske (snemanje ali prepisovanje na kakršenkoli pomnilniški medij). Izjemo predstavlja uporaba virtualnega učnega gradiva v šolske namene neposredno pri pouku.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<nav class="br navbar navbar-dark fixed-top">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
         <div class="navbar-title">PRED PLEBISCITOM</div>
         <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
@@ -54,33 +137,352 @@
       </button>
     </nav>
 
-    <!-- Navbar menu -->
+    <!-- Navbar toggle menu -->
 	<div id="navbarToggleMenu" class="br text-light hidden">
-		<div class="menu nh15 bt bb" onclick="location.href='index.html'">
-		  <div class="menu-number">Z</div>
-		  <div class="menu-title">NA<br />ZAČETEK</div>
-		</div>
-		<div class="menu active nh55">
-		  <div class="menu-number">1</div>
-		  <div class="menu-title">PRED<br />PLEBISCITOM</div>
-		  <div class="menu-items">
-			<a href="#plebiscit11">Stopili smo skupaj</a><br />
-			<a href="#plebiscit12">Ni nas bilo strah</a><br />
-			<a href="#plebiscit13">Podprli so nas</a><br />
-			<a href="#plebiscit14">Kampanja nas je prepričala</a><br />
-			<a href="#plebiscit15">Navkljub dvomom</a><br />
-			<a href="#plebiscit16">Smo vse bolj verjeli</a><br />
-		  </div>
-		</div>
-		<div class="menu nh15 bt bb" onclick="location.href='plebiscit2.html'">
-		  <div class="menu-number">2</div>
-		  <div class="menu-title">DAN<br />PLEBISCITA</div>
-		</div>
-		<div class="menu nh15" onclick="location.href='plebiscit3.html'">
-		  <div class="menu-number">3</div>
-		  <div class="menu-title">PO<br />PLEBISCITU</div>
-		</div>
+	  <table>
+	    <tr>
+		  <td width="16%" rowspan="8" valign="top" class="menu-main-column">
+		    <img src="img/logo_menu.svg" width="60%">
+			<div class="menu-items" style="padding-left:1.3em;padding-top:1.3em">
+			  <a href="index.html">Vstopna stran</a><br />
+			  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
+			  <a href="#" data-toggle="modal" data-target="#copyright">Avtorske pravice</a><br />
+			</div>
+		  </td>
+		  <td width="30%" rowspan="8" valign="top" height="100%" style="padding:0">
+
+			<div id="plebiscit-menu" class="collapse-title" data-target="#plebiscit-menu-items" aria-expanded="false" aria-controls="plebiscit-menu-items">PLEBISCIT</div>
+			<div id="plebiscit-menu-items" class="collapse-item">
+				<div class="menu pt2 h20p">
+					<span class="item-number"></span>
+					<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
+				</div>
+				<div class="menu active pt2 h20p">
+					<span class="item-number">1</span>
+					<div class="item-label">PRED<br />PLEBISCITOM</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">2</span>
+					<div class="item-label">DAN<br />PLEBISCITA</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">3</span>
+					<div class="item-label">PO<br />PLEBISCITU</div>
+				</div>
+			</div>
+			<div id="samostojnost-menu" class="collapse-title bt bb" data-toggle="collapse" data-target="#samostojnost-menu-items" aria-expanded="false" aria-controls="samostojnost-menu-items">OSAMOSVOJITEV</div>
+			<div id="samostojnost-menu-items" class="collapse-item hidden">
+				<div class="menu pt2 h20p">
+					<span class="item-number"></span>
+					<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">4</span>
+					<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">5</span>
+					<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">6</span>
+					<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">7</span>
+					<div class="item-label">VARNOSTNI<br />VIDIKI</div>
+				</div>
+			</div>
+			<div id="vojna-menu" class="collapse-title" class="collapse-title bt bb" data-toggle="collapse" data-target="#vojna-menu-items" aria-expanded="false" aria-controls="vojna-menu-items">VOJNA</div>
+			<div id="vojna-menu-items" class="collapse-item hidden">
+				<div class="menu pt2 h20p">
+					<span class="item-number"></span>
+					<div class="item-label">OGLED VIDEA<br />VOJNA</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">8</span>
+					<div class="item-label">DAN<br />PREJ</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">9</span>
+					<div class="item-label">SPOPADI</div>
+				</div>
+				<div class="menu pt2 h20p">
+					<span class="item-number">10</span>
+					<div class="item-label">KONEC<br />VOJNE</div>
+				</div>
+			</div>
+
+		  </td>
+		  <td width="54%" class="menu active">
+		    <div class="item-number">1</div>
+			<div class="item-label">PRED<br />PLEBISCITOM</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="54%" rowspan="7" class="menu active content">
+		    <div class="item-content">
+			  <a href="#plebiscit11">Stopili smo skupaj</a><br>
+			  <a href="#plebiscit12">Ni nas bilo strah</a><br>
+			  <a href="#plebiscit13">Podprli so nas</a><br>
+			  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
+			  <a href="#plebiscit15">Navkljub dvomom</a><br>
+			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
+			</div>
+		  </td>
+		</tr>
+		<!--
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />VOJNA</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu active bl">
+		    <div class="item-number">1</div>
+			<div class="item-label">PRED<br />PLEBISCITOM</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">4</div>
+			<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">8</div>
+			<div class="item-label">DAN<br />PREJ</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" rowspan="2" class="menu active content bl">
+		    <div class="item-content">
+			  <a href="#plebiscit11">Stopili smo skupaj</a><br>
+			  <a href="#plebiscit12">Ni nas bilo strah</a><br>
+			  <a href="#plebiscit13">Podprli so nas</a><br>
+			  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
+			  <a href="#plebiscit15">Navkljub dvomom</a><br>
+			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
+			</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">5</div>
+			<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">9</div>
+			<div class="item-label">SPOPADI</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">6</div>
+			<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">10</div>
+			<div class="item-label">KONEC<br />VOJNE</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">2</div>
+			<div class="item-label">DAN<br />PLEBISCITA</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">7</div>
+			<div class="item-label">VARNOSTNI<br />VIDIKI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">3</div>
+			<div class="item-label">PO<br />PLEBISCITU</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+		//-->
+	  </table>
     </div>
+
+    <!-- Navbar bottom menu -->
+	<div id="navbarBottomMenu" class="br text-light hidden">
+	  <table>
+	    <tr>
+		  <td width="16%" rowspan="8" valign="top" class="menu-main-column">
+		    <img src="img/logo_menu.svg" width="60%">
+			<div class="menu-items" style="padding-left:1.3em;padding-top:1.3em">
+			  <a href="index.html">Vstopna stran</a><br />
+			  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
+			  <a href="#" data-toggle="modal" data-target="#copyright">Avtorske pravice</a><br />
+			</div>
+		  </td>
+		  <td width="28%" height="12.5%" id="plebiscit" class="bl">PLEBISCIT</td>
+		  <td width="28%" height="12.5%" id="samostojnost" class="disabled bl">OSAMOSVOJITEV</td>
+		  <td width="28%" height="12.5%" id="vojna" class="disabled bl">VOJNA</td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number"></div>
+			<div class="item-label">OGLED VIDEA<br />VOJNA</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu active bl">
+		    <div class="item-number">1</div>
+			<div class="item-label">PRED<br />PLEBISCITOM</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">4</div>
+			<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">8</div>
+			<div class="item-label">DAN<br />PREJ</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" rowspan="2" class="menu active content bl">
+		    <div class="item-content">
+			  <a href="#plebiscit11">Stopili smo skupaj</a><br>
+			  <a href="#plebiscit12">Ni nas bilo strah</a><br>
+			  <a href="#plebiscit13">Podprli so nas</a><br>
+			  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
+			  <a href="#plebiscit15">Navkljub dvomom</a><br>
+			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
+			</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">5</div>
+			<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">9</div>
+			<div class="item-label">SPOPADI</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">6</div>
+			<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">10</div>
+			<div class="item-label">KONEC<br />VOJNE</div>
+		  </td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">2</div>
+			<div class="item-label">DAN<br />PLEBISCITA</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">7</div>
+			<div class="item-label">VARNOSTNI<br />VIDIKI</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="menu bl">
+		    <div class="item-number">3</div>
+			<div class="item-label">PO<br />PLEBISCITU</div>
+		  </td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		  <td width="28%" height="12.5%" class="bl"></td>
+		</tr>
+	  </table>
+    </div>
+
+    <!-- Navbar video menu -->
+<!--
+	<div id="navbarVideoMenu" class="br text-light hidden">
+	  <table>
+	    <tr>
+		  <td width="16%" rowspan="8" valign="top" class="menu-main-column">
+		    <img src="img/logo_menu.svg" width="60%">
+			<div class="menu-items" style="padding-left:1.3em;padding-top:1.3em">
+			  <a href="index.html">Vstopna stran</a><br />
+			  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
+			</div>
+		  </td>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_bucar">
+			</div>
+			<span class="menu-label">Poziv dr. Franceta Bučarja</span>
+		  </td>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_petrle">
+			</div>
+			<span class="menu-label">Poziv Lojzeta Petrleta</span>
+		  </td>
+		  <td width="28%" height="25%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_kucan">
+			</div>
+			<span class="menu-label">Poziv Milana Kučana</span>
+		  </td>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_sustar">
+			</div>
+			<span class="menu-label">Poziv dr. Alojzija Šuštarja</span>
+		  </td>
+		  <td width="28%" height="25%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_pucnik">
+			</div>
+			<span class="menu-label">Poziv Jožeta Pučnika</span>
+		  </td>
+		  <td width="28%" height="25%" class="menu bl">
+			<div>
+			  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_kramberger">
+			</div>
+			<span class="menu-label">Poziv Ivana Krambergerja</span>
+		  </td>
+		  <td width="28%" height="25%" class="bl"></td>
+		</tr>
+		<tr>
+		  <td width="28%" height="25%" class="bl"></td>
+		  <td width="28%" height="25%" class="bl"></td>
+		  <td width="28%" height="25%" class="bl"></td>
+		</tr>
+	  </table>
+    </div>
+//-->
 
 	<!-- Previous and next buttons -->
 	<div class="nav-prev-btn" id="navPrevBtn">
@@ -1150,6 +1552,20 @@
 	<!------------------------------
 	//  FIXED FOOTER
 	//----------------------------->
+	<div class="progress-container">
+	  <div class="progress-bar" id="progressBar"></div>
+	</div>
+
+	<div id="bottombar" class="bt navbar-dark">
+	  <!--<button class="bottombar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">-->
+	  <button class="bottombar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottomMenu" aria-controls="navbarBottomMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="bottombar-title">PRED PLEBISCITOM</div>
+        <span id="btmbar-hamburger" class="navbar-toggler-icon"></span>
+        <span id="btmbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
+      </button>
+	  <button class="video-toggler">&#x25B6;</button>
+	</div>
+<!--
     <footer id="fixed-footer">
       <div class="flex-row">
 	    <div class="footer-item">
@@ -1190,6 +1606,7 @@
 	    </div>
 	  </div>
     </footer>
+//-->
 
 <!-- Bootstrap core JavaScript -->
 <script src="js/jquery.min.js"></script>
@@ -1237,22 +1654,96 @@ $(function() {
 		});
 
 	/*
+	 *  Toggle bottom menu on/off
+	 */
+	$('#navbarBottomMenu')
+		.on('shown.bs.collapse', function() {
+			$('#btmbar-hamburger').addClass('hidden');
+			$('#btmbar-cheeseburger').removeClass('hidden'); 
+			$('#navbarBottomMenu').removeClass('hidden');		  
+		})
+		.on('hidden.bs.collapse', function() {
+			$('#btmbar-hamburger').removeClass('hidden');
+			$('#btmbar-cheeseburger').addClass('hidden');        
+			$('#navbarBottomMenu').addClass('hidden');		  
+		});
+
+	/*
+	 *  Mobile menu collapse/toggle submenus
+	 */
+	$('#plebiscit-menu')
+		.on('mouseup touchend', function() {
+			event.preventDefault();
+			if ($('#plebiscit-menu-items').hasClass('hidden')) {
+				$('#plebiscit-menu-items').removeClass('hidden');
+				$('#samostojnost-menu-items').addClass('hidden');
+				$('#vojna-menu-items').addClass('hidden');
+			}
+		});
+
+	$('#samostojnost-menu')
+		.on('mouseup touchend', function() {
+			event.preventDefault();
+			if ($('#samostojnost-menu-items').hasClass('hidden')) {
+				$('#plebiscit-menu-items').addClass('hidden');
+				$('#samostojnost-menu-items').removeClass('hidden');
+				$('#vojna-menu-items').addClass('hidden');
+			}
+		});
+
+	$('#vojna-menu')
+		.on('mouseup touchend', function() {
+			event.preventDefault();
+			if ($('#vojna-menu-items').hasClass('hidden')) {
+				$('#plebiscit-menu-items').addClass('hidden');
+				$('#samostojnost-menu-items').addClass('hidden');
+				$('#vojna-menu-items').removeClass('hidden');
+			}
+		});
+
+	/*
+	 *  Progress bar
+	 */
+
+	// When the user scrolls the page, execute progressFunction
+	window.onscroll = function() { progressFunction() };
+
+	function progressFunction() {
+		var winScroll = document.body.scrollLeft || document.documentElement.scrollLeft;
+		var width = document.documentElement.scrollWidth - document.documentElement.clientWidth;
+		var scrolled = (winScroll / width) * 100;
+		document.getElementById("progressBar").style.width = scrolled + "%";
+	}
+
+	/*
 	 *  Previous and next buttons
 	 */
-	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 
-	$('#navNextBtn').click(function() {
-		event.preventDefault();
-		$('html, body').animate({
-			scrollLeft: $('html, body').scrollLeft() + vw
-		}, "slow");
+	//const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+	const offset = 25;
+
+	$('#navNextBtn').on({
+		'mousedown touchstart': function() {
+			event.preventDefault();
+			int00 = setInterval(function() {
+				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() + offset}, 50)
+			}, 50);
+		},
+		'mouseup touchend': function () {
+			clearInterval(int00);
+		}
 	});
 
-	$('#navPrevBtn').click(function() {
-		event.preventDefault();
-		$('html, body').animate({
-			scrollLeft: $('html, body').scrollLeft() - vw
-		}, "slow");
+	$('#navPrevBtn').on({
+		'mousedown touchstart': function() {
+			event.preventDefault();
+			int00 = setInterval(function() {
+				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() - offset}, 50)
+			}, 50);
+		},
+		'mouseup touchend': function () {
+			clearInterval(int00);
+		}
 	});
 
     /*
