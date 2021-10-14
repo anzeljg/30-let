@@ -79,10 +79,7 @@
 	background-size: 80vh;
 }
 
-.heading-number1,
-.heading-number2,
-.heading-number3,
-.heading-number4 {
+.heading-number {
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-left: 18vh;

@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/rubik-regular-webfont.woff2') format('woff2'),
+         url('../font/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/rubik-bold-webfont.woff2') format('woff2'),
+         url('../font/rubik-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* override browser default */
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+	background-color: #F0EFD4;
+	font-family: 'Rubik', sans-serif;
+	font-size: 2vh;
+	line-height: 3vh;
+}
+
+.viri_container {
+	margin: 0 10vw;
+	padding: 7vh;
+	width: 80vw;
+	min-height: 100vh;
+	background-color: white;
+}
+
+.viri_banner {
+	width: 48vh;
+	height: 16vh;
+	padding-top: 5vh;
+	color: white;
+	font-size: 4vh;
+	font-weight: bold;
+	line-height: 6vh;
+	text-align: center;
+}
+
+.viri_banner#plebiscit {
+	background-size: 30vw auto;
+	background-image: url('../img/plebiscit_button_bg.jpg');
+	background-position: 50% 40%;
+}
+
+.viri_banner#samostojnost {
+	background-size: 30vw auto;
+	background-image: url('../img/samostojnost_button_bg.jpg');
+	background-position: 50% 20%;
+}
+
+.viri_banner#vojna {
+	background-size: 30vw auto;
+	background-image: url('../img/vojna_button_bg.jpg');
+	background-position: 50% 20%;
+}
+
+.viri_heading {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	font-size: 2.7vh;
+	font-weight: bold;
+}
+
+.viri_subheading {
+	font-size: 2.7vh;
+	margin-bottom: 3vh;
+}
+
+.viri_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.viri_content {
+	margin-bottom: 5vh;
+	padding-left: 3vh;
+	border-left: 2px solid #48AC33;
+}
+
+.viri_links ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.viri_links li {
+	margin-top: 1vh;
+}
+
+.viri_links li:after {
+	content: ' >';
+}
+
+.viri_links a:link,
+.viri_links a:visited {
+	color: #212529;
+	text-decoration: none;
+}
+
+.viri_links a:active,
+.viri_links a:hover {
+	color: #48AC33;
+	text-decoration: none;
+}
+
+/*
+ *  Device orientation
+ */
+#device-orientation {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	color: #FFFFFF;
+	background-color: #393939;
+}
+#device-orientation {
+	display: none;
+	z-index: 9999;
+}
+
+#orientation-box {
+	width: 40vh;
+	height: 40vh;
+	margin-top: 30vh;
+	text-align: center;
+	border: auto;
+	background-color: #393939;
+}
+
+
+/*
+ *  Bootstrap 4 media queries
+ */
+
+@media only screen and (orientation:portrait){
+	#device-orientation {
+		display: block;
+	}
+
+}
+
+@media only screen and (orientation:landscape){
+	#device-orientation {
+		display: none;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+	.viri_column {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	.viri_column {
+		margin-left: 48vh;
+		margin-top: -8vh;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	.viri_column {
+		margin-left: 48vh;
+		margin-top: -8vh;
+	}
+
+}

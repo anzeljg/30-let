@@ -26,6 +26,11 @@
 	margin-top: 0.5rem;
 }
 
+#logo {
+	width: 3.5rem;
+	height: auto;
+}
+
 #logo ~ .navbar-back svg #nazaj {
 	stroke: #858585;
 }
@@ -242,9 +247,10 @@
 td#plebiscit,
 td#samostojnost,
 td#vojna,
-div#plebiscit-menu,
-div#samostojnost-menu,
-div#vojna-menu {
+td#plebiscit-menu,
+td#samostojnost-menu,
+td#vojna-menu,
+td#osnovni-menu {
 	font-family: 'Rubik', sans-serif;
 	font-weight: bold;
 	font-size: 4vh;
@@ -252,29 +258,45 @@ div#vojna-menu {
 	padding-left: 4vh !important;
 }
 
-div#plebiscit-menu,
-div#samostojnost-menu,
-div#vojna-menu {
+td#plebiscit-menu,
+td#samostojnost-menu,
+td#vojna-menu,
+td#osnovni-menu {
 	cursor: pointer;
 }
 
-td#plebiscit,
-div#plebiscit-menu {
+td#plebiscit {
 	background-size: 30vw auto;
 	background-image: url('../img/plebiscit_button_bg.jpg');
 	background-position: 50% 40%;
 }
 
-td#samostojnost,
-div#samostojnost-menu {
+td#samostojnost {
 	background-size: 30vw auto;
 	background-image: url('../img/samostojnost_button_bg.jpg');
 	background-position: 50% 20%;
 }
 
-td#vojna,
-div#vojna-menu {
+td#vojna {
 	background-size: 30vw auto;
+	background-image: url('../img/vojna_button_bg.jpg');
+	background-position: 50% 20%;
+}
+
+td#plebiscit-menu {
+	background-size: auto 35vh;
+	background-image: url('../img/plebiscit_button_bg.jpg');
+	background-position: 50% 40%;
+}
+
+td#samostojnost-menu {
+	background-size: auto 35vh;
+	background-image: url('../img/samostojnost_button_bg.jpg');
+	background-position: 50% 20%;
+}
+
+td#vojna-menu {
+	background-size: auto 35vh;
 	background-image: url('../img/vojna_button_bg.jpg');
 	background-position: 50% 20%;
 }
@@ -292,6 +314,21 @@ div#vojna-menu {
 	text-align: right;
 }
 
+.item-number-m {
+	float: left;
+	/*width: 25%;*/
+	width: 6rem; /* 7vw = 25% of 28% column (28vw) */
+	padding-right: 1rem;
+	padding-top: 0.75rem;
+	padding-left: 1rem;
+	height: 100%;
+	line-height: 100%;
+	font-family: 'Rubik Black';
+	font-weight: bold;
+	font-size: 4rem;
+	text-align: right;
+}
+
 .item-label {
 	float: left;
 	/*width: 75%;*/
@@ -302,6 +339,18 @@ div#vojna-menu {
 	font-size: 2.5vh;
 	line-height: 3vh;
 	padding-top: 1vh;
+}
+
+.item-label-m {
+	float: left;
+	/*width: 75%;*/
+	/*width: 20.5vw; /* 21vw = 75% of 28% column (28vw) */
+	height: 100%;
+	padding-top: 1rem;
+	font-family: 'Rubik';
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.75rem;
 }
 
 .item-content {
@@ -315,12 +364,25 @@ div#vojna-menu {
     line-height: 3.5vh;
 }
 
-.item-content a {
+.item-content-m {
+	float: left;
+	/*margin-left: 25%; /* width of .item-number */
+	margin-left: 6rem; /* width of .item-number */
+	/*width: 75%;*/
+	/*width: 21vw; /* 21vw = 75% of 28% column (28vw) */
+	height: 100%;
+	font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.item-content a,
+.item-content-m a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
-.item-content a:hover {
+.item-content a:hover,
+.item-content-m a:hover {
 	color: #393939;
 }
 
@@ -343,7 +405,7 @@ div#vojna-menu {
 	position: absolute;
 	bottom: -1.125rem;
 	left: 4rem;
-	width: 20rem;
+	width: 30rem;
 	height: 3.8rem;
 	font-family: 'Rubik';
 	font-weight: bold;
@@ -443,6 +505,47 @@ div#vojna-menu {
 	height: 4px;
 	background: #48AC33;
 	width: 0%;
+}
+
+
+/* Page navigation / paging */
+
+.paging {
+	position: absolute;
+    bottom: 0.875rem;
+    right: 1rem;
+    width: 8rem;
+	color: #858585;
+	font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 3.0rem;
+}
+
+.paging a {
+	color: #858585;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.paging a:hover {
+	color: #48AC33;
+}
+
+.dimmed {
+	color: #636363;
+}
+
+
+/* Video button / Playlist */
+.video-button {
+	position: fixed;
+	top: 10vh;
+	right: 10vh;
+	width: 5vh;
+	height: 5vh;
+	background: #393939;
+	z-index: 3000;
 }
 
 

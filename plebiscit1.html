@@ -128,10 +128,12 @@
 	</div>
 
 
-
 	<nav class="br navbar navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">
+	    <img id="logo" src="img/logo_menu.svg">
+	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="navbar-title">PRED PLEBISCITOM</div>
+        <div class="navbar-title">1. PRED PLEBISCITOM</div>
         <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
         <span id="navbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
       </button>
@@ -141,182 +143,135 @@
 	<div id="navbarToggleMenu" class="br text-light hidden">
 	  <table>
 	    <tr>
-		  <td width="16%" rowspan="8" valign="top" class="menu-main-column">
-		    <img src="img/logo_menu.svg" width="60%">
-			<div class="menu-items" style="padding-left:1.3em;padding-top:1.3em">
-			  <a href="index.html">Vstopna stran</a><br />
-			  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
-			  <a href="#" data-toggle="modal" data-target="#copyright">Avtorske pravice</a><br />
+		  <td id="plebiscit-menu" style="width:75vh"><center>PLEBISCIT</center></td>
+		  <td rowspan="4" valign="top" style="height:100vh;padding:0">
+		    <div style="height:100vh;overflow-y:scroll;overflow:-moz-scrollbars-vertical;">
+		      <!-- Mobile menu: Plebiscit -->
+			  <table border="0" id="plebiscit-menu-m">
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='plebiscit.html'">
+					<center style="font-size:1rem">Ogled filma</center>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu active" style="height:25vh">
+					<div class="item-number-m">1</div>
+					<div class="item-label-m">PRED<br />PLEBISCITOM</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu active content" style="height:50vh">
+					<div class="item-content-m" style="font-size:1rem">
+					  <a href="#plebiscit11">Stopili smo skupaj</a><br>
+					  <a href="#plebiscit12">Ni nas bilo strah</a><br>
+					  <a href="#plebiscit13">Podprli so nas</a><br>
+					  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
+					  <a href="#plebiscit15">Navkljub dvomom</a><br>
+					  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
+					</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='plebiscit2.html'">
+					<div class="item-number-m">2</div>
+					<div class="item-label-m">DAN<br />PLEBISCITA</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='plebiscit3.html'">
+					<div class="item-number-m">3</div>
+					<div class="item-label-m">PO<br />PLEBISCITU</div>
+				  </td>
+				</tr>
+			  </table>
+		      <!-- Mobile menu: Osamosvojitev -->
+			  <table border="0" id="samostojnost-menu-m" class="hidden">
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='samostojnost.html'">
+					<center style="font-size:1rem">Ogled filma</center>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='samostojnost1.html'">
+					<div class="item-number-m">4</div>
+					<div class="item-label-m">80. LETA V<br />JUGOSLAVIJI</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='samostojnost2.html'">
+					<div class="item-number-m">5</div>
+					<div class="item-label-m">PROCESI<br />DEMOKRATIZACIJE</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='samostojnost3.html'">
+					<div class="item-number-m">6</div>
+					<div class="item-label-m">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='samostojnost4.html'">
+					<div class="item-number-m">7</div>
+					<div class="item-label-m">VARNOSTNI<br />VIDIKI</div>
+				  </td>
+				</tr>
+			  </table>
+		      <!-- Mobile menu: Vojna -->
+			  <table border="0" id="vojna-menu-m" class="hidden">
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='vojna.html'">
+					<center style="font-size:1rem">Ogled filma</center>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='vojna1.html'">
+					<div class="item-number-m">8</div>
+					<div class="item-label-m">DAN<br />PREJ</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='vojna2.html'">
+					<div class="item-number-m">9</div>
+					<div class="item-label-m">SPOPADI</div>
+				  </td>
+				</tr>
+				<tr>
+				  <td class="menu" style="height:25vh" onclick="window.location='vojna3.html'">
+					<div class="item-number-m">10</div>
+					<div class="item-label-m">KONEC<br />VOJNE</div>
+				  </td>
+				</tr>
+			  </table>
+		      <!-- Mobile menu: Osnovni meni -->
+			  <table border="0" width="100%" id="osnovni-menu-m" class="hidden" style="height:100vh">
+				<tr>
+				  <td width="40%" class="menu-main-column">
+					<img src="img/logo_menu.svg" style="width:100%;padding:10px">
+				  </td>
+				  <td class="menu-main-column">
+					<div class="menu-items" style="width:100%;font-size:1rem;line-height:1.5rem;">
+					  <a href="index.html">Vstopna stran</a><br />
+					  <a href="viri.html">Viri</a><br />
+					  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
+					  <a href="#" data-toggle="modal" data-target="#copyright">Avtorske pravice</a><br />
+					</div>
+				  </td>
+				</tr>
+			  </table>
 			</div>
 		  </td>
-		  <td width="30%" rowspan="8" valign="top" height="100%" style="padding:0">
-
-			<div id="plebiscit-menu" class="collapse-title" data-target="#plebiscit-menu-items" aria-expanded="false" aria-controls="plebiscit-menu-items">PLEBISCIT</div>
-			<div id="plebiscit-menu-items" class="collapse-item">
-				<div class="menu pt2 h20p">
-					<span class="item-number"></span>
-					<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
-				</div>
-				<div class="menu active pt2 h20p">
-					<span class="item-number">1</span>
-					<div class="item-label">PRED<br />PLEBISCITOM</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">2</span>
-					<div class="item-label">DAN<br />PLEBISCITA</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">3</span>
-					<div class="item-label">PO<br />PLEBISCITU</div>
-				</div>
-			</div>
-			<div id="samostojnost-menu" class="collapse-title bt bb" data-toggle="collapse" data-target="#samostojnost-menu-items" aria-expanded="false" aria-controls="samostojnost-menu-items">OSAMOSVOJITEV</div>
-			<div id="samostojnost-menu-items" class="collapse-item hidden">
-				<div class="menu pt2 h20p">
-					<span class="item-number"></span>
-					<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">4</span>
-					<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">5</span>
-					<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">6</span>
-					<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">7</span>
-					<div class="item-label">VARNOSTNI<br />VIDIKI</div>
-				</div>
-			</div>
-			<div id="vojna-menu" class="collapse-title" class="collapse-title bt bb" data-toggle="collapse" data-target="#vojna-menu-items" aria-expanded="false" aria-controls="vojna-menu-items">VOJNA</div>
-			<div id="vojna-menu-items" class="collapse-item hidden">
-				<div class="menu pt2 h20p">
-					<span class="item-number"></span>
-					<div class="item-label">OGLED VIDEA<br />VOJNA</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">8</span>
-					<div class="item-label">DAN<br />PREJ</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">9</span>
-					<div class="item-label">SPOPADI</div>
-				</div>
-				<div class="menu pt2 h20p">
-					<span class="item-number">10</span>
-					<div class="item-label">KONEC<br />VOJNE</div>
-				</div>
-			</div>
-
-		  </td>
-		  <td width="54%" class="menu active">
-		    <div class="item-number">1</div>
-			<div class="item-label">PRED<br />PLEBISCITOM</div>
-		  </td>
 		</tr>
-		<tr>
-		  <td width="54%" rowspan="7" class="menu active content">
-		    <div class="item-content">
-			  <a href="#plebiscit11">Stopili smo skupaj</a><br>
-			  <a href="#plebiscit12">Ni nas bilo strah</a><br>
-			  <a href="#plebiscit13">Podprli so nas</a><br>
-			  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
-			  <a href="#plebiscit15">Navkljub dvomom</a><br>
-			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
-			</div>
-		  </td>
+	    <tr>
+		  <td id="samostojnost-menu" style="width:75vh" class="disabled"><center>OSAMOSVOJITEV</center></td>
 		</tr>
-		<!--
-		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />VOJNA</div>
-		  </td>
+	    <tr>
+		  <td id="vojna-menu" style="width:75vh" class="disabled"><center>VOJNA</center></td>
 		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" class="menu active bl">
-		    <div class="item-number">1</div>
-			<div class="item-label">PRED<br />PLEBISCITOM</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">4</div>
-			<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">8</div>
-			<div class="item-label">DAN<br />PREJ</div>
-		  </td>
+	    <tr>
+		  <td id="osnovni-menu" style="width:75vh" class="disabled"><center>OSNOVNI MENI</center></td>
 		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" rowspan="2" class="menu active content bl">
-		    <div class="item-content">
-			  <a href="#plebiscit11">Stopili smo skupaj</a><br>
-			  <a href="#plebiscit12">Ni nas bilo strah</a><br>
-			  <a href="#plebiscit13">Podprli so nas</a><br>
-			  <a href="#plebiscit14">Kampanja nas je prepričala</a><br>
-			  <a href="#plebiscit15">Navkljub dvomom</a><br>
-			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
-			</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">5</div>
-			<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">9</div>
-			<div class="item-label">SPOPADI</div>
-		  </td>
-		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">6</div>
-			<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">10</div>
-			<div class="item-label">KONEC<br />VOJNE</div>
-		  </td>
-		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">2</div>
-			<div class="item-label">DAN<br />PLEBISCITA</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">7</div>
-			<div class="item-label">VARNOSTNI<br />VIDIKI</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number">3</div>
-			<div class="item-label">PO<br />PLEBISCITU</div>
-		  </td>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		</tr>
-		<tr>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		  <td width="28%" height="12.5%" class="bl"></td>
-		</tr>
-		//-->
 	  </table>
-    </div>
+	</div>
 
     <!-- Navbar bottom menu -->
 	<div id="navbarBottomMenu" class="br text-light hidden">
@@ -326,26 +281,24 @@
 		    <img src="img/logo_menu.svg" width="60%">
 			<div class="menu-items" style="padding-left:1.3em;padding-top:1.3em">
 			  <a href="index.html">Vstopna stran</a><br />
+			  <a href="viri.html">Viri</a><br />
 			  <a href="#" data-toggle="modal" data-target="#about">O projektu</a><br />
 			  <a href="#" data-toggle="modal" data-target="#copyright">Avtorske pravice</a><br />
 			</div>
 		  </td>
-		  <td width="28%" height="12.5%" id="plebiscit" class="bl">PLEBISCIT</td>
-		  <td width="28%" height="12.5%" id="samostojnost" class="disabled bl">OSAMOSVOJITEV</td>
-		  <td width="28%" height="12.5%" id="vojna" class="disabled bl">VOJNA</td>
+		  <td width="28%" height="12.5%" id="plebiscit" class="bl"><center>PLEBISCIT</center></td>
+		  <td width="28%" height="12.5%" id="samostojnost" class="disabled bl"><center>OSAMOSVOJITEV</center></td>
+		  <td width="28%" height="12.5%" id="vojna" class="disabled bl"><center>VOJNA</center></td>
 		</tr>
 		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />PLEBISCIT</div>
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='plebiscit.html'">
+		    <center>Ogled filma</center>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />OSAMOSVOJITEV</div>
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='samostojnost.html'">
+		    <center>Ogled filma</center>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
-		    <div class="item-number"></div>
-			<div class="item-label">OGLED VIDEA<br />VOJNA</div>
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='vojna.html'">
+		    <center>Ogled filma</center>
 		  </td>
 		</tr>
 		<tr>
@@ -353,11 +306,11 @@
 		    <div class="item-number">1</div>
 			<div class="item-label">PRED<br />PLEBISCITOM</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='samostojnost1.html'">
 		    <div class="item-number">4</div>
 			<div class="item-label">80. LETA V<br />JUGOSLAVIJI</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='vojna1.html'">
 		    <div class="item-number">8</div>
 			<div class="item-label">DAN<br />PREJ</div>
 		  </td>
@@ -373,38 +326,38 @@
 			  <a href="#plebiscit16">Smo vse bolj verjeli</a><br>
 			</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='samostojnost2.html'">
 		    <div class="item-number">5</div>
 			<div class="item-label">PROCESI<br />DEMOKRATIZACIJE</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='vojna2.html'">
 		    <div class="item-number">9</div>
 			<div class="item-label">SPOPADI</div>
 		  </td>
 		</tr>
 		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='samostojnost3.html'">
 		    <div class="item-number">6</div>
 			<div class="item-label">RAZGLASITEV<br />SAMOSTOJNOSTI</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='vojna3.html'">
 		    <div class="item-number">10</div>
 			<div class="item-label">KONEC<br />VOJNE</div>
 		  </td>
 		</tr>
 		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='plebiscit2.html'">
 		    <div class="item-number">2</div>
 			<div class="item-label">DAN<br />PLEBISCITA</div>
 		  </td>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='samostojnost4.html'">
 		    <div class="item-number">7</div>
 			<div class="item-label">VARNOSTNI<br />VIDIKI</div>
 		  </td>
 		  <td width="28%" height="12.5%" class="bl"></td>
 		</tr>
 		<tr>
-		  <td width="28%" height="12.5%" class="menu bl">
+		  <td width="28%" height="12.5%" class="menu bl" onclick="window.location='plebiscit3.html'">
 		    <div class="item-number">3</div>
 			<div class="item-label">PO<br />PLEBISCITU</div>
 		  </td>
@@ -532,7 +485,7 @@
     <div class="main-content">
 
 		<div class="heading-box heading-bg">
-		  <div class="heading-number1">1</div>
+		  <div class="heading-number">1</div>
 		  <div class="heading-title">PRED<br />PLEBISCITOM</div>
 		  <div class="scroll-indicator">
 		    <img src="img/scroll_indicator2.png">
@@ -1557,13 +1510,20 @@
 	</div>
 
 	<div id="bottombar" class="bt navbar-dark">
-	  <!--<button class="bottombar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleMenu" aria-controls="navbarToggleMenu" aria-expanded="false" aria-label="Toggle navigation">-->
 	  <button class="bottombar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottomMenu" aria-controls="navbarBottomMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="bottombar-title">PRED PLEBISCITOM</div>
+        <div class="bottombar-title"><span class="dimmed">PLEBISCIT / </span>1. PRED PLEBISCITOM</div>
         <span id="btmbar-hamburger" class="navbar-toggler-icon"></span>
         <span id="btmbar-cheeseburger" class="hidden" style="padding-top:0.1rem;">&#x2573;</span>
       </button>
-	  <button class="video-toggler">&#x25B6;</button>
+	  <div class="paging">
+	    <table width="100%" border="0">
+		  <tr align="center">
+		    <td width="25%">&#x3008;</td>
+			<td width="50%">1</td>
+			<td width="25%"><a href="plebiscit2.html">&#x3009;</a></td>
+		  </tr>
+		</table>
+	  </div>
 	</div>
 <!--
     <footer id="fixed-footer">
@@ -1626,6 +1586,9 @@
 <script src="js/fancybox-11-part6.js"></script>
 <script src="js/fancybox-11-video.js"></script>
 
+<!-- Navigacija -->
+<script src="js/navigation.js"></script>
+
 <!-- Custom JavaScript for this site -->
 <script>
 /*
@@ -1639,149 +1602,21 @@ window.onload = function(){
 $(function() {
 
 	/*
-	 *  Toggle side menu on/off
+	 *  Toggle video menu on/off
 	 */
-	$('#navbarToggleMenu')
+/*
+	$('#navbarVideoMenu')
 		.on('shown.bs.collapse', function() {
-			$('#navbar-hamburger').addClass('hidden');
-			$('#navbar-cheeseburger').removeClass('hidden'); 
-			$('#navbarToggleMenu').removeClass('hidden');		  
+			//$('#btmbar-hamburger').addClass('hidden');
+			//$('#btmbar-cheeseburger').removeClass('hidden'); 
+			$('#navbarVideoMenu').removeClass('hidden');		  
 		})
 		.on('hidden.bs.collapse', function() {
-			$('#navbar-hamburger').removeClass('hidden');
-			$('#navbar-cheeseburger').addClass('hidden');        
-			$('#navbarToggleMenu').addClass('hidden');		  
+			//$('#btmbar-hamburger').removeClass('hidden');
+			//$('#btmbar-cheeseburger').addClass('hidden');        
+			$('#navbarVideoMenu').addClass('hidden');		  
 		});
-
-	/*
-	 *  Toggle bottom menu on/off
-	 */
-	$('#navbarBottomMenu')
-		.on('shown.bs.collapse', function() {
-			$('#btmbar-hamburger').addClass('hidden');
-			$('#btmbar-cheeseburger').removeClass('hidden'); 
-			$('#navbarBottomMenu').removeClass('hidden');		  
-		})
-		.on('hidden.bs.collapse', function() {
-			$('#btmbar-hamburger').removeClass('hidden');
-			$('#btmbar-cheeseburger').addClass('hidden');        
-			$('#navbarBottomMenu').addClass('hidden');		  
-		});
-
-	/*
-	 *  Mobile menu collapse/toggle submenus
-	 */
-	$('#plebiscit-menu')
-		.on('mouseup touchend', function() {
-			event.preventDefault();
-			if ($('#plebiscit-menu-items').hasClass('hidden')) {
-				$('#plebiscit-menu-items').removeClass('hidden');
-				$('#samostojnost-menu-items').addClass('hidden');
-				$('#vojna-menu-items').addClass('hidden');
-			}
-		});
-
-	$('#samostojnost-menu')
-		.on('mouseup touchend', function() {
-			event.preventDefault();
-			if ($('#samostojnost-menu-items').hasClass('hidden')) {
-				$('#plebiscit-menu-items').addClass('hidden');
-				$('#samostojnost-menu-items').removeClass('hidden');
-				$('#vojna-menu-items').addClass('hidden');
-			}
-		});
-
-	$('#vojna-menu')
-		.on('mouseup touchend', function() {
-			event.preventDefault();
-			if ($('#vojna-menu-items').hasClass('hidden')) {
-				$('#plebiscit-menu-items').addClass('hidden');
-				$('#samostojnost-menu-items').addClass('hidden');
-				$('#vojna-menu-items').removeClass('hidden');
-			}
-		});
-
-	/*
-	 *  Progress bar
-	 */
-
-	// When the user scrolls the page, execute progressFunction
-	window.onscroll = function() { progressFunction() };
-
-	function progressFunction() {
-		var winScroll = document.body.scrollLeft || document.documentElement.scrollLeft;
-		var width = document.documentElement.scrollWidth - document.documentElement.clientWidth;
-		var scrolled = (winScroll / width) * 100;
-		document.getElementById("progressBar").style.width = scrolled + "%";
-	}
-
-	/*
-	 *  Previous and next buttons
-	 */
-
-	//const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-	const offset = 25;
-
-	$('#navNextBtn').on({
-		'mousedown touchstart': function() {
-			event.preventDefault();
-			int00 = setInterval(function() {
-				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() + offset}, 50)
-			}, 50);
-		},
-		'mouseup touchend': function () {
-			clearInterval(int00);
-		}
-	});
-
-	$('#navPrevBtn').on({
-		'mousedown touchstart': function() {
-			event.preventDefault();
-			int00 = setInterval(function() {
-				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() - offset}, 50)
-			}, 50);
-		},
-		'mouseup touchend': function () {
-			clearInterval(int00);
-		}
-	});
-
-    /*
-	 *  Scroll newspaper articles up in carousel
-	 */
-	$('.news_up').slick({
-		vertical: true,
-		verticalSwiping: true,
-		slidesToScroll: -1,
-		autoplay: true,
-		autoplaySpeed: 0,
-		speed: 15000,
-		cssEase: 'linear',
-		infinite: true,
-		arrows: false,
-		touchMove: true,
-		swipeToSlide: true,
-		swipe: true
-	});
-
-    /*
-	 *  Scroll newspaper articles down in carousel
-	 *  The opposite (down) direction is achieved by CSS
-	 */
-	$('.news_down').slick({
-		vertical: true,
-		verticalSwiping: true,
-		slidesToScroll: -1,
-		autoplay: true,
-		autoplaySpeed: 0,
-		speed: 15000,
-		cssEase: 'linear',
-		infinite: true,
-		arrows: false,
-		touchMove: true,
-		swipeToSlide: true,
-		swipe: true
-	});
+*/
 
 	/*
 	 *  Change map based on document that was hovered

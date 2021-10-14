@@ -99,6 +99,9 @@ footer {
 	cursor: pointer;
 }
 
+.modal {
+	z-index: 5000;
+}
 
 /* Add pointer cursor to point to FancyBox galleries */
 .pointer {
