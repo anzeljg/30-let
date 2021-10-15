@@ -1509,6 +1509,52 @@
 	  <div class="progress-bar" id="progressBar"></div>
 	</div>
 
+	<div class="video-button" id="video-playlist-show">
+	  <img src="img/play.svg" width="32" height="32">
+	  <div class="video-counter">6</div>
+	</div>
+
+	<div class="video-playlist hidden" id="video-playlist-list">
+	    <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_bucar">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv dr. Franceta Bučarja
+	    </div>
+        <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_kucan">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv Milana Kučana
+	    </div>
+        <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_pucnik">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv Jožeta Pučnika
+	    </div>
+        <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_petrle">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv Lojzeta Petrleta
+	    </div>
+        <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_sustar">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv dr. Alojzija Šuštarja
+	    </div>
+        <div class="playlist-item">
+		  <img src="img/video_ozadje.svg" class="crt-md pointer" id="poziv_kramberger">
+	    </div>
+	    <div class="playlist-label">
+	      Poziv Ivana Krambergerja
+	    </div>
+
+	  <div class="video-collapse" id="video-playlist-hide">&#xFE3F;</div>
+	</div>
+
 	<div id="bottombar" class="bt navbar-dark">
 	  <button class="bottombar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottomMenu" aria-controls="navbarBottomMenu" aria-expanded="false" aria-label="Toggle navigation">
         <div class="bottombar-title"><span class="dimmed">PLEBISCIT / </span>1. PRED PLEBISCITOM</div>
@@ -1518,9 +1564,9 @@
 	  <div class="paging">
 	    <table width="100%" border="0">
 		  <tr align="center">
-		    <td width="25%">&#x3008;</td>
+		    <td width="25%">&#x2329;</td>
 			<td width="50%">1</td>
-			<td width="25%"><a href="plebiscit2.html">&#x3009;</a></td>
+			<td width="25%"><a href="plebiscit2.html">&#x232A;</a></td>
 		  </tr>
 		</table>
 	  </div>
@@ -1586,6 +1632,7 @@
 <script src="js/fancybox-11-part6.js"></script>
 <script src="js/fancybox-11-video.js"></script>
 
+
 <!-- Navigacija -->
 <script src="js/navigation.js"></script>
 
@@ -1602,10 +1649,18 @@ window.onload = function(){
 $(function() {
 
 	/*
-	 *  Toggle video menu on/off
+	 *  Toggle video playlist on/off
 	 */
+	$('#video-playlist-show').on('click touch', function() {
+		$('#video-playlist-show').addClass('hidden');
+		$('#video-playlist-list').removeClass('hidden');
+	});
+
+	$('#video-playlist-hide').on('click touch', function() {
+		$('#video-playlist-show').removeClass('hidden');
+		$('#video-playlist-list').addClass('hidden');
+	});
 /*
-	$('#navbarVideoMenu')
 		.on('shown.bs.collapse', function() {
 			//$('#btmbar-hamburger').addClass('hidden');
 			//$('#btmbar-cheeseburger').removeClass('hidden'); 

@@ -284,17 +284,20 @@ a {
 }
 
 .credits-box::-webkit-scrollbar {
- width: 15px;
- height: 30px;
+	width: 15px;
+	height: 30px;
 }
 .credits-box::-webkit-scrollbar-thumb {
- background: #CCCCCC;
- border: 6px solid #FFFFFF;
- border-radius: 3px;
+	background: #CCCCCC;
+	border: 6px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	border-radius: 30px;
 }
 .credits-box::-webkit-scrollbar-thumb:hover{
- background: #979797;
- border-radius: 3px;
+	background: #979797;
+	border: 6px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	border-radius: 30px;
 }
 
 
