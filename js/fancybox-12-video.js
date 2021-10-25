@@ -6,14 +6,15 @@ $(document).ready(function() {
 	$('#video_uvodnik').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Uvodnik_TV_dnevnika.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -23,14 +24,15 @@ $(document).ready(function() {
 	$('#video_na_domu').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Volitve_na_domu.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -40,14 +42,15 @@ $(document).ready(function() {
 	$('#video_smarjeta').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Volisce_Smarjeta_pri_Celju.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -57,14 +60,15 @@ $(document).ready(function() {
 	$('#video_porodnisnica').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Volitve_porodnisnica.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -74,14 +78,15 @@ $(document).ready(function() {
 	$('#video_starejsi').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Starejsi_volijo.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -91,14 +96,15 @@ $(document).ready(function() {
 	$('#video_bojanci').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Volisce_Bojanci.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -108,14 +114,15 @@ $(document).ready(function() {
 	$('#video_politiki').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/12/Politiki_volijo.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 

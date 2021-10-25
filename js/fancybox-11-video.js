@@ -6,14 +6,15 @@ $(document).ready(function() {
 	$('#video_ljutomer').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Miting_v_Ljutomeru.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -23,14 +24,15 @@ $(document).ready(function() {
 	$('#video_glasovanje').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Glasovanje_o_zakonu.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -40,14 +42,15 @@ $(document).ready(function() {
 	$('#video_ustavno').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Ustavno_sodisce.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -57,14 +60,15 @@ $(document).ready(function() {
 	$('#video_beograd').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Plebiscit_na_zatozni_klopi.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -74,14 +78,15 @@ $(document).ready(function() {
 	$('#video_futura1').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Propagandni_spot_1.mp4',
 				caption: 'Vir: »Če hočemo, da na svet prizna, se moramo najprej priznati sami.«, Jure Apih & Futura',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -91,14 +96,15 @@ $(document).ready(function() {
 	$('#video_futura2').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Propagandni_spot_2.mp4',
 				caption: 'Vir: »S štirimi milijoni pridnih rok se ne bojimo samostojne prihodnosti.«, Jure Apih & Futura',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -108,14 +114,15 @@ $(document).ready(function() {
 	$('#video_futura3').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Propagandni_spot_3.mp4',
 				caption: 'Vir: »Slovenija &ndash; moja država.«, Jure Apih & Futura',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -125,14 +132,15 @@ $(document).ready(function() {
 	$('#video_mnenje').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Javnomnenjske_raziskave.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -145,14 +153,15 @@ $(document).ready(function() {
 	$('#poziv_bucar').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Bucar.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -162,14 +171,15 @@ $(document).ready(function() {
 	$('#poziv_kucan').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Kucan.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -179,14 +189,15 @@ $(document).ready(function() {
 	$('#poziv_pucnik').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Pucnik.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -196,14 +207,15 @@ $(document).ready(function() {
 	$('#poziv_petrle').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Petrle.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -213,14 +225,15 @@ $(document).ready(function() {
 	$('#poziv_sustar').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Sustar.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -230,14 +243,15 @@ $(document).ready(function() {
 	$('#poziv_kramberger').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/11/Poziv_Kramberger.mp4',
 				caption: 'Vir: TV Arhiv in dokumentacija RTV Slovenije',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 

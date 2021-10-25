@@ -6,14 +6,15 @@ $(document).ready(function() {
 	$('#video_oman').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/22/Oman.mp4',
 				caption: 'Vir: Park vojaške zgodovine Pivka',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 
@@ -23,14 +24,15 @@ $(document).ready(function() {
 	$('#video_pucnik').click(function () {
 		$.fancybox.open([
 			{
-				width: 720,
-				height: 576,
+				width: 576,
+				height: 460,
 				src: 'video/22/Pucnik.mp4',
 				caption: 'Vir: Park vojaške zgodovine Pivka',
 			},
 		], {
 			loop: false,
 			buttons: ["close"],
+			baseClass: 'television'
 		});
 	});
 

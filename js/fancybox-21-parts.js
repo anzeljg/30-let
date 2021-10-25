@@ -531,7 +531,7 @@ $(document).ready(function() {
 	/*
 	 *  Potrebovali bi še večji bankovec
 	 */
-	$('#večji_bankovec').click(function () {
+	$('#vecji_bankovec').click(function () {
 		$.fancybox.open([
 			{
 				src: 'media/21/more1/01.jpg',

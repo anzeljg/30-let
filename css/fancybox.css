@@ -60,3 +60,11 @@
 .banknote .fancybox-infobar {
 	font-family: sans-serif;
 }
+
+/* Customization for displaying TV background */
+.television .fancybox-stage {
+	background-image: url('../img/televizija.png');
+	background-size: auto 90vh;
+	background-repeat: no-repeat;
+	background-position: 50% 85%;
+}
