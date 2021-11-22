@@ -167,7 +167,7 @@ footer {
 .h90 { height: 90vh }
 .h100 { height: 100vh }
 
-.h86 { height: 86vh } /* 12/14 */
+.h86 { height: 80vh /*86vh*/ } /* 12/14 */
 .h14 { height: 14vh } /*  2/14 */
 
 .h20p { height: 20% }

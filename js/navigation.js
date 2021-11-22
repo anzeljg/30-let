@@ -97,6 +97,7 @@ $(function() {
 			}
 		});
 
+
 	/*
 	 *  Progress bar
 	 */
@@ -111,24 +112,36 @@ $(function() {
 		document.getElementById("progressBar").style.width = scrolled + "%";
 	}
 
+
 	/*
 	 *  Previous and next buttons
 	 */
-	const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+	const offset = 25;
 
-	$('#navNextBtn').click(function() {
-		event.preventDefault();
-		$('html, body').animate({
-			scrollLeft: $('html, body').scrollLeft() + vw
-		}, "slow");
+	$('#navNextBtn').on({
+		'mousedown touchstart': function() {
+			event.preventDefault();
+			int00 = setInterval(function() {
+				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() + offset}, 50)
+			}, 50);
+		},
+		'mouseup touchend': function () {
+			clearInterval(int00);
+		}
 	});
 
-	$('#navPrevBtn').click(function() {
-		event.preventDefault();
-		$('html, body').animate({
-			scrollLeft: $('html, body').scrollLeft() - vw
-		}, "slow");
+	$('#navPrevBtn').on({
+		'mousedown touchstart': function() {
+			event.preventDefault();
+			int00 = setInterval(function() {
+				$('html, body').animate({scrollLeft: $('html, body').scrollLeft() - offset}, 50)
+			}, 50);
+		},
+		'mouseup touchend': function () {
+			clearInterval(int00);
+		}
 	});
+
 
     /*
 	 *  Scroll newspaper articles up in carousel
