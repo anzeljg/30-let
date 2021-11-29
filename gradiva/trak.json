@@ -1,0 +1,581 @@
+{
+   "title":{
+         "media":{
+            "url":"./gradiva/img/logo_velik.svg"
+         },
+         "text":{
+            "headline":"Interaktivni časovni trak",
+            "text":"Interaktivni časovni trak dogajanja v svetu in v Sloveniji."
+         }
+   },
+   "events":[
+      {
+         "media":{
+            "url":"./gradiva/img/titov_pogreb.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Pogreb maršala Tita (sprevod v Ljubljani)",
+            "credit":"Foto: Joco Žnidaršič, hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+            "day":"4",
+            "month":"5",
+            "year":"1980"
+         },
+         "text":{
+            "headline":"Titova smrt",
+            "text":"<p>Dne 4. maja je umrl dolgoletni voditelj Socialistične federativne republike Jugoslavije, maršal <b>Josip Broz - Tito</b>. Njegova smrt je predstavljala uvod v krizo, ki je zajela Jugoslavijo v osemdesetih letih 20. stoletja.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/laibach.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Laibach: Smrt ideologije",
+            "credit":"Avtor: Vilma Brodnik"
+         },
+         "start_date":{
+            "day":"1",
+            "month":"6",
+            "year":"1980"
+         },
+         "text":{
+            "headline":"Laibach",
+            "text":"<p>Dne 1. junija je bila ustanovljena rock skupina Laibach, ki je bila zaradi provokativnih besedil nekaj časa prepovedana in ni smela nastopati. Leta 1984 se je povezala z likovno skupino Irwin in Gledališčem sester Scipion Nasice v umetniški kolektiv Neue Slowenische Kunst. Predstavljali so <b>kulturno opozicijo</b>.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/lech_walesa.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Lech Wałęsa",
+            "credit":"Avtor: MEDEF – Flickr, licenca: CC BY-SA 2.0",
+			"link":"https://sl.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa#/media/Slika:Lech_Walesa_-_2009.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+            "month":"8",
+            "year":"1980"
+         },
+         "text":{
+            "headline":"Lech Wałęsa",
+            "text":"<p>Avgusta je bil ob veliki delavski stavki v Gdansku ustanovljen <b>Neodvisni sindikat Solidarnost</b>, za njegovega voditelja pa je bil izvoljen <b>Lech Wałęsa</b>. Sindikat je prerastel v civilnodružbeno gibanje proti obstoječemu režimu. Prizadeval si je za demokratizacijo in liberalizacijo Poljske in osvoboditev izpod sovjetskega vpliva.</p><p>Junija 1989 so na Poljskem izvedli prve povojne večstrankarske parlamentarne volitve, na katerih je zmagal Državljanski odbor (politično telo Solidarnosti).</p><p>Leto pozneje je bil za poljskega predsednika izvoljen Lech Wałęsa, ki je postal simbol sindikata Solidarnost in prizadevanj za <b>demokratizacijo in neodvisnost Poljske</b>. Leta 1983 je prejel Nobelovo nagrado za mir.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/bon_bankovec.png",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Boni za bencin, bankovec za 1 milijon dinarjev",
+            "credit":"Bon hrani: Muzej novejše zgodovine Slovenije; slika bankovca je javna last.",
+			"link":"https://sl.wikipedia.org/wiki/Jugoslovanski_dinar#/media/Slika:Dinar1000000-zadaj.png",
+			"link_target":"_blank"
+         },
+         "start_date":{
+            "year":"1983"
+         },
+         "text":{
+            "headline":"Boni in inflacija",
+            "text":"<p>Tega leta so jugoslovanske oblasti uvedle bone za nakup bencina ter sistem par-nepar, po katerem so se lahko na določene dni v tednu vozili le avtomobili s parno ali neparno končno številko registracijske tablice. Huda <b>gospodarska kriza</b> je trajala vsa osemdeseta leta. Kazala se je v pomanjkanju dobrin, kot so prašek za pranje perila, vsakdanji higienski izdelki, nekateri prehranski izdelki, npr. olje, kava, uvoženo sadje, moka idr.</p><p>Sočasno je gospodarsko dogajanje zaznamovala tudi <b>inflacija</b> z razvrednotenjem tedanje valute – dinarja –, zaradi katere so tiskali bankovce za 5.000, 50.000 in celo 2.000.000 dinarjev.</p><p>Jugoslovanske oblasti so poskušale uvesti <b>skupna vzgojno-izobraževalna jedra</b>, s katerimi bi s poenotenimi učno-vzgojnimi programi utrdili jugoslovanski (srbski) unitarizem in centralizem.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/kevs_madrid.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Konferenca o evropski varnosti in sodelovanju",
+            "credit":"Avtor: Horst Sturm, hrani: Bundesarchiv, Bild 183-P0805-314, licenca: CC-BY-SA 3.0",
+			"link":"https://en.wikipedia.org/wiki/Organization_for_Security_and_Co-operation_in_Europe#/media/File:Bundesarchiv_Bild_183-P0805-314,_Helsinki,_KSZE-Konferenz,_Schlussakte.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+            "month":"9",
+            "year":"1983"
+         },
+         "text":{
+            "headline":"KEVS",
+            "text":"<p>Septembra je bila v Madridu sprejeta sklepna listina Konference o evropski varnosti in sodelovanju (KEVS), katere začetki segajo v leto 1973. Leta 1975 pa je bila v Helsinkih sprejeta <b>Helsinška sklepna listina o varnosti in sodelovanju v Evropi</b> kot temelj za delovanje Organizacije za varnost in sodelovanje v Evropi (OVSE). Helsinška sklepna listina je opredelila pravila v odnosih med državami, podpisalo pa jo je 35 držav Evrope in Severne Amerike, med njimi tudi Jugoslavija.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/mihail_gorbacov.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Mihail Gorbačov",
+            "credit":"Avtor: The Official CTBTO Photostream – Reagan and Gorbachev arrive; licenca: CC BY 2.0",
+			"link":"https://sl.wikipedia.org/wiki/Mihail_Gorba%C4%8Dov#/media/Slika:Gorbachev_(cropped).png",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"11",
+            "month":"3",
+            "year":"1985"
+         },
+         "text":{
+            "headline":"Mihail Gorbačov",
+            "text":"<p>V <b>Sovjetski zvezi</b> je postal voditelj (generalni sekretar komunistične partije) Mihail Gorbačov. V drugi polovici osemdesetih let je izvajal reforme, ki so jih poimenovali <b>»perestrojka«</b>, kar v prevodu pomeni preureditev. Hkrati s perestrojko je potekal tudi drug družbenopolitični proces – <b>»glasnost«</b>, kar v prevodu pomeni odprtost, ko so ljudem omogočili, da so se lahko bolj svobodno izražali. Marca leta 1989 so lahko državljani prvič po sedemdesetih letih na volitvah v dumo (skupščino) izbirali med več kandidati, kar pa je veljalo le za eno tretjino poslancev.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/57_nova.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Naslovnica 57. številke Nove revije",
+            "credit":"Revijo hrani: Muzej novejše zgodovine Slovenije.",
+			"link":"http://www.slovenska-pomlad.si/uploads/nr_57.pdf",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"1",
+            "year":"1987"
+         },
+         "text":{
+            "headline":"Nova revija 57",
+            "text":"<p>Januarja je izšla <b>57. številka Nove revije</b> z razpravami za slovenski nacionalni program.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/plakatna_afera.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Plakatna afera",
+            "credit":"Vir plakata: Novi kolektivizem."
+         },
+         "start_date":{
+			"month":"2",
+            "year":"1987"
+         },
+         "text":{
+            "headline":"Plakatna afera",
+            "text":"<p>Člani Novega kolektivizma (oddelka za oblikovanje Neue Slowenische Kunst) so izdelali <b>plakat ob dnevu mladosti</b>, ki so ga v SFR Jugoslaviji obeleževali vsako leto 25. maja, na Titov rojstni dan (čaščenje kulta osebnosti). Plakat je bil izdelan po sliki nemškega avtorja Richarda Kleina iz časov nacizma in je sprožil veliko afero.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/reagan_berlin.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Ronald Reagan v Berlinu",
+            "credit":"Serija: Reagan White House Photographs, 1/20/1981 - 1/20/1989, licenca: fotografija je javna last.",
+			"link":"https://sl.wikipedia.org/wiki/Slika:President_Ronald_Reagan_making_his_Berlin_Wall_speech.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"12",
+			"month":"6",
+            "year":"1987"
+         },
+         "text":{
+            "headline":"Ronald Reagan",
+            "text":"<p>Ameriški predsednik <b>Ronald Reagan je obiskal Berlin</b> in se v zgodovino zapisal z znamenitim govorom o berlinskem zidu, ki ga je imel 12. junija pred Brandenburškimi vrati, ko je pozval Gorbačova: »Mr. Gorbachev, tear down this wall.« <i>(Gospod Gorbačov, porušite ta zid.)</i></p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/reagan_gorbacov.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Reagan in Gorbačov v Moskvi",
+            "credit":"Serija: Reagan White House Photographs, 1/20/1981 - 1/20/1989, licenca: fotografija je javna last.",
+			"link":"https://en.wikipedia.org/wiki/Moscow_Summit_(1988)#/media/File:President_Ronald_Reagan_and_Mikhail_Gorbachev_at_the_signing_ceremony_for_INF_Treaty.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"29",
+			"month":"5",
+            "year":"1988"
+         },
+         "text":{
+            "headline":"Reagan in Gorbačov v Moskvi",
+            "text":"<p>Konec maja in v začetku junija je potekal obisk ameriškega predsednika <b>Ronalda Reagana v Moskvi</b>. S sovjetskim voditeljem Mihailom Gorbačovom sta dosegla sporazume o nadzoru nad orožjem (ratificirala sta sporazum o umiku evropskih raket srednjega dosega (INF)), o človekovih pravicah in regionalnih vprašanjih.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/proces_jbtz.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Proces proti četverici",
+            "credit":"Foto: Tone Stojko, hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+			"day":"31",
+			"month":"5",
+            "year":"1988"
+         },
+         "text":{
+            "headline":"Proces proti četverici",
+            "text":"<p>Po aretacijah konec maja in v začetku junija je junija v Ljubljani potekal <b>proces</b> v srbohrvaškem jeziku pred vojaškim sodiščem <b>proti četverici</b> (Ivan Borštner, Janez Janša, David Tasić, Franci Zavrl). Obtoženi so bili domnevne izdaje vojaške skrivnosti. V obrambo četverici je bil 3. junija ustanovljen <b>Odbor za varstvo človekovih pravic</b>. Zaradi množičnih protestov so četverico še istega leta izpustili in obsodili na pogojno kazen.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/springsteen_DDR.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Bruce Springsteen v Vzhodnem Berlinu",
+            "credit":"Avtor: Thomas Uhlemann, hrani: Bundesarchiv, Bild 183-1988-0719-38, licenca: CC-BY-SA 3.0",
+			"link":"https://en.wikipedia.org/wiki/Rock_music_and_the_fall_of_communism#/media/File:Bundesarchiv_Bild_183-1988-0719-38,_Bruce_Springsteen,_Konzert_in_der_DDR.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"31",
+			"month":"5",
+            "year":"1988"
+         },
+         "text":{
+            "headline":"Bruce Springsteen v Vzhodnem Berlinu",
+            "text":"<p>Ameriški rockovski glasbenik Bruce Springsteen je igral v Vzhodnem Berlinu na povabilo vzhodnonemških komunističnih oblasti. Različni popularni glasbeniki tega časa (npr. David Bowie, Genesis, Eurythmics) so koncentrirali tudi v Zahodnem Berlinu in <b>popularizirali idejo o koncu hladne vojne</b> in padcu berlinskega zidu.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/budimpesta.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Mogočno poslopje madžarskega parlamenta v Budimpešti",
+            "credit":"Avtor: Dirk Beyer, licenca: CC BY-SA 3.0",
+			"link":"https://sl.wikipedia.org/wiki/Budimpe%C5%A1ta#/media/Slika:Budapest_Parliament_4604.JPG",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"5",
+            "year":"1989"
+         },
+         "text":{
+            "headline":"Madžari odprejo zahodno mejo",
+            "text":"<p>Maja so <b>Madžari</b> odprli 350 km dolgo zahodno mejo z Avstrijo in z nje začeli odstranjevati bodečo žico in druge ovire. Začel se je množičen beg z Vzhoda na Zahod. Oktobra so spremenili ustavo, ki je omogočila uvedbo večstrankarskega političnega sistema. Leta 1990 pa so prvič po letu 1947 izvedli svobodne parlamentarne volitve, na katerih je zmagal Madžarski demokratični forum.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/listini.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Majniška deklaracija in Temeljna listina Slovenije.",
+            "credit":"Hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+			"month":"5",
+            "year":"1989"
+         },
+         "text":{
+            "headline":"Majniška deklaracija in Temeljna listina",
+            "text":"<p>Novoustanovljene opozicijske stranke so sprejele <b><i>Majniško deklaracijo 1989</i></b>, s katero so zahtevale samostojno slovensko državo in odločanje o zunanjem povezovanju. Vladajoče politične sile (Socialistična zveza delovnega ljudstva – SZDL) so junija istega leta izdale <b><i>Temeljno listino Slovenije 1989</i></b>, v kateri so se zavzeli za suvereno slovensko državo v demokratični Jugoslaviji.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/berlinski_zid.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Ostanki berlinskega zidu",
+            "credit":"Avtor: Noir, licenca: CC BY-SA 3.0",
+			"link":"https://sl.wikipedia.org/wiki/Berlinski_zid#/media/Slika:Di05.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"9",
+            "year":"1989"
+         },
+         "text":{
+            "headline":"Demonstracije v Vzhodnem Berlinu",
+            "text":"<p>Že leta 1988 so v Vzhodnem Berlinu potekale demonstracije proti komunističnemu režimu, ki so postale bolj množične jeseni 1989. 9. novembra <b>1989 je padel berlinski zid</b>. Množice ljudi so nato začele rušiti berlinski zid, ki so ga postavili leta 1961. Berlinski zid je simbol hladne vojne v Evropi. Prek njega je na Zahod pobegnilo ok. 41.000 ljudi, več kot 100 jih je bilo pri tem ubitih.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/vaclav_havel.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Václav Havel",
+            "credit":"Avtor: Jiří Jiroutek, licenca: CC BY-SA 3.0",
+			"link":"https://en.wikipedia.org/wiki/V%C3%A1clav_Havel#/media/File:Jiri_Jiroutek_Havel_Vaclav,_Praha_2006.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"11",
+            "year":"1989"
+         },
+         "text":{
+            "headline":"Demonstracije na Češkoslovaškem",
+            "text":"<p>Pragi so novembra potekale množične demonstracije, na katerih so zahtevali izpustitev priznanega pisatelja, dramatika, oporečnika in borca za človekove pravice <b>Václava Havla</b>. Oblasti so ga pod pritiski množic izpustile na prostost. Leta 1990 pa so prvič po letu 1946 izvedli svobodne parlamentarne volitve, na katerih je zmagal Državljanski forum pod predsedstvom Václava Havla. Državo je zajel <b>proces demokratizacije</b>. 1. januarja 1993 se je država sporazumno razdelila na samostojno <b>Češko in Slovaško republiko</b>.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/personality_cult.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Nicolae in Elena Ceauşescu",
+            "credit":"Vir: ANIC, ISISP archival database, Nicolae Ceauşescu – Portraits, 8/1966; Fototeca online a comunismului românesc #G008 (29. 11. 2021)",
+			"link":"https://commons.wikimedia.org/wiki/File:Personality_Cult_Romania_1986.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"11",
+            "year":"1989"
+         },
+         "text":{
+            "headline":"Demonstracije v Bolgariji in Romuniji",
+            "text":"<p>Novembra je po demonstracijah odstopil dolgoletni voditelj <b>Bolgarije</b> Todor Živkov, ki je državo vodil kar 35 let. Vodenje države je prevzel reformam naklonjeni komunist Petar Mladenov.</p><p>Velika vstaja se je začela decembra tudi v <b>Romuniji</b>. Dolgoletnega voditelja komunistične partije (od leta 1965) in države (od leta 1974) Nicolaea Ceauşescuja so odstavili, konec decembra pa skupaj z ženo Eleno pred vojaškim sodiščem obsodili na smrt in obsodbo takoj izvršili. Oblast je prevzela Fronta narodne rešitve, ki je leta 1990 zmagala na prvih povojnih demokratičnih volitvah.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/baltske_drzave.png",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Osamosvojitev baltskih republik",
+            "credit":"Avtor: Aoineko, licenca: CC BY-SA 3.0",
+			"link":"https://sl.wikipedia.org/wiki/Baltske_dr%C5%BEave#/media/Slika:Baltic_countries.png",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"3",
+            "year":"1990"
+         },
+         "text":{
+            "headline":"Osamosvojitev baltskih republik",
+            "text":"<p>Baltske države <b>Litvo</b>, <b>Latvijo</b>, <b>Estonijo</b> je leta 1940 okupirala Sovjetska zveza. Obdobje konca hladne vojne pa je prineslo spremembe tudi tem državam, saj je Litva razglasila neodvisnost marca 1990, maja istega leta pa še Latvija in Estonija. V vseh treh državah so obnovili pluralni politični sistem in izvedli svobodne večstrankarske volitve. Leta 1991 je spodletel poskus Sovjetske zveze, da bi si baltske države znova podredili.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/potegnimo_skupaj.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Predvolilni plakat.",
+            "credit":"Hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+			"day":"8",
+			"month":"4",
+            "year":"1990"
+         },
+         "text":{
+            "headline":"Prve večstrankarske demokratične volitve",
+            "text":"<p>8. aprila so potekale <b>prve večstrankarske demokratične volitve po drugi svetovni vojni</b>. Na volitvah v tedanjo republiško skupščino (danes Državni zbor Republike Slovenije) je zmagala koalicija Demos. Predsednik vlade (tedanji izvršni svet) je postal Lojze Peterle, predsednik skupščine pa dr. France Bučar. Sočasno so potekale tudi volitve predsednika tedanjega republiškega predsedstva, na katerih je zmagal Milan Kučan.</p><p>Ob sprejemu ustavnih dopolnil so delegati (danes poslanci) prvič zapeli 7. kitico <i>Zdravljice</i>, ki je bila za himno uzakonjena pred volitvami 29. marca 1990.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/helmut_kohl.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Helmut Kohl",
+            "credit":"Avtor: © European Communities, 1996; licenca: CC BY 4.0",
+			"link":"https://sl.wikipedia.org/wiki/Helmut_Kohl#/media/Slika:Bundesarchiv_B_145_Bild-F074398-0021,_Bonn,_Pressekonferenz_Bundestagswahlkampf,_Kohl.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"3",
+			"month":"10",
+            "year":"1990"
+         },
+         "text":{
+            "headline":"Helmut Kohl in združitev Nemčije",
+            "text":"<p>3. oktobra je bila razglašena slovesna <b>združitev Nemčije</b>, ki je bila takoj po koncu druge svetovne vojne razdeljena na zahodni del (cone pod ameriškim, britanskim in francoskim nadzorom) in vzhodni del (sovjetski nadzor); iz zahodnega dela je 1949 nastala Zvezna republika Nemčija, iz vzhodnega pa Demokratična republika Nemčija. Poleg ugodnih mednarodnih okoliščin je imel pomembno vlogo pri združevanju obeh Nemčij tedanji nemški kancler <b>Helmut Kohl</b>.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/bush_gorbacov.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Bush in Gorbačov na Malti",
+            "credit":"Avtor: David Valdez, licenca: fotografija je javna last.",
+			"link":"https://en.wikipedia.org/wiki/Malta_Summit#/media/File:Bush_and_Gorbachev_at_the_Malta_summit_in_1989.gif",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"21",
+			"month":"11",
+            "year":"1990"
+         },
+         "text":{
+            "headline":"Bush in Gorbačov na Malti",
+            "text":"<p>H koncu hladne vojne sta prispevala sovjetski voditelj Mihail Gorbačov in ameriški predsednik George Bush starejši. Leta 1989 sta na srečanju na Malti podprla demokratične procese v Evropi, naslednje leto pa na srečanju v Helsinkih govorila o zmanjšanju strateške oborožitve in združitvi Nemčije.</p><p>21. novembra 1990 so v Parizu na Konferenci o evropski varnosti in sodelovanju (KEVS) razglasili konec hladne vojne in s Pariško listino o novi Evropi ustanovili več novih organov KEVS, med njimi tudi Center za preprečevanje spopadov na Dunaju.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/glasovnica.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Plebiscitna glasovnica",
+            "credit":"Avtor: Nace Bizilj, hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+			"day":"23",
+			"month":"12",
+            "year":"1990"
+         },
+         "text":{
+            "headline":"Plebiscit",
+            "text":"<p>6. decembra so bili sprejeti <i>Zakon o plebiscitu o samostojni in neodvisni Sloveniji</i> in drugi pomembni dokumenti, med katerimi je tudi <i>Sporazum o skupnem nastopu političnih strank in poslanskih skupin Skupščine RS na plebiscitu za samostojno in neodvisno Slovenijo</i>.</p><p>23. decembra je bil izveden <b>plebiscit za samostojno in neodvisno državo Slovenijo</b> (od 93,2 % volilnih upravičencev jih je 88,2 % glasovalo za samostojno in neodvisno Slovenijo).</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/konec_pakta.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Konec Varšavskega pakta",
+            "credit":"Avtor: Edmund S. Valtman, hrani: Library of Congress, licenca: karikatura je javna last.",
+			"link":"https://picryl.com/media/gorbachev-beholds-a-shattered-hammer-and-sickle-90c860",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"month":"3",
+            "year":"1991"
+         },
+         "text":{
+            "headline":"Konec Varšavskega pakta",
+            "text":"<p>Mihail Gorbačov je skušal Sovjetsko zvezo reformirati v ohlapno skupnost držav, saj je spoznal, da se v obstoječi obliki ne bo obdržala. Tako so Rusija, Belorusija in Ukrajina ustanovile trojno zvezo, predsedniki 11 od 15 sovjetskih republik pa so v Almati v Kazahstanu ustanovili <b>Skupnost neodvisnih držav</b>. Marca 1991 je bil razpuščen vojaški del <b>Varšavskega pakta</b>, julija pa še politični del te obrambno-politične zveze vzhodnoevropskih držav pod vodstvom Sovjetske zveze.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/dvig_zastave.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Dvig slovenske zastave ob razglasitvi samostojnosti.",
+            "credit":"Avtor: Tone Stojko, hrani: Muzej novejše zgodovine Slovenije."
+         },
+         "start_date":{
+			"day":"25",
+			"month":"6",
+            "year":"1991"
+         },
+         "text":{
+            "headline":"Razglasitev slovenske samostojnosti",
+            "text":"<p>25. junija je Skupščina Republike Slovenije sprejela temeljne osamosvojitvene zakone in <b>razglasila državno samostojnost Republike Slovenije</b>, slovesna razglasitev samostojnosti je potekala 26. junija, ko je bila prvič javno razobešena nova slovenska zastava.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/pred_spopadom.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Vojaki in občani pred vojaškim spopadom na mejnem prehodu v Rožni dolini.",
+            "credit":"Avtor: Peter Božič, licenca: CC BY 3.0",
+			"link":"https://sl.wikipedia.org/wiki/Jugoslovanska_ljudska_armada#/media/Slika:Vojaki_JLA_in_ob%C4%8Dani_pred_spopadom_v_Ro%C5%BEni_Dolini..jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"27",
+			"month":"6",
+            "year":"1991"
+         },
+         "text":{
+            "headline":"Vojna za Slovenijo",
+            "text":"<p>27. junija se je začela <b>vojna za Slovenijo</b>, ki se je končala julija istega leta. Vojna je povzročila smrtne žrtve in veliko materialno škodo.</p><p>Na Brionih so se začela pogajanja med Slovenijo, Hrvaško in zveznimi jugoslovanskimi oblastmi pod pokroviteljstvom Evropske unije. Podpisana je bila <b>Brionska deklaracija</b>, po kateri so bile prekinjene vojaške aktivnosti, uveljavila pa je tudi trimesečni moratorij na slovenska osamosvojitvena prizadevanja.</p><p>Po preteku treh mesecev je 25. oktobra Jugoslovanska ljudska armada zapustila slovensko ozemlje, aktivnosti za osamosvojitev Slovenije pa so se nadaljevale.</p><p>V tem letu je bila uvedena <b>nova slovenska valuta</b>, tolar, menjava z dinarjem je potekala v razmerju 1 : 1.</p><p>Uvedeno je bilo <b>slovensko državljanstvo</b>.</p><p>23. decembra je skupščina Republike Slovenije sprejela <b>novo ustavo</b>, po kateri je Slovenija postala demokratična republika, ki je dosegla mednarodno priznanje v letih 1991 in 1992.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/spominska_plosca.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Spominska plošča ob razglasitvi neodvisnosti Hrvaške pred stavbo INE na Šubičevi v Zagrebu.",
+            "credit":"Avtor: Suradnik13, licenca: CC BY 3.0",
+			"link":"https://bs.wikipedia.org/wiki/Dan_nezavisnosti_Hrvatske#/media/Datoteka:Spomen_poloca_08101991.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"8",
+			"month":"10",
+            "year":"1991"
+         },
+         "text":{
+            "headline":"Hrvaška razglasi neodvisnost",
+            "text":"<p>Leta 1990 so na Hrvaškem izvedli prve demokratične večstrankarske volitve po drugi svetovni vojni, na katerih je zmagala Hrvatska demokratska zveza, ki jo je vodil dr. Franjo Tuđman. Hrvaški parlament – sabor – je 8. oktobra 1991 razglasil neodvisnost. Hrvaške oblasti so začele omejevati nesorazmerno vlogo srbske manjšine v javnem življenju, zato se je širil tudi iz Srbije spodbujen oborožen odpor na ozemljih, na katerih je živela srbska manjšina. V spopade je posegla še JLA, v kateri so prevladovali Srbi. JLA je na začetku dosegla uspeh, po reorganizaciji vojske pa je Hrvaška začela protiofenzivo. V dogajanje je posegla mednarodna politika, OZN pa je na Hrvaško poslal svoje enote (UNPROFOR). Vojna na Hrvaškem se je končala leta 1995 z vojaško operacijo Nevihta, JLA se je umaknila.</p><p>Leta 2013 je postala članica Evropske unije.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/zastava_eu.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Zastava Evropske unije",
+            "credit":"Avtor: © European Union, 2020",
+			"link":"https://european-union.europa.eu/principles-countries-history/symbols/european-flag_sl",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"7",
+			"month":"2",
+            "year":"1992"
+         },
+         "text":{
+            "headline":"Ustanovitev Evropske unije",
+            "text":"<p>7. februarja je bila z Maastrichtsko pogodbo ali Pogodbo o Evropski uniji ustanovljena <b>Evropska unija</b>, ki je povezovala države članice na področjih gospodarstva, zunanje in varnostne politike, pravosodja in notranjih zadev. Danes povezuje 27 držav. Državna simbola sta zastava z 12 rumenimi zvezdami na modri podlagi in himna <i>Oda radosti</i> skladatelja Ludwiga van Beethovna. Skupni evropski denar je evro. <b>Dan Evrope</b> praznujemo 9. maja, saj je na ta dan leta 1950 francoski državnik Robert Schumann z deklaracijo, imenovano po njem, postavil temelje sodobni Evropi, v kateri je zagovarjal politično ureditev, ki bo vzpostavila enotnost in mir.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/sarajevo_gori.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Sarajevo v plamenih med vojno v BIH",
+            "credit":"Avtor: Mikhail Evstafiev, licenca: CC BY-SA 2.5",
+			"link":"https://sl.wikipedia.org/wiki/Obleganje_Sarajeva#/media/Slika:Evstafiev-sarajevo-building-burns.jpg",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"1",
+			"month":"3",
+            "year":"1992"
+         },
+         "text":{
+            "headline":"Referendum o neodvisnosti BIH",
+            "text":"<p>Leta 1992 je bil izveden referendum o neodvisnosti tudi v <b>BIH</b>. Hrvati in Muslimani so glasovali za neodvisnost, Srbi pa so referendum bojkotirali. Začela se je vojna, v kateri je JLA s podporo srbskih paravojaških enot povzročila <b>etnično čiščenje, genocid in zločine proti človeštvu</b>. V vojno je posegla OZN, ki je v BiH poslala svoje enote (UNPROFOR), leta 1994 pa je NATO s soglasjem OZN bombardiral srbske položaje.</p><p>Novembra 1995 je bil v Daytonu v ZDA med sprtimi stranmi sklenjen mirovni sporazum (Daytonski sporazum), ki je določal, da BiH ostane mednarodnopravno ena država, razdeljena na bošnjaško-hrvaško Federacijo Bosne in Hercegovine ter Republiko Srbsko.</p>"
+         },
+         "group":"Svet"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/slovenia_ozn.jpg",
+            "thumbnail":"./gradiva/icon_slo.png",
+            "caption":"Slovenska zastava pred sedežem OZN v New Yorku.",
+            "credit":"Avtor: Yerpo, licenca: CC BY-SA 3.0",
+			"link":"https://sl.wikipedia.org/wiki/Zunanja_politika_Slovenije#/media/Slika:Flag_of_Slovenia_at_UN_HQ.JPG",
+			"link_target":"_blank"
+         },
+         "start_date":{
+			"day":"24",
+			"month":"3",
+            "year":"1992"
+         },
+         "text":{
+            "headline":"Mednarodno povezovanje Slovenije",
+            "text":"<p>Po <b>mednarodnem priznanju</b> je Republika Slovenija postala <b>članica več mednarodnih organizacij</b>.</p><p>24. marca 1992 je postala članica Organizacije za varnost in sodelovanje v Evropi (OVSE), 22. maja 1992 Organizacije združenih narodov, 14. maja 1993 Sveta Evrope, najstarejše vseevropske organizacije, 29. marca 2004 pa je postala članica Nata (Severnoatlantsko zavezništvo).</p><p>1. maja 2004 je Slovenija postala članica Evropske unije, 1. januarja 2007 pa je bila vključena v evrsko območje, 21. decembra istega leta pa je postala še članica schengenskega območja.</p><p>Slovenija je tudi članica številnih drugih mednarodnih organizacij in združenj.</p>"
+         },
+         "group":"Slovenija"
+      },
+      {
+         "media":{
+            "url":"./gradiva/img/zemljevid_drzav.jpg",
+            "thumbnail":"./gradiva/icon_svet.png",
+            "caption":"Države na ozemlju nekdanje Jugoslavije",
+            "credit":"Avtor zemljevida: dr. Anton Polšak na temelju ArcGIS."
+         },
+         "start_date":{
+			"month":"4",
+            "year":"1992"
+         },
+         "text":{
+            "headline":"Države na ozemlju nekdanje Jugoslavije",
+            "text":"<p>Aprila 1992 je bila iz preostanka Jugoslavije ustanovljena Zvezna republika Jugoslavija, ki je povezovala Srbijo in Črno goro. Srbi so želeli tesneje pripojiti Kosovo, kjer je živelo večinsko albansko prebivalstvo. Tako se je leta 1989 začela vojna na <b>Kosovu</b>. Po posegu Nata leta 1999 se je Srbija umaknila, Kosovo pa je prešlo pod mednarodno upravo. Neodvisna republika je postalo leta 2008, a ga še niso priznale vse države. Zvezna republika Jugoslavija je razpadla na <b>Republiko Srbijo</b> in <b>Republiko Črno goro</b>, ki se je osamosvojila leta 2006.</p><p>Nekdanja jugoslovanska republika Makedonija pa je bila v sporu z Grčijo zaradi imena. Spor je bil rešen leta 2019 s Prespanskim sporazumom, po katerem se lahko država imenuje <b>Severna Makedonija</b>.</p>"
+         },
+         "group":"Svet"
+      }
+   ]
+}
